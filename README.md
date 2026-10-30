@@ -77,6 +77,14 @@ Single broker, single data source, and the tests these were built for covered fo
 
 The scripts test whether a signal carries information. They do not simulate a portfolio, position sizing, correlation limits, or execution. A signal that passes here still needs all of that before it becomes a system.
 
+## Results
+
+Trade logs and summaries per test, so every number we publish can be checked.
+
+| Test | Folder |
+|---|---|
+| Bollinger band reversion, 9 FX majors, 790 trades | [`results/bollinger-reversion`](results/bollinger-reversion/) |
+
 ## Licence
 
 MIT. Use it, change it, no attribution required.
