@@ -30,6 +30,12 @@ Three things go wrong in most retail backtests, and each of them is enough on it
 
 FX majors share a common dollar factor. Three pairs breaking their bands on the same day is one bet, not three. Resampling individual trades would produce a narrow and dishonest confidence interval, so `bb_reversion_multi.py` resamples entire trading days with every symbol kept together. This is why it reports the number of distinct trading days alongside the number of trades. The day count is the one that tells you how much you actually know.
 
+## Long-only equities: `volume-breakout/`
+
+A separate pipeline for daily US stock data, with its own scripts in `volume-breakout/validation/`. It adds the control that long-only stock strategies need: **random entry dates** with the same ticker, direction and stop distance. A coin flip is the wrong null there, because it is half short in a market that drifts upward. On the same 2,097 trades the coin flip put the rule at percentile 100 and random dates put it at percentile 27. Details and the full trade list in [`results/volume-breakout`](results/volume-breakout/).
+
+Needs `yfinance` for the download step.
+
 ## Requirements
 
 ```
@@ -84,6 +90,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | Test | Folder |
 |---|---|
 | Bollinger band reversion, 9 FX majors, 790 trades | [`results/bollinger-reversion`](results/bollinger-reversion/) |
+| Volume breakout, 60 US large caps, 2,097 trades | [`results/volume-breakout`](results/volume-breakout/) |
 
 ## Licence
 

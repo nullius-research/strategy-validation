@@ -1,0 +1,23 @@
+
+========================================================================
+  RESULTAAT   target 2.0R, max hold 20 bars, kosten 10.0 bps
+========================================================================
+  Trades                   2097, verdeeld over 1135 handelsdagen
+  Waarvan long             100%
+  Expectancy               +0.1622 R
+  Profit factor            1.332
+  Win rate                 47.6%
+  Bootstrap 95% CI         +0.0967 tot +0.2261 R (cluster op dagen)
+------------------------------------------------------------------------
+  CONTROLEGROEPEN                       5e tot 95e percentiel
+  muntworp (richting)      -0.0236 tot +0.0544 R    percentiel 100.0
+  willekeurige datums      +0.1366 tot +0.2204 R    percentiel 27.0
+------------------------------------------------------------------------
+  LET OP: bijna alles long. De muntworpcontrole is dan te makkelijk,
+          want die is half short in een markt met opwaartse drift.
+          Alleen 'willekeurige datums' telt hier.
+------------------------------------------------------------------------
+  OORDEEL: VERWORPEN. Valt binnen de controleband.
+           Het signaal kiest geen betere momenten dan willekeur.
+========================================================================
+
