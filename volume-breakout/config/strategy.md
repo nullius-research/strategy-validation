@@ -29,8 +29,8 @@ gebeurde en dat is lookahead die je niet kunt zien.
     vrijheidsgraden:     4  (lookback, vol_mult, atr_mult, cooldown)
     plus uitvoering:     2  (target_r, max_hold)
     totaal:              6
-    geteste varianten:   0
-    datum eerste test:   .
+    geteste varianten:   1  (volume breakout 20/1.5/2.0, verworpen)
+    datum eerste test:   2026-08-13
 
 Elke keer dat je een parameter aanpast na het zien van een resultaat, gaat
 "geteste varianten" met een omhoog. Bij twintig varianten heb je twintig keer
