@@ -1,0 +1,30 @@
+
+==========================================================================
+  MACD + 200 EMA · hypothesis v1.0 · target 1.5R · stop 10-bar extreme
+==========================================================================
+  EURUSD  2022-08-01 to 2026-08-07  M30 49,823  signals 769  stop>=5pip 747  trades 528
+  EURJPY  2022-08-01 to 2026-08-07  M30 49,802  signals 712  stop>=5pip 706  trades 522
+--------------------------------------------------------------------------
+  Trades 1050  over 677 days
+  Win rate 40.9%  (95% 37.9% to 43.8%)   claim 62%
+  Mean net R at 0.0 pip   +0.0214
+  Mean net R at 1.2 pip   -0.0349
+  Mean net R at 2.0 pip   -0.0725
+  95% range (day bootstrap, 1.2 pip)  -0.1089 to +0.0404   claim about +0.5R
+  Profit factor 0.944   best 5% of trades +77.2 R of total -36.7 R
+  Median stop 26.3 pip vs cost 1.2 pip
+--------------------------------------------------------------------------
+  CONTROLS                         5th to 95th          percentile
+  Null A  coin flip (decisive)     -0.1207 to -0.0064   79.2
+  Null B  random bar in trend      -0.1608 to -0.0377   95.5
+--------------------------------------------------------------------------
+  2022  n=  78  win 44.9%  mean net +0.0813 R
+  2023  n= 258  win 39.9%  mean net -0.0554 R
+  2024  n= 262  win 43.9%  mean net +0.0323 R
+  2025  n= 286  win 40.6%  mean net -0.0385 R
+  2026  n= 166  win 36.1%  mean net -0.1578 R
+--------------------------------------------------------------------------
+  C1 win rate 62%:      FALSIFIED
+  C2 about +0.5R:       FALSIFIED
+  C3 beats coin flip:   FALSIFIED (dead)
+==========================================================================
