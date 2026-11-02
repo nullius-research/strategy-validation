@@ -1,0 +1,81 @@
+markt                     periode          variant max_dagen kosten  trades  win   pf   ret   dd  expo  buy_hold nullA_beat nullB_beat  nullA_pf_med
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         1     1x     135 59.3 2.36 204.7 12.9   6.7     -45.0  1999/2000  2000/2000          0.99
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         1     2x     135 58.5 2.32 196.7 13.0   6.7     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         2     1x     120 65.8 1.86 107.5 16.8   8.5     -45.0  1976/2000  1986/2000          0.98
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         2     2x     120 64.2 1.82 102.6 17.1   8.5     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         3     1x     116 72.4 2.77 198.8 12.5   9.2     -45.0  2000/2000  1999/2000          1.01
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         3     2x     116 70.7 2.71 192.0 12.5   9.2     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         4     1x     116 72.4 2.67 191.7 18.0   9.5     -45.0  1997/2000  2000/2000          1.08
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         4     2x     116 70.7 2.62 185.0 18.0   9.5     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         5     1x     114 71.9 2.50 174.6 17.5   9.6     -45.0  1992/2000  2000/2000          1.09
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         5     2x     114 70.2 2.45 168.4 17.5   9.6     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         7     1x     114 71.9 2.63 185.2 17.5   9.8     -45.0  1995/2000  2000/2000          1.12
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood         7     2x     114 70.2 2.58 178.9 17.5   9.8     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood        10     1x     114 71.9 2.63 185.2 17.5   9.8     -45.0  1992/2000  2000/2000          1.09
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood        10     2x     114 70.2 2.58 178.9 17.5   9.8     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood      geen     1x     114 71.9 2.63 185.2 17.5   9.8     -45.0  1993/2000  1999/2000          1.10
+  NDX  2000-2007 (vooraf, dotcom)   long na 3 rood      geen     2x     114 70.2 2.58 178.9 17.5   9.8     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom) short na 3 groen         3     1x     145 67.6 1.23  21.3 14.6  12.3     -45.0  1583/2000  1642/2000          1.03
+  NDX  2000-2007 (vooraf, dotcom) short na 3 groen         3     2x     145 64.8 1.20  17.9 14.8  12.3     -45.0        NaN        NaN           NaN
+  NDX  2000-2007 (vooraf, dotcom) short na 3 groen      geen     1x     136 66.9 1.39  33.9 11.6  13.4     -45.0  1731/2000  1841/2000          1.06
+  NDX  2000-2007 (vooraf, dotcom) short na 3 groen      geen     2x     136 64.0 1.36  30.3 11.8  13.4     -45.0        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         1     1x      30 76.7 2.42  28.2  6.6   5.9      -9.2  1899/2000  1887/2000          0.98
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         1     2x      30 76.7 2.37  27.4  6.6   5.9      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         2     1x      27 74.1 1.80  18.3 14.1   6.7      -9.2  1574/2000  1714/2000          1.12
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         2     2x      27 74.1 1.77  17.7 14.1   6.7      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         3     1x      27 77.8 2.15  23.5 12.2   7.1      -9.2  1568/2000  1799/2000          1.34
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         3     2x      27 77.8 2.12  22.8 12.3   7.1      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         4     1x      26 76.9 1.89  19.5 15.1   7.1      -9.2  1309/2000  1765/2000          1.44
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         4     2x      26 76.9 1.86  18.8 15.1   7.1      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         5     1x      26 76.9 1.97  20.6 14.3   7.3      -9.2  1321/2000  1753/2000          1.48
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         5     2x      26 76.9 1.94  20.0 14.3   7.3      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         7     1x      26 76.9 1.97  20.6 14.3   7.3      -9.2  1368/2000  1782/2000          1.45
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood         7     2x      26 76.9 1.94  20.0 14.3   7.3      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood        10     1x      26 76.9 1.97  20.6 14.3   7.3      -9.2  1388/2000  1792/2000          1.43
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood        10     2x      26 76.9 1.94  20.0 14.3   7.3      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood      geen     1x      26 76.9 1.97  20.6 14.3   7.3      -9.2  1398/2000  1754/2000          1.38
+  NDX 2008-2009 (vooraf, krediet)   long na 3 rood      geen     2x      26 76.9 1.94  20.0 14.3   7.3      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet) short na 3 groen         3     1x      31 45.2 0.45 -16.3 23.8  11.7      -9.2    70/2000   113/2000          1.11
+  NDX 2008-2009 (vooraf, krediet) short na 3 groen         3     2x      31 45.2 0.43 -16.8 24.1  11.7      -9.2        NaN        NaN           NaN
+  NDX 2008-2009 (vooraf, krediet) short na 3 groen      geen     1x      27 51.9 0.41 -18.8 26.1  12.7      -9.2    74/2000   113/2000          1.02
+  NDX 2008-2009 (vooraf, krediet) short na 3 groen      geen     2x      27 51.9 0.40 -19.2 26.3  12.7      -9.2        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         1     1x     143 58.7 1.42  27.2 16.7   6.3     235.5  1697/2000  1708/2000          1.11
+  NDX          2010-2018 (vooraf)   long na 3 rood         1     2x     143 57.3 1.36  23.6 17.1   6.3     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         2     1x     129 70.5 1.44  31.4 17.3   8.0     235.5  1565/2000  1626/2000          1.18
+  NDX          2010-2018 (vooraf)   long na 3 rood         2     2x     129 69.8 1.40  28.1 17.8   8.0     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         3     1x     121 73.6 1.54  31.9 25.8   8.5     235.5  1599/2000  1720/2000          1.22
+  NDX          2010-2018 (vooraf)   long na 3 rood         3     2x     121 72.7 1.49  28.8 26.0   8.5     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         4     1x     120 74.2 1.76  43.0 19.4   8.7     235.5  1780/2000  1868/2000          1.25
+  NDX          2010-2018 (vooraf)   long na 3 rood         4     2x     120 73.3 1.70  39.7 19.7   8.7     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         5     1x     120 74.2 1.66  39.8 19.9   8.8     235.5  1671/2000  1800/2000          1.25
+  NDX          2010-2018 (vooraf)   long na 3 rood         5     2x     120 73.3 1.61  36.5 20.3   8.8     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood         7     1x     117 74.4 1.65  36.7 18.7   8.9     235.5  1647/2000  1795/2000          1.27
+  NDX          2010-2018 (vooraf)   long na 3 rood         7     2x     117 73.5 1.60  33.6 19.0   8.9     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood        10     1x     117 74.4 1.66  37.2 18.7   8.9     235.5  1590/2000  1811/2000          1.28
+  NDX          2010-2018 (vooraf)   long na 3 rood        10     2x     117 73.5 1.61  34.1 19.0   8.9     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf)   long na 3 rood      geen     1x     117 74.4 1.66  37.2 18.7   8.9     235.5  1633/2000  1808/2000          1.27
+  NDX          2010-2018 (vooraf)   long na 3 rood      geen     2x     117 73.5 1.61  34.1 19.0   8.9     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf) short na 3 groen         3     1x     188 58.5 0.79 -19.4 31.1  15.6     235.5  1045/2000  1083/2000          0.78
+  NDX          2010-2018 (vooraf) short na 3 groen         3     2x     188 56.9 0.75 -22.4 33.4  15.6     235.5        NaN        NaN           NaN
+  NDX          2010-2018 (vooraf) short na 3 groen      geen     1x     167 61.7 0.77 -19.8 30.6  17.3     235.5  1155/2000  1099/2000          0.74
+  NDX          2010-2018 (vooraf) short na 3 groen      geen     2x     167 60.5 0.74 -22.4 32.7  17.3     235.5        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         1     1x     104 65.4 2.45  68.4  5.1   5.3     378.1  1991/2000  1995/2000          1.14
+  NDX           2019-sep2026 (report)   long na 3 rood         1     2x     104 65.4 2.36  64.9  5.3   5.3     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         2     1x      93 74.2 2.36  72.3  6.7   6.4     378.1  1952/2000  1974/2000          1.26
+  NDX           2019-sep2026 (report)   long na 3 rood         2     2x      93 74.2 2.30  69.2  6.8   6.4     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         3     1x      89 75.3 2.38  66.3  6.3   7.0     378.1  1872/2000  1967/2000          1.38
+  NDX           2019-sep2026 (report)   long na 3 rood         3     2x      89 75.3 2.32  63.4  6.3   7.0     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         4     1x      89 75.3 2.98  79.8  4.9   7.2     378.1  1945/2000  1994/2000          1.48
+  NDX           2019-sep2026 (report)   long na 3 rood         4     2x      89 75.3 2.89  76.6  5.0   7.2     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         5     1x      89 75.3 2.98  79.8  4.9   7.2     378.1  1935/2000  1995/2000          1.47
+  NDX           2019-sep2026 (report)   long na 3 rood         5     2x      89 75.3 2.89  76.6  5.0   7.2     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood         7     1x      89 75.3 2.98  79.8  4.9   7.2     378.1  1938/2000  1994/2000          1.53
+  NDX           2019-sep2026 (report)   long na 3 rood         7     2x      89 75.3 2.89  76.6  5.0   7.2     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood        10     1x      89 75.3 2.98  79.8  4.9   7.2     378.1  1932/2000  1996/2000          1.52
+  NDX           2019-sep2026 (report)   long na 3 rood        10     2x      89 75.3 2.89  76.6  5.0   7.2     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report)   long na 3 rood      geen     1x      89 75.3 2.98  79.8  4.9   7.2     378.1  1948/2000  1997/2000          1.49
+  NDX           2019-sep2026 (report)   long na 3 rood      geen     2x      89 75.3 2.89  76.6  5.0   7.2     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report) short na 3 groen         3     1x     163 51.5 0.84 -18.0 27.1  16.0     378.1  1083/2000  1370/2000          0.82
+  NDX           2019-sep2026 (report) short na 3 groen         3     2x     163 51.5 0.81 -20.6 28.2  16.0     378.1        NaN        NaN           NaN
+  NDX           2019-sep2026 (report) short na 3 groen      geen     1x     148 52.0 0.81 -20.0 28.6  17.4     378.1   986/2000  1378/2000          0.82
+  NDX           2019-sep2026 (report) short na 3 groen      geen     2x     148 52.0 0.79 -22.3 29.6  17.4     378.1        NaN        NaN           NaN

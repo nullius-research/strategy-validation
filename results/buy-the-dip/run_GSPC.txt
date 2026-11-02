@@ -1,0 +1,81 @@
+markt                     periode          variant max_dagen kosten  trades  win   pf   ret   dd  expo  buy_hold nullA_beat nullB_beat  nullA_pf_med
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         1     1x     129 65.9 2.21  58.4  6.6   6.4       0.9  1998/2000  2000/2000          0.97
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         1     2x     129 65.9 2.12  54.4  6.6   6.4       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         2     1x     115 72.2 1.55  28.9 11.0   7.8       0.9  1860/2000  1946/2000          1.05
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         2     2x     115 71.3 1.50  26.0 11.3   7.8       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         3     1x     113 74.3 2.56  56.8  4.5   8.5       0.9  1993/2000  2000/2000          1.10
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         3     2x     113 73.5 2.46  53.4  4.5   8.5       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         4     1x     113 75.2 2.84  62.1  4.5   8.6       0.9  1998/2000  2000/2000          1.15
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         4     2x     113 74.3 2.71  58.5  4.5   8.6       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         5     1x     113 75.2 2.84  62.1  4.5   8.6       0.9  1992/2000  1999/2000          1.20
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         5     2x     113 74.3 2.71  58.5  4.5   8.6       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         7     1x     113 75.2 2.84  62.1  4.5   8.6       0.9  1994/2000  2000/2000          1.24
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood         7     2x     113 74.3 2.71  58.5  4.5   8.6       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood        10     1x     113 75.2 2.84  62.1  4.5   8.6       0.9  1995/2000  1999/2000          1.22
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood        10     2x     113 74.3 2.71  58.5  4.5   8.6       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood      geen     1x     113 75.2 2.84  62.1  4.5   8.6       0.9  1995/2000  2000/2000          1.22
+ GSPC  2000-2007 (vooraf, dotcom)   long na 3 rood      geen     2x     113 74.3 2.71  58.5  4.5   8.6       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom) short na 3 groen         3     1x     130 67.7 1.40  16.3  9.4  11.1       0.9  1792/2000  1900/2000          1.03
+ GSPC  2000-2007 (vooraf, dotcom) short na 3 groen         3     2x     130 66.9 1.33  13.3  9.7  11.1       0.9        NaN        NaN           NaN
+ GSPC  2000-2007 (vooraf, dotcom) short na 3 groen      geen     1x     122 67.2 1.42  15.3 10.0  11.8       0.9  1760/2000  1902/2000          1.07
+ GSPC  2000-2007 (vooraf, dotcom) short na 3 groen      geen     2x     122 65.6 1.35  12.6 10.6  11.8       0.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         1     1x      29 58.6 1.52  11.4  9.1   5.7     -22.9  1598/2000  1604/2000          0.94
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         1     2x      29 58.6 1.49  10.7  9.2   5.7     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         2     1x      26 76.9 1.25   6.0 17.9   7.1     -22.9  1175/2000  1384/2000          1.12
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         2     2x      26 76.9 1.23   5.4 17.9   7.1     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         3     1x      25 84.0 2.03  22.8 11.0   7.7     -22.9  1556/2000  1828/2000          1.24
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         3     2x      25 84.0 2.00  22.2 11.1   7.7     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         4     1x      25 84.0 1.83  19.4 17.8   7.9     -22.9  1357/2000  1743/2000          1.32
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         4     2x      25 84.0 1.81  18.8 17.9   7.9     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         5     1x      24 83.3 1.32   5.8 18.8   7.9     -22.9   964/2000  1454/2000          1.35
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         5     2x      24 83.3 1.30   5.3 18.8   7.9     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         7     1x      24 83.3 2.08  18.1  9.4   8.1     -22.9  1427/2000  1813/2000          1.40
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood         7     2x      24 83.3 2.04  17.5  9.4   8.1     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood        10     1x      24 83.3 2.08  18.1  9.4   8.1     -22.9  1455/2000  1816/2000          1.42
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood        10     2x      24 83.3 2.04  17.5  9.4   8.1     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood      geen     1x      24 83.3 2.08  18.1  9.4   8.1     -22.9  1466/2000  1820/2000          1.37
+ GSPC 2008-2009 (vooraf, krediet)   long na 3 rood      geen     2x      24 83.3 2.04  17.5  9.4   8.1     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet) short na 3 groen         3     1x      36 69.4 2.32  19.5  9.8  11.3     -22.9  1714/2000  1910/2000          1.32
+ GSPC 2008-2009 (vooraf, krediet) short na 3 groen         3     2x      36 69.4 2.25  18.6 10.0  11.3     -22.9        NaN        NaN           NaN
+ GSPC 2008-2009 (vooraf, krediet) short na 3 groen      geen     1x      36 69.4 2.40  20.0  9.4  11.9     -22.9  1731/2000  1930/2000          1.41
+ GSPC 2008-2009 (vooraf, krediet) short na 3 groen      geen     2x      36 69.4 2.32  19.1  9.6  11.9     -22.9        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         1     1x     139 56.1 1.31  15.6  8.3   6.1     121.3  1579/2000  1602/2000          1.07
+ GSPC          2010-2018 (vooraf)   long na 3 rood         1     2x     139 55.4 1.24  12.4  8.5   6.1     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         2     1x     123 64.2 1.35  19.3 12.3   7.6     121.3  1536/2000  1574/2000          1.11
+ GSPC          2010-2018 (vooraf)   long na 3 rood         2     2x     123 63.4 1.30  16.4 12.5   7.6     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         3     1x     116 67.2 1.24  11.7 13.3   8.3     121.3  1217/2000  1303/2000          1.15
+ GSPC          2010-2018 (vooraf)   long na 3 rood         3     2x     116 66.4 1.19   9.1 13.5   8.3     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         4     1x     114 67.5 1.37  17.0  9.9   8.5     121.3  1444/2000  1532/2000          1.16
+ GSPC          2010-2018 (vooraf)   long na 3 rood         4     2x     114 66.7 1.32  14.4 10.1   8.5     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         5     1x     114 67.5 1.47  20.7  9.9   8.6     121.3  1584/2000  1668/2000          1.15
+ GSPC          2010-2018 (vooraf)   long na 3 rood         5     2x     114 66.7 1.41  18.0 10.1   8.6     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood         7     1x     113 67.3 1.49  20.5  9.9   8.7     121.3  1522/2000  1694/2000          1.20
+ GSPC          2010-2018 (vooraf)   long na 3 rood         7     2x     113 66.4 1.43  17.8 10.1   8.7     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood        10     1x     113 67.3 1.49  20.5  9.9   8.7     121.3  1546/2000  1692/2000          1.20
+ GSPC          2010-2018 (vooraf)   long na 3 rood        10     2x     113 66.4 1.43  17.8 10.1   8.7     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf)   long na 3 rood      geen     1x     113 67.3 1.49  20.5  9.9   8.7     121.3  1485/2000  1694/2000          1.21
+ GSPC          2010-2018 (vooraf)   long na 3 rood      geen     2x     113 66.4 1.43  17.8 10.1   8.7     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf) short na 3 groen         3     1x     184 59.8 0.98  -1.7 16.7  13.9     121.3  1662/2000  1665/2000          0.81
+ GSPC          2010-2018 (vooraf) short na 3 groen         3     2x     184 57.1 0.92  -5.2 18.6  13.9     121.3        NaN        NaN           NaN
+ GSPC          2010-2018 (vooraf) short na 3 groen      geen     1x     177 59.9 1.05   2.1 15.4  14.8     121.3  1761/2000  1801/2000          0.83
+ GSPC          2010-2018 (vooraf) short na 3 groen      geen     2x     177 57.1 0.98  -1.5 17.2  14.8     121.3        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         1     1x     116 55.2 1.42  22.4 10.1   6.0     204.8  1597/2000  1589/2000          1.12
+ GSPC           2019-sep2026 (report)   long na 3 rood         1     2x     116 55.2 1.37  19.6 10.3   6.0     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         2     1x     104 72.1 2.83  70.3  6.1   7.8     204.8  1992/2000  1999/2000          1.22
+ GSPC           2019-sep2026 (report)   long na 3 rood         2     2x     104 72.1 2.73  66.8  6.3   7.8     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         3     1x     100 77.0 2.64  64.9 10.7   8.3     204.8  1968/2000  1991/2000          1.32
+ GSPC           2019-sep2026 (report)   long na 3 rood         3     2x     100 77.0 2.56  61.6 10.7   8.3     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         4     1x      99 77.8 3.00  67.1 10.2   8.5     204.8  1964/2000  1999/2000          1.40
+ GSPC           2019-sep2026 (report)   long na 3 rood         4     2x      99 77.8 2.89  63.9 10.3   8.5     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         5     1x      99 77.8 3.57  74.8  6.1   8.6     204.8  1972/2000  2000/2000          1.49
+ GSPC           2019-sep2026 (report)   long na 3 rood         5     2x      99 77.8 3.43  71.4  6.2   8.6     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood         7     1x      99 77.8 3.57  74.8  6.1   8.6     204.8  1980/2000  2000/2000          1.53
+ GSPC           2019-sep2026 (report)   long na 3 rood         7     2x      99 77.8 3.43  71.4  6.2   8.6     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood        10     1x      99 77.8 3.57  74.8  6.1   8.6     204.8  1975/2000  1999/2000          1.52
+ GSPC           2019-sep2026 (report)   long na 3 rood        10     2x      99 77.8 3.43  71.4  6.2   8.6     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report)   long na 3 rood      geen     1x      99 77.8 3.57  74.8  6.1   8.6     204.8  1981/2000  1999/2000          1.55
+ GSPC           2019-sep2026 (report)   long na 3 rood      geen     2x      99 77.8 3.43  71.4  6.2   8.6     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report) short na 3 groen         3     1x     164 58.5 0.93  -5.5 15.3  14.7     204.8  1503/2000  1623/2000          0.81
+ GSPC           2019-sep2026 (report) short na 3 groen         3     2x     164 58.5 0.88  -8.5 16.4  14.7     204.8        NaN        NaN           NaN
+ GSPC           2019-sep2026 (report) short na 3 groen      geen     1x     149 55.7 0.85  -9.9 16.9  15.8     204.8  1309/2000  1461/2000          0.79
+ GSPC           2019-sep2026 (report) short na 3 groen      geen     2x     149 55.7 0.81 -12.6 17.8  15.8     204.8        NaN        NaN           NaN
