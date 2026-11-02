@@ -43,7 +43,7 @@ At a 1.5R target, the break-even win rate is 40% before costs. The rule lands at
 | Null A, coin flip: same entries, random direction, same stop and target, 10,000 runs (decisive) | −0.121 to −0.006 | **79.2** |
 | Null B, random bar in the same pair and month on the same side of the EMA 200, trend direction (extra) | −0.161 to −0.038 | 95.5 |
 
-Null B is not evidence that the MACD cross adds anything. On the synthetic data, where there is nothing to find, the Null B band also sat below the coin-flip band in every set; random bars more often get tight stops and so pay more costs in R. The rule's own result is negative after costs.
+Null B is not evidence that the MACD cross adds anything. On the 24 synthetic data sets, where there is nothing to find, the rule ranked above the middle of Null B in 18 of 24 sets (median percentile 77) and higher against Null B than against the coin flip in 20 of 24. Null B is skewed in favour of the rule, so 95.5 is not evidence. The rule's own result is negative after costs.
 
 ## By year
 

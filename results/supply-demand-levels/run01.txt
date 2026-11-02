@@ -1,0 +1,32 @@
+== Datacontrole ==
+  rijen: 2749100
+  van: 2019-01-02 08:00:00
+  tot: 2026-10-30 23:54:00
+  bars_met_onmogelijke_ohlc: 0
+  grootste_m1_sprong_punten: 183.69999999999982
+  moment_grootste_sprong: 2020-03-16 16:46:00
+  spread_mediaan_punten: 0.5
+  spread_p95_punten: 0.6
+  opening_dagen_getoetst: 2024
+  opening_op_verwachte_minuut_pct: 83.4
+  opening_meest_voorkomende_afwijking_min: [{'afwijking': 0, 'dagen': 1147}, {'afwijking': -1, 'dagen': 376}, {'afwijking': -2, 'dagen': 155}]
+  sessies (RTH, >=90% compleet): 1949
+  aandeel 5m-bars met filter long/short: 0.026 / 0.013
+
+== Uitkomst (basis: 1 tick slippage per kant + spread uit de data) ==
+  slip 0: n=73 winrate=35.6% gem=-0.1598R boot90=[-0.307, -0.01] | pct A=19.6 B=16.1 C=0.0 | NullA dag90=[-0.02, 0.051]
+  slip 1: n=73 winrate=31.5% gem=-0.1937R boot90=[-0.34, -0.046] | pct A=21.2 B=16.0 C=0.0 | NullA dag90=[-0.061, 0.011]
+  slip 2: n=73 winrate=31.5% gem=-0.2276R boot90=[-0.374, -0.076] | pct A=22.7 B=15.9 C=0.0 | NullA dag90=[-0.102, -0.031]
+  varianten: {'basis': {'n': 73, 'winrate_pct': 31.5, 'gem_netto_R': -0.1937, 'totaal_R': -14.14}, 'geen_dagregel': {'n': 78, 'winrate_pct': 30.8, 'gem_netto_R': -0.1956, 'totaal_R': -15.25}, 'een_per_dag': {'n': 69, 'winrate_pct': 31.9, 'gem_netto_R': -0.2066, 'totaal_R': -14.25}}
+  maand-mediaan R: 0.0
+
+== Oordeel ==
+  C1_muntworp_break_even: niet gefalsifieerd
+  C2_filter_60_80pct: GEFALSIFIEERD
+  C3_5_10R_per_maand: GEFALSIFIEERD
+  C4_levels_moeten_reageren: GEFALSIFIEERD
+  C5_dagregel_helpt: niet gefalsifieerd
+  systeem_dood_volgens_stap5: True
+  voldoende_trades: False
+
+Rapport: resultaten/rapport.json
