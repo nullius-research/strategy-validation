@@ -47,7 +47,7 @@ Alle punten hieronder zijn **[aanname]**: keuzes om de tekst naar regels te vert
 
 **3.4 Entry.** Openingskoers van bar t+1. Nooit op de slotkoers van de signaalbar zelf, omdat de kruising pas vaststaat als de bar gesloten is.
 
-**3.5 Stop ("below the pullback").** Long: laagste low van de laatste 10 bars tot en met t. Short: hoogste high van de laatste 10 bars tot en met t. Tien bars op 30 minuten is 5 uur, ongeveer de lengte van een pullback in de voorbeelden van de bron [aanname, niet gemeten]. Ligt de stop minder dan 5 pips van de entry (EURJPY 0,05), dan geen trade. Les uit de LCE-test: te krappe stops worden opgegeten door de kosten [geverifieerd in die test].
+**3.5 Stop ("below the pullback").** Long: laagste low van de laatste 10 bars tot en met t. Short: hoogste high van de laatste 10 bars tot en met t. Tien bars op 30 minuten is 5 uur, ongeveer de lengte van een pullback in de voorbeelden van de bron [aanname, niet gemeten]. Ligt de stop minder dan 5 pips van de entry (EURJPY 0,05), dan geen trade. Les uit de supply-demand-test: te krappe stops worden opgegeten door de kosten [geverifieerd in die test].
 
 **3.6 Target.** 1,5 keer de afstand entry tot stop. Geen break-even, geen gedeeltelijke winst. Geen tijdslimiet. Wat aan het eind van de data nog openstaat, wordt gesloten op de laatste slotkoers.
 
