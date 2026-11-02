@@ -1,0 +1,346 @@
+{
+  "hypothese_versie": "1.1",
+  "datacontrole": {
+    "rijen": 2749100,
+    "van": "2019-01-02 08:00:00",
+    "tot": "2026-10-30 23:54:00",
+    "bars_met_onmogelijke_ohlc": 0,
+    "grootste_m1_sprong_punten": 183.69999999999982,
+    "moment_grootste_sprong": "2020-03-16 16:46:00",
+    "spread_mediaan_punten": 0.5,
+    "spread_p95_punten": 0.6,
+    "opening_dagen_getoetst": 2024,
+    "opening_op_verwachte_minuut_pct": 83.4,
+    "opening_meest_voorkomende_afwijking_min": [
+      {
+        "afwijking": 0,
+        "dagen": 1147
+      },
+      {
+        "afwijking": -1,
+        "dagen": 376
+      },
+      {
+        "afwijking": -2,
+        "dagen": 155
+      }
+    ]
+  },
+  "sessies": 1949,
+  "testdagen": 1929,
+  "min_risk_punten": 4.0,
+  "levels_per_dag_mediaan": 5.0,
+  "eerste_testdag": "2019-01-31",
+  "laatste_testdag": "2026-10-30",
+  "per_kostenniveau": [
+    {
+      "slippage_ticks_per_kant": 0,
+      "n": 73,
+      "winrate_pct": 35.6,
+      "gem_netto_R": -0.1598,
+      "totaal_R": -11.66,
+      "bootstrap90": [
+        -0.307,
+        -0.01
+      ],
+      "nullA0_mediaan": 0.0145,
+      "nullA0_band90": [
+        -0.046,
+        0.077
+      ],
+      "nullA0_p95": 0.0775,
+      "percentiel_tegen_nullA0": 0.0,
+      "nullA_mediaan": -0.0606,
+      "nullA_band90": [
+        -0.239,
+        0.167
+      ],
+      "nullA_p95": 0.1667,
+      "percentiel_tegen_nullA": 19.6,
+      "nullB_mediaan": -0.0724,
+      "nullB_band90": [
+        -0.214,
+        0.085
+      ],
+      "nullB_p95": 0.0845,
+      "percentiel_tegen_nullB": 16.1,
+      "nullC_mediaan": 0.0245,
+      "nullC_band90": [
+        -0.023,
+        0.075
+      ],
+      "nullC_p95": 0.0751,
+      "percentiel_tegen_nullC": 0.0,
+      "nullA_dagbootstrap90": [
+        -0.02,
+        0.051
+      ]
+    },
+    {
+      "slippage_ticks_per_kant": 1,
+      "n": 73,
+      "winrate_pct": 31.5,
+      "gem_netto_R": -0.1937,
+      "totaal_R": -14.14,
+      "bootstrap90": [
+        -0.34,
+        -0.046
+      ],
+      "nullA0_mediaan": -0.0264,
+      "nullA0_band90": [
+        -0.087,
+        0.037
+      ],
+      "nullA0_p95": 0.0367,
+      "percentiel_tegen_nullA0": 0.0,
+      "nullA_mediaan": -0.101,
+      "nullA_band90": [
+        -0.279,
+        0.127
+      ],
+      "nullA_p95": 0.1275,
+      "percentiel_tegen_nullA": 21.2,
+      "nullB_mediaan": -0.1062,
+      "nullB_band90": [
+        -0.248,
+        0.051
+      ],
+      "nullB_p95": 0.0506,
+      "percentiel_tegen_nullB": 16.0,
+      "nullC_mediaan": -0.0061,
+      "nullC_band90": [
+        -0.053,
+        0.044
+      ],
+      "nullC_p95": 0.0445,
+      "percentiel_tegen_nullC": 0.0,
+      "nullA_dagbootstrap90": [
+        -0.061,
+        0.011
+      ]
+    },
+    {
+      "slippage_ticks_per_kant": 2,
+      "n": 73,
+      "winrate_pct": 31.5,
+      "gem_netto_R": -0.2276,
+      "totaal_R": -16.61,
+      "bootstrap90": [
+        -0.374,
+        -0.076
+      ],
+      "nullA0_mediaan": -0.0673,
+      "nullA0_band90": [
+        -0.127,
+        -0.004
+      ],
+      "nullA0_p95": -0.0045,
+      "percentiel_tegen_nullA0": 0.0,
+      "nullA_mediaan": -0.1413,
+      "nullA_band90": [
+        -0.32,
+        0.087
+      ],
+      "nullA_p95": 0.0867,
+      "percentiel_tegen_nullA": 22.7,
+      "nullB_mediaan": -0.1401,
+      "nullB_band90": [
+        -0.282,
+        0.017
+      ],
+      "nullB_p95": 0.017,
+      "percentiel_tegen_nullB": 15.9,
+      "nullC_mediaan": -0.0367,
+      "nullC_band90": [
+        -0.084,
+        0.014
+      ],
+      "nullC_p95": 0.0138,
+      "percentiel_tegen_nullC": 0.0,
+      "nullA_dagbootstrap90": [
+        -0.102,
+        -0.031
+      ]
+    }
+  ],
+  "varianten_basiskosten": {
+    "basis": {
+      "n": 73,
+      "winrate_pct": 31.5,
+      "gem_netto_R": -0.1937,
+      "totaal_R": -14.14
+    },
+    "geen_dagregel": {
+      "n": 78,
+      "winrate_pct": 30.8,
+      "gem_netto_R": -0.1956,
+      "totaal_R": -15.25
+    },
+    "een_per_dag": {
+      "n": 69,
+      "winrate_pct": 31.9,
+      "gem_netto_R": -0.2066,
+      "totaal_R": -14.25
+    }
+  },
+  "netto_R_per_maand": {
+    "2019-01": 0.0,
+    "2019-02": 0.0,
+    "2019-03": -1.08,
+    "2019-04": 0.0,
+    "2019-05": 0.0,
+    "2019-06": 0.0,
+    "2019-07": 0.0,
+    "2019-08": 0.15,
+    "2019-09": 0.0,
+    "2019-10": 0.0,
+    "2019-11": 0.0,
+    "2019-12": 0.0,
+    "2020-01": 0.0,
+    "2020-02": 0.0,
+    "2020-03": -1.13,
+    "2020-04": -1.06,
+    "2020-05": 0.0,
+    "2020-06": 1.81,
+    "2020-07": 0.22,
+    "2020-08": 0.0,
+    "2020-09": 0.0,
+    "2020-10": -0.75,
+    "2020-11": 0.0,
+    "2020-12": 0.0,
+    "2021-01": 0.0,
+    "2021-02": 0.0,
+    "2021-03": -0.03,
+    "2021-04": 0.0,
+    "2021-05": 0.66,
+    "2021-06": 0.0,
+    "2021-07": 0.0,
+    "2021-08": 0.0,
+    "2021-09": -0.01,
+    "2021-10": 0.0,
+    "2021-11": -0.06,
+    "2021-12": 0.02,
+    "2022-01": 0.0,
+    "2022-02": 0.19,
+    "2022-03": -0.74,
+    "2022-04": -3.17,
+    "2022-05": 0.0,
+    "2022-06": -1.03,
+    "2022-07": -1.03,
+    "2022-08": -0.03,
+    "2022-09": 0.35,
+    "2022-10": -0.82,
+    "2022-11": -0.66,
+    "2022-12": -0.08,
+    "2023-01": 0.0,
+    "2023-02": 0.0,
+    "2023-03": -1.56,
+    "2023-04": -1.11,
+    "2023-05": 0.0,
+    "2023-06": -1.12,
+    "2023-07": 0.0,
+    "2023-08": 0.06,
+    "2023-09": -1.1,
+    "2023-10": 2.12,
+    "2023-11": 0.0,
+    "2023-12": 0.0,
+    "2024-01": -1.09,
+    "2024-02": 0.0,
+    "2024-03": 0.46,
+    "2024-04": 0.0,
+    "2024-05": 0.0,
+    "2024-06": 0.0,
+    "2024-07": 0.0,
+    "2024-08": -0.14,
+    "2024-09": 0.14,
+    "2024-10": -0.09,
+    "2024-11": 0.0,
+    "2024-12": 0.0,
+    "2025-01": -0.04,
+    "2025-02": 0.0,
+    "2025-03": 0.0,
+    "2025-04": -2.06,
+    "2025-05": -1.03,
+    "2025-06": -1.1,
+    "2025-07": 0.0,
+    "2025-08": 0.0,
+    "2025-09": 0.0,
+    "2025-10": 0.0,
+    "2025-11": 0.59,
+    "2025-12": 0.0,
+    "2026-01": -0.09,
+    "2026-02": 0.33,
+    "2026-03": 0.0,
+    "2026-04": 0.0,
+    "2026-05": -0.03,
+    "2026-06": -0.13,
+    "2026-07": 0.58,
+    "2026-08": 0.0,
+    "2026-09": -0.06,
+    "2026-10": 0.62
+  },
+  "maand_mediaan_R": 0.0,
+  "per_jaar": {
+    "2019": {
+      "n": 3,
+      "gem_netto_R": -0.3117,
+      "winrate_pct": 33.3
+    },
+    "2020": {
+      "n": 8,
+      "gem_netto_R": -0.1138,
+      "winrate_pct": 37.5
+    },
+    "2021": {
+      "n": 8,
+      "gem_netto_R": 0.072,
+      "winrate_pct": 37.5
+    },
+    "2022": {
+      "n": 17,
+      "gem_netto_R": -0.4125,
+      "winrate_pct": 23.5
+    },
+    "2023": {
+      "n": 10,
+      "gem_netto_R": -0.2703,
+      "winrate_pct": 20.0
+    },
+    "2024": {
+      "n": 10,
+      "gem_netto_R": -0.0726,
+      "winrate_pct": 40.0
+    },
+    "2025": {
+      "n": 7,
+      "gem_netto_R": -0.5191,
+      "winrate_pct": 28.6
+    },
+    "2026": {
+      "n": 10,
+      "gem_netto_R": 0.1207,
+      "winrate_pct": 40.0
+    }
+  },
+  "beste_5pct_trades": {
+    "aantal": 4,
+    "som_R": 6.72,
+    "totaal_R": -14.14,
+    "totaal_zonder_beste_5pct": -20.86
+  },
+  "exit_soorten": {
+    "stop": 24,
+    "target": 19,
+    "breakeven": 17,
+    "slot": 13
+  },
+  "oordeel": {
+    "C1_muntworp_break_even": "niet gefalsifieerd",
+    "C2_filter_60_80pct": "GEFALSIFIEERD",
+    "C3_5_10R_per_maand": "GEFALSIFIEERD",
+    "C4_levels_moeten_reageren": "GEFALSIFIEERD",
+    "C5_dagregel_helpt": "niet gefalsifieerd",
+    "systeem_dood_volgens_stap5": true,
+    "voldoende_trades": false
+  }
+}
