@@ -1,6 +1,6 @@
-# Hypothese: Trading Rush "MACD + 200 EMA"
+# Hypothese: "MACD + 200 EMA"
 
-Datum: 1 november 2026 · Bron: tradingrush.net, "I risked MACD Trading Strategy 100 TIMES" (transcript van de video van Trading Rush) · Status: **vooraf vastgelegd, versie 1.0, nog geen echte data bekeken**
+Datum: 1 november 2026 · Bron: video van een tradingkanaal waarin de strategie 100 keer wordt gehandeld (transcript) · Status: **vooraf vastgelegd, versie 1.0, nog geen echte data bekeken**
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -8,7 +8,7 @@ Spelregel: alles hieronder wordt vastgelegd vóór de eerste run. Na de run word
 
 ## 1. Wat de bron belooft
 
-[geverifieerd, tradingrush.net] De regels zoals de bron ze geeft:
+[geverifieerd, bron] De regels zoals de bron ze geeft:
 - Trendfilter: 200 EMA. Boven de 200 EMA alleen kopen, eronder alleen verkopen.
 - Long: de MACD-lijn kruist boven de signaallijn, en die kruising gebeurt onder de nullijn.
 - Short: het spiegelbeeld. MACD-lijn kruist onder de signaallijn, boven de nullijn, prijs onder de 200 EMA.

@@ -1,6 +1,6 @@
-# MACD + 200 EMA (Trading Rush): results
+# MACD + 200 EMA: results
 
-Null Test 04. The rules come from Trading Rush, "I risked MACD Trading Strategy 100 TIMES" (tradingrush.net), which reports 62 winners out of 100 trades at a 1.5 reward-to-risk ratio on 30-minute EURUSD and EURJPY charts.
+Null Test 04. The rules come from a video by a trading channel that takes the strategy 100 times and reports 62 winners out of 100 trades at a 1.5 reward-to-risk ratio on 30-minute EURUSD and EURJPY charts.
 
 The hypothesis was written and fixed before any real data was opened: `hypothesis-v1.0-dutch.md` (in Dutch). The script was then checked on 24 sets of synthetic random-walk data before the real run.
 

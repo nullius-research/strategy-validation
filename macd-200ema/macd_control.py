@@ -1,5 +1,5 @@
 """
-macd_control.py . Null test of the Trading Rush "MACD + 200 EMA" strategy.
+macd_control.py . Null test of a published "MACD + 200 EMA" strategy.
 
 Fixed in advance in hypothese-macd-200ema.md, version 1.0 (1 Nov 2026). Nothing in this
 script may change after the first run on real data.
