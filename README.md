@@ -94,6 +94,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | MACD + 200 EMA, EURUSD and EURJPY, 1,050 trades | [`results/macd-200ema`](results/macd-200ema/) |
 | Supply-demand levels on a volume profile, US500, 73 trades | [`results/supply-demand-levels`](results/supply-demand-levels/) |
 | Buy the dip after 3 red days, S&P 500 and Nasdaq 100, 2000-2026, 695 trades | [`results/buy-the-dip`](results/buy-the-dip/) |
+| Stochastic + RSI + MACD, 9 FX pairs, EURUSD decisive, 4,823 trades | [`results/stoch-rsi-macd`](results/stoch-rsi-macd/) |
 
 ## Licence
 
