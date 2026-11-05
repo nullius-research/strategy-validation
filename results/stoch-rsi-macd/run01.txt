@@ -1,0 +1,104 @@
+
+==============================================================================
+  Stochastic + RSI + MACD · hypothesis v1.0 · target 1.5R · stop at swing
+==============================================================================
+  EURUSD 2022-08-01 to 2026-08-07  M30 49,923  triggers 994  no swing 2  stop<5pip 7  trades 583  (12.1/month)
+  EURJPY 2022-08-01 to 2026-08-07  M30 49,902  triggers 956  no swing 1  stop<5pip 0  trades 517  (11.0/month)
+  GBPUSD 2022-08-01 to 2026-08-07  M30 49,903  triggers 1028  no swing 1  stop<5pip 5  trades 576  (12.0/month)
+  GBPJPY 2022-08-01 to 2026-08-07  M30 49,902  triggers 1018  no swing 0  stop<5pip 0  trades 599  (12.2/month)
+  USDJPY 2022-08-01 to 2026-08-07  M30 49,903  triggers 904  no swing 0  stop<5pip 6  trades 533  (10.9/month)
+  USDCHF 2022-08-01 to 2026-08-07  M30 49,903  triggers 1062  no swing 0  stop<5pip 10  trades 591  (12.3/month)
+  USDCAD 2025-01-01 to 2026-08-07  M30 19,809  triggers 444  no swing 0  stop<5pip 1  trades 254  (12.7/month)
+  NZDUSD 2022-08-01 to 2026-08-07  M30 49,904  triggers 1028  no swing 0  stop<5pip 14  trades 596  (12.7/month)
+  EURGBP 2022-07-14 to 2026-08-07  M30 50,479  triggers 1121  no swing 2  stop<5pip 98  trades 574  (11.5/month)
+------------------------------------------------------------------------------
+  EURUSD (decisive)
+  Trades 583   win rate 41.7% (95% 37.7% to 45.7%)   claim 56%
+  Mean net R   0.0 pip +0.0420   1.2 pip -0.0187   2.0 pip -0.0593
+  95% range (day bootstrap, 1.2 pip) -0.1180 to +0.0811   claim about +0.14R
+  Profit factor 0.970   best 5% +43.0 R of total -10.9 R   median stop 22.1 pip
+  Null A coin flip (decisive)  -0.1260 to +0.0241   percentile 74.4
+  Null B RSI side                -0.1954 to -0.0362   percentile 97.5
+    2022  n=  53  win 45.3%  mean net +0.0936 R
+    2023  n= 157  win 35.0%  mean net -0.1875 R
+    2024  n= 142  win 43.7%  mean net +0.0196 R
+    2025  n= 148  win 44.6%  mean net +0.0610 R
+    2026  n=  83  win 43.4%  mean net +0.0209 R
+  Variant stop cap 0.15%: trades 850  win 39.5%  mean net -0.0935 R  (not decisive)
+------------------------------------------------------------------------------
+  EURJPY (extra, not decisive)
+  Trades 517   win rate 40.6% (95% 36.4% to 44.9%)   claim 56%
+  Mean net R   0.0 pip +0.0169   1.2 pip -0.0179   2.0 pip -0.0411
+  95% range (day bootstrap, 1.2 pip) -0.1207 to +0.0876   claim about +0.14R
+  Profit factor 0.971   best 5% +38.7 R of total -9.2 R   median stop 42.5 pip
+  Null A coin flip  -0.1001 to +0.0643   percentile 50.5
+  Null B RSI side                -0.1612 to +0.0145   percentile 85.8
+------------------------------------------------------------------------------
+  GBPUSD (extra, not decisive)
+  Trades 576   win rate 40.8% (95% 36.8% to 44.8%)   claim 56%
+  Mean net R   0.0 pip +0.0228   1.2 pip -0.0234   2.0 pip -0.0542
+  95% range (day bootstrap, 1.2 pip) -0.1258 to +0.0814   claim about +0.14R
+  Profit factor 0.962   best 5% +43.1 R of total -13.5 R   median stop 30.3 pip
+  Null A coin flip  -0.1102 to +0.0460   percentile 56.2
+  Null B RSI side                -0.1711 to -0.0118   percentile 91.7
+------------------------------------------------------------------------------
+  GBPJPY (extra, not decisive)
+  Trades 599   win rate 39.4% (95% 35.5% to 43.3%)   claim 56%
+  Mean net R   0.0 pip -0.0138   1.2 pip -0.0407   2.0 pip -0.0587
+  95% range (day bootstrap, 1.2 pip) -0.1381 to +0.0595   claim about +0.14R
+  Profit factor 0.934   best 5% +44.7 R of total -24.4 R   median stop 52.7 pip
+  Null A coin flip  -0.0908 to +0.0604   percentile 28.6
+  Null B RSI side                -0.1437 to +0.0225   percentile 63.3
+------------------------------------------------------------------------------
+  USDJPY (extra, not decisive)
+  Trades 533   win rate 37.0% (95% 32.9% to 41.1%)   claim 56%
+  Mean net R   0.0 pip -0.0760   1.2 pip -0.1139   2.0 pip -0.1391
+  95% range (day bootstrap, 1.2 pip) -0.2165 to -0.0104   claim about +0.14R
+  Profit factor 0.826   best 5% +40.2 R of total -60.7 R   median stop 41.9 pip
+  Null A coin flip  -0.1092 to +0.0503   percentile 4.1
+  Null B RSI side                -0.1286 to +0.0448   percentile 9.2
+------------------------------------------------------------------------------
+  USDCHF (extra, not decisive)
+  Trades 591   win rate 36.5% (95% 32.7% to 40.4%)   claim 56%
+  Mean net R   0.0 pip -0.0863   1.2 pip -0.1523   2.0 pip -0.1963
+  95% range (day bootstrap, 1.2 pip) -0.2527 to -0.0529   claim about +0.14R
+  Profit factor 0.775   best 5% +44.3 R of total -90.0 R   median stop 21.3 pip
+  Null A coin flip  -0.1720 to -0.0239   percentile 10.8
+  Null B RSI side                -0.2129 to -0.0503   percentile 34.1
+------------------------------------------------------------------------------
+  USDCAD (extra, not decisive)
+  Trades 254   win rate 35.4% (95% 29.6% to 41.3%)   claim 56%
+  Mean net R   0.0 pip -0.1142   1.2 pip -0.1789   2.0 pip -0.2221
+  95% range (day bootstrap, 1.2 pip) -0.3242 to -0.0304   claim about +0.14R
+  Profit factor 0.740   best 5% +19.2 R of total -45.4 R   median stop 21.0 pip
+  Null A coin flip  -0.1494 to +0.0868   percentile 1.7
+  Null B RSI side                -0.2043 to +0.0483   percentile 9.0
+------------------------------------------------------------------------------
+  NZDUSD (extra, not decisive)
+  Trades 596   win rate 37.6% (95% 33.7% to 41.5%)   claim 56%
+  Mean net R   0.0 pip -0.0576   1.2 pip -0.1263   2.0 pip -0.1722
+  95% range (day bootstrap, 1.2 pip) -0.2243 to -0.0286   claim about +0.14R
+  Profit factor 0.810   best 5% +44.3 R of total -75.3 R   median stop 19.2 pip
+  Null A coin flip  -0.1585 to -0.0089   percentile 16.3
+  Null B RSI side                -0.2104 to -0.0505   percentile 55.2
+------------------------------------------------------------------------------
+  EURGBP (extra, not decisive)
+  Trades 574   win rate 37.5% (95% 33.5% to 41.4%)   claim 56%
+  Mean net R   0.0 pip -0.0617   1.2 pip -0.1593   2.0 pip -0.2244
+  95% range (day bootstrap, 1.2 pip) -0.2630 to -0.0554   claim about +0.14R
+  Profit factor 0.768   best 5% +42.5 R of total -91.5 R   median stop 13.8 pip
+  Null A coin flip  -0.2294 to -0.0813   percentile 46.6
+  Null B RSI side                -0.3075 to -0.1453   percentile 91.6
+------------------------------------------------------------------------------
+  Other pairs together (extra)
+  Trades 4240   win rate 38.3% (95% 36.8% to 39.7%)   claim 56%
+  Mean net R   0.0 pip -0.0417   1.2 pip -0.0967   2.0 pip -0.1334
+  95% range (day bootstrap, 1.2 pip) -0.1365 to -0.0553   claim about +0.14R
+  Profit factor 0.851   best 5% +315.2 R of total -410.0 R   median stop 27.3 pip
+  Null A coin flip  -0.0886 to -0.0320   percentile 1.7
+  Null B RSI side                -0.1385 to -0.0753   percentile 72.0
+------------------------------------------------------------------------------
+  C1 win rate 56%:     FALSIFIED
+  C2 about +0.14R:     FALSIFIED
+  C3 beats coin flip:  FALSIFIED (dead)
+==============================================================================
