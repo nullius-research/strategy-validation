@@ -143,7 +143,7 @@ Het script is gedraaid op vier sets kunstmatige random-walk-data van 2 jaar (gee
 
 Alleen de metadata van de export is bekeken (bars per dag, SPREAD-kolom), geen enkele uitkomst van het systeem of de controlegroepen. Zie `datacontrole-us500-m1.md`.
 
-- Data: export US500 M1 van IC Markets EU (demo-account), gemaakt door Erwin op 2 november 2026 (`US500_M1_201208060000_202611021049.csv`).
-- **Periode: 1 januari 2019 tot en met 30 oktober 2026** (gekozen door Erwin, optie A). Reden: vóór 21 maart 2017 bevat het bestand alleen dagbars, en in 2017 en 2018 is de SPREAD-kolom (bijna) leeg [geverifieerd]. Met die jaren erbij zou het systeem daar vrijwel zonder kosten handelen. 2 november 2026 is een lopende dag en valt eruit.
+- Data: export US500 M1 van IC Markets EU (demo-account), gemaakt op 2 november 2026 (`US500_M1_201208060000_202611021049.csv`).
+- **Periode: 1 januari 2019 tot en met 30 oktober 2026** (gekozen vóór de run, optie A). Reden: vóór 21 maart 2017 bevat het bestand alleen dagbars, en in 2017 en 2018 is de SPREAD-kolom (bijna) leeg [geverifieerd]. Met die jaren erbij zou het systeem daar vrijwel zonder kosten handelen. 2 november 2026 is een lopende dag en valt eruit.
 - **Commissie: 0.** [geverifieerd] Het productblad Indices van IC Markets (CySEC) noemt voor US500 geen commissie, alleen een gemiddelde spread van 0,36 punt. [aanname] De commissie van $3,50 per lot per kant op de site van IC Markets geldt voor forex op een Raw-account, niet voor index-CFD's. Ter vergelijking: de mediane spread in de export is 0,50 punt [geverifieerd], dus de kosten uit de kolom liggen eerder boven dan onder het gemiddelde dat de broker opgeeft.
 - **Werkwijze:** het script blijft ongewijzigd. Het bestand wordt vooraf gefilterd op de periode hierboven (`US500_M1_2019-2026.csv`), daarna gaat het met dezelfde argumenten door `levels_control.py`.

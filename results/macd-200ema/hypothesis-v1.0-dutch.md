@@ -85,6 +85,6 @@ Aantal trades per paar, winrate met interval, gemiddelde netto R met dagbootstra
 
 ## 8. Volgende stap
 
-1. Erwin keurt dit document goed of past het aan. Daarna ligt het vast.
+1. Het document wordt goedgekeurd of aangepast. Daarna ligt het vast.
 2. Meetscript `macd_control.py` schrijven en eerst draaien op synthetische random-walk-data (M15, 4 jaar, twee paren). Daar moet het oordeel "dood" uitkomen. Pas dan de echte data.
 3. Map `Documents\trading` koppelen voor de M15-exports.

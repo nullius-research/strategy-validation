@@ -1,6 +1,6 @@
 # Hypothese: Stochastic + RSI + MACD
 
-Datum: 5 november 2026 · Bron: een YouTube-video van een tradingkanaal (geüpload maart 2021) die de strategie 100 keer test. Gelezen via het automatische Engelse transcript (266 segmenten) · Status: **vooraf vastgelegd, versie 1.0, goedgekeurd door Erwin op 5 november 2026, nog geen echte data bekeken**
+Datum: 5 november 2026 · Bron: een YouTube-video van een tradingkanaal (geüpload maart 2021) die de strategie 100 keer test. Gelezen via het automatische Engelse transcript (266 segmenten) · Status: **vooraf vastgelegd, versie 1.0, goedgekeurd op 5 november 2026, nog geen echte data bekeken**
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -61,7 +61,7 @@ Alle punten hieronder zijn **[aanname]**: keuzes om de tekst naar regels te vert
 - Long-setup gaat aan op de eerste oversold-bar s. Een volgende oversold-bar houdt hem aan.
 - De long-setup vervalt bij de eerste overbought-bar na s. Op die bar gaat de short-setup aan.
 - Short-setup: spiegelbeeld.
-- Maximale wachttijd: één handelsdag, dus 48 M30-bars vanaf en met bar s. Een trigger op bar t telt alleen als t ≤ s + 47. Bars in het weekend bestaan niet en tellen dus niet mee. De bron noemt geen limiet; dit is een keuze van Erwin (5 nov 2026, vóór de eerste run), omdat een setup zonder limiet dagen open kan blijven. Een rollend venster van 48 bars en niet het einde van de kalenderdag, zodat elke setup even lang leeft. Een nieuwe oversold-bar zet het venster opnieuw op 48.
+- Maximale wachttijd: één handelsdag, dus 48 M30-bars vanaf en met bar s. Een trigger op bar t telt alleen als t ≤ s + 47. Bars in het weekend bestaan niet en tellen dus niet mee. De bron noemt geen limiet; dit is een keuze van de onderzoeker (5 nov 2026, vóór de eerste run), omdat een setup zonder limiet dagen open kan blijven. Een rollend venster van 48 bars en niet het einde van de kalenderdag, zodat elke setup even lang leeft. Een nieuwe oversold-bar zet het venster opnieuw op 48.
 - Een setup wordt opgebruikt bij de eerste geldige trigger, ook als er op dat moment al een positie open staat (die trigger valt dan weg).
 
 **3.5 Trigger (op de slotkoers van bar t, met t ≥ s).**
@@ -116,6 +116,6 @@ Aantal trades per paar en per maand, winrate met interval, gemiddelde netto R me
 
 ## 8. Volgende stap
 
-1. Goedgekeurd door Erwin op 5 november 2026, met de wachttijd van één handelsdag. Het document ligt vast.
+1. Goedgekeurd op 5 november 2026, met de wachttijd van één handelsdag. Het document ligt vast.
 2. Meetscript `srm_control.py` schrijven (deels uit `macd_control.py`) en eerst draaien op synthetische random-walk-data (M15, 4 jaar, negen paren). Daar moet "dood" uitkomen, en Null B op ruis wordt vastgelegd. Pas dan de echte data.
 3. Daarna optie C (MACD, stop 1,5 ATR, target 1 ATR); die vraagt een export van EURNZD M15.
