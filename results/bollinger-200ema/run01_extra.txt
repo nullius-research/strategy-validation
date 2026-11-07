@@ -1,0 +1,181 @@
+
+==========================================================================
+  Bollinger 20/2 + 200 EMA · hypothesis v1.0 · target 1.5R · stop 10-bar extreme
+==========================================================================
+  GBPUSD  2022-08-01 to 2026-08-07  M15 99,993  signals 2856  stop>=5pip 835  trades 762
+--------------------------------------------------------------------------
+  GBPUSD  (extra, decides nothing)
+  Trades 762   over 515 days
+  Win rate 37.5%  (95% 34.1% to 41.0%)   claim 52%
+  Mean net R at 0.0 pip   -0.0617
+  Mean net R at 1.2 pip   -0.2082
+  Mean net R at 2.0 pip   -0.3059
+  95% range (day bootstrap, 1.2 pip)  -0.2935 to -0.1255   claim about +0.30R
+  Profit factor 0.709   best 5% of trades +54.8 R of total -158.7 R
+  Median stop 8.1 pip vs cost 1.2 pip
+  Longest losing streak 12 (source mentions 5)
+  Null A coin flip         -0.2509 to -0.1229   percentile 28.7
+  Null B random bar trend  -0.2079 to -0.0648   percentile 4.9
+    2022  n= 124  win 36.3%  mean net -0.2178 R
+    2023  n= 209  win 37.3%  mean net -0.2081 R
+    2024  n= 149  win 40.9%  mean net -0.1311 R
+    2025  n= 178  win 38.2%  mean net -0.1972 R
+    2026  n= 102  win 33.3%  mean net -0.3289 R
+--------------------------------------------------------------------------
+  USDJPY  2022-08-01 to 2026-08-07  M15 99,993  signals 2856  stop>=5pip 1331  trades 1194
+--------------------------------------------------------------------------
+  USDJPY  (extra, decides nothing)
+  Trades 1194   over 717 days
+  Win rate 38.6%  (95% 35.8% to 41.4%)   claim 52%
+  Mean net R at 0.0 pip   -0.0348
+  Mean net R at 1.2 pip   -0.1673
+  Mean net R at 2.0 pip   -0.2557
+  95% range (day bootstrap, 1.2 pip)  -0.2367 to -0.0948   claim about +0.30R
+  Profit factor 0.759   best 5% of trades +87.1 R of total -199.7 R
+  Median stop 9.2 pip vs cost 1.2 pip
+  Longest losing streak 26 (source mentions 5)
+  Null A coin flip         -0.1945 to -0.0877   percentile 21.0
+  Null B random bar trend  -0.1389 to -0.0262   percentile 0.8
+    2022  n= 145  win 38.6%  mean net -0.1606 R
+    2023  n= 277  win 36.1%  mean net -0.2305 R
+    2024  n= 292  win 35.3%  mean net -0.2473 R
+    2025  n= 332  win 38.6%  mean net -0.1674 R
+    2026  n= 148  win 50.0%  mean net +0.1025 R
+--------------------------------------------------------------------------
+  EURJPY  2022-08-01 to 2026-08-07  M15 99,993  signals 2994  stop>=5pip 1569  trades 1316
+--------------------------------------------------------------------------
+  EURJPY  (extra, decides nothing)
+  Trades 1316   over 783 days
+  Win rate 39.9%  (95% 37.2% to 42.5%)   claim 52%
+  Mean net R at 0.0 pip   -0.0027
+  Mean net R at 1.2 pip   -0.1309
+  Mean net R at 2.0 pip   -0.2165
+  95% range (day bootstrap, 1.2 pip)  -0.1985 to -0.0646   claim about +0.30R
+  Profit factor 0.807   best 5% of trades +95.8 R of total -172.3 R
+  Median stop 9.6 pip vs cost 1.2 pip
+  Longest losing streak 14 (source mentions 5)
+  Null A coin flip         -0.1784 to -0.0759   percentile 45.0
+  Null B random bar trend  -0.1479 to -0.0349   percentile 12.9
+    2022  n= 162  win 32.7%  mean net -0.3060 R
+    2023  n= 310  win 36.5%  mean net -0.2181 R
+    2024  n= 358  win 39.4%  mean net -0.1439 R
+    2025  n= 325  win 42.8%  mean net -0.0553 R
+    2026  n= 161  win 49.1%  mean net +0.0891 R
+--------------------------------------------------------------------------
+  USDCHF  2022-08-01 to 2026-08-07  M15 99,993  signals 2805  stop>=5pip 676  trades 584
+--------------------------------------------------------------------------
+  USDCHF  (extra, decides nothing)
+  Trades 584   over 445 days
+  Win rate 44.0%  (95% 40.0% to 48.0%)   claim 52%
+  Mean net R at 0.0 pip   +0.1002
+  Mean net R at 1.2 pip   -0.0471
+  Mean net R at 2.0 pip   -0.1452
+  95% range (day bootstrap, 1.2 pip)  -0.1498 to +0.0574   claim about +0.30R
+  Profit factor 0.927   best 5% of trades +41.7 R of total -27.5 R
+  Median stop 8.0 pip vs cost 1.2 pip
+  Longest losing streak 11 (source mentions 5)
+  Null A coin flip         -0.2097 to -0.0556   percentile 96.8
+  Null B random bar trend  -0.2212 to -0.0563   percentile 96.6
+    2022  n=  83  win 44.6%  mean net -0.0257 R
+    2023  n= 150  win 38.7%  mean net -0.1739 R
+    2024  n= 132  win 50.0%  mean net +0.0938 R
+    2025  n= 143  win 40.6%  mean net -0.1357 R
+    2026  n=  76  win 50.0%  mean net +0.1021 R
+--------------------------------------------------------------------------
+  USDCAD  2025-01-01 to 2026-08-07  M15 39,813  signals 1099  stop>=5pip 266  trades 239
+--------------------------------------------------------------------------
+  USDCAD  (extra, decides nothing)
+  Trades 239   over 189 days
+  Win rate 46.0%  (95% 39.7% to 52.3%)   claim 52%
+  Mean net R at 0.0 pip   +0.1506
+  Mean net R at 1.2 pip   -0.0002
+  Mean net R at 2.0 pip   -0.1007
+  95% range (day bootstrap, 1.2 pip)  -0.1511 to +0.1527   claim about +0.30R
+  Profit factor 1.000   best 5% of trades +17.2 R of total -0.0 R
+  Median stop 7.7 pip vs cost 1.2 pip
+  Longest losing streak 8 (source mentions 5)
+  Null A coin flip         -0.2617 to -0.0315   percentile 98.2
+  Null B random bar trend  -0.2099 to +0.0470   percentile 84.6
+    2025  n= 151  win 45.0%  mean net -0.0247 R
+    2026  n=  88  win 47.7%  mean net +0.0419 R
+--------------------------------------------------------------------------
+  NZDUSD  2022-08-01 to 2026-08-07  M15 99,993  signals 2830  stop>=5pip 559  trades 494
+--------------------------------------------------------------------------
+  NZDUSD  (extra, decides nothing)
+  Trades 494   over 395 days
+  Win rate 41.5%  (95% 37.2% to 45.8%)   claim 52%
+  Mean net R at 0.0 pip   +0.0374
+  Mean net R at 1.2 pip   -0.1182
+  Mean net R at 2.0 pip   -0.2220
+  95% range (day bootstrap, 1.2 pip)  -0.2272 to -0.0110   claim about +0.30R
+  Profit factor 0.825   best 5% of trades +35.8 R of total -58.4 R
+  Median stop 7.3 pip vs cost 1.2 pip
+  Longest losing streak 15 (source mentions 5)
+  Null A coin flip         -0.2650 to -0.1030   percentile 90.4
+  Null B random bar trend  -0.2572 to -0.0786   percentile 84.2
+    2022  n=  74  win 36.5%  mean net -0.2513 R
+    2023  n= 148  win 43.2%  mean net -0.0699 R
+    2024  n=  91  win 46.2%  mean net -0.0034 R
+    2025  n= 105  win 45.7%  mean net -0.0087 R
+    2026  n=  76  win 31.6%  mean net -0.3717 R
+--------------------------------------------------------------------------
+  EURGBP  2022-07-14 to 2026-08-07  M15 101,147  signals 2900  stop>=5pip 355  trades 312
+--------------------------------------------------------------------------
+  EURGBP  (extra, decides nothing)
+  Trades 312   over 267 days
+  Win rate 38.8%  (95% 33.4% to 44.2%)   claim 52%
+  Mean net R at 0.0 pip   -0.0304
+  Mean net R at 1.2 pip   -0.1810
+  Mean net R at 2.0 pip   -0.2814
+  95% range (day bootstrap, 1.2 pip)  -0.3133 to -0.0422   claim about +0.30R
+  Profit factor 0.743   best 5% of trades +22.8 R of total -56.5 R
+  Median stop 7.8 pip vs cost 1.2 pip
+  Longest losing streak 12 (source mentions 5)
+  Null A coin flip         -0.2932 to -0.0849   percentile 52.7
+  Null B random bar trend  -0.3352 to -0.1189   percentile 75.0
+    2022  n=  83  win 41.0%  mean net -0.1201 R
+    2023  n=  84  win 36.9%  mean net -0.2398 R
+    2024  n=  41  win 34.1%  mean net -0.2988 R
+    2025  n=  77  win 37.7%  mean net -0.1959 R
+    2026  n=  27  win 48.1%  mean net +0.0354 R
+--------------------------------------------------------------------------
+  GBPJPY  2022-08-01 to 2026-08-07  M15 99,993  signals 2865  stop>=5pip 1695  trades 1480
+--------------------------------------------------------------------------
+  GBPJPY  (extra, decides nothing)
+  Trades 1480   over 817 days
+  Win rate 38.6%  (95% 36.2% to 41.1%)   claim 52%
+  Mean net R at 0.0 pip   -0.0338
+  Mean net R at 1.2 pip   -0.1536
+  Mean net R at 2.0 pip   -0.2334
+  95% range (day bootstrap, 1.2 pip)  -0.2139 to -0.0929   claim about +0.30R
+  Profit factor 0.776   best 5% of trades +108.0 R of total -227.3 R
+  Median stop 10.6 pip vs cost 1.2 pip
+  Longest losing streak 13 (source mentions 5)
+  Null A coin flip         -0.2194 to -0.1282   percentile 75.9
+  Null B random bar trend  -0.1517 to -0.0471   percentile 4.5
+    2022  n= 158  win 42.4%  mean net -0.0582 R
+    2023  n= 381  win 39.6%  mean net -0.1296 R
+    2024  n= 396  win 37.4%  mean net -0.1851 R
+    2025  n= 356  win 36.8%  mean net -0.1979 R
+    2026  n= 189  win 39.7%  mean net -0.1319 R
+--------------------------------------------------------------------------
+  AUDUSD  2022-08-01 to 2026-08-07  M15 99,993  signals 2907  stop>=5pip 590  trades 515
+--------------------------------------------------------------------------
+  AUDUSD  (extra, decides nothing)
+  Trades 515   over 399 days
+  Win rate 39.2%  (95% 35.0% to 43.4%)   claim 52%
+  Mean net R at 0.0 pip   -0.0194
+  Mean net R at 1.2 pip   -0.1765
+  Mean net R at 2.0 pip   -0.2813
+  95% range (day bootstrap, 1.2 pip)  -0.2840 to -0.0681   claim about +0.30R
+  Profit factor 0.749   best 5% of trades +37.2 R of total -90.9 R
+  Median stop 7.4 pip vs cost 1.2 pip
+  Longest losing streak 14 (source mentions 5)
+  Null A coin flip         -0.2785 to -0.1231   percentile 68.2
+  Null B random bar trend  -0.2755 to -0.0999   percentile 57.6
+    2022  n=  74  win 40.5%  mean net -0.1395 R
+    2023  n= 151  win 34.4%  mean net -0.2910 R
+    2024  n= 102  win 42.2%  mean net -0.1078 R
+    2025  n=  97  win 41.2%  mean net -0.1297 R
+    2026  n=  91  win 40.7%  mean net -0.1438 R
+--------------------------------------------------------------------------
