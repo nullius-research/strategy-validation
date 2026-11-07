@@ -99,6 +99,7 @@ Rejected on all three claims: the 52% win rate, the +0.30R per trade, and beatin
 | File | Contents |
 |---|---|
 | `bb200_trades_eurusd.csv` | One row per EURUSD trade: pair, entry time (UTC), direction, entry, stop distance, gross R, gross R of the mirrored trade, net R at 0, 1.2 and 2.0 pips |
+| `bb200_trades_extra.csv` | Same columns, the nine other pairs (6,896 trades) |
 | `run01_eurusd.txt` | Full output of the decisive run |
 | `run01_extra.txt` | Full output for the nine other pairs |
 | `noise_24sets.txt` | Script check on 24 random-walk sets |
