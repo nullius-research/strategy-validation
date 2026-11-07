@@ -48,6 +48,8 @@ The result is negative even before costs.
 | Null A, coin flip: same entries, random direction, same stop and target, 10,000 runs (decisive) | −0.236 to −0.083 | **11.1** |
 | Null B, random bar in the same pair and month on the same side of the EMA 200, trend direction (extra) | −0.229 to −0.059 | 8.6 |
 
+A note on ties: when a trade is flipped, its result changes by the same step, so the coin-flip averages fall on a grid. About 2% of the 10,000 runs land exactly on the rule's own result. The script counts only runs strictly below the rule, which gives 11.1. Counting ties differently, or recomputing from the rounded values in `bb200_trades_eurusd.csv`, gives up to about 13. The verdict does not change: an edge needs above 95.
+
 Null B does not count in either direction here. On the 24 synthetic data sets the rule ranked below the 50th percentile of Null B in 22 of 24, so in this test Null B is skewed against the rule. A likely reason is that a band touch sits close to the 10-bar extreme, so the stop is tight and costs weigh more per R than for a random bar. That reason was not tested.
 
 ## By year, EURUSD
