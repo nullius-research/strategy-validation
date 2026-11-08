@@ -95,7 +95,7 @@ Not falsified is not the same as "works". It means this test, in this period, di
 | 2025 | 10 | 90.0% | +0.298% |
 | 2026 (to 30 Oct) | 12 | 91.7% | +1.067% |
 
-No trades in 2008: the index was below its 200-day average most of the year.
+No trades in 2008: the index closed below its 200-day average on all 253 trading days that year.
 
 ## Extra: Nasdaq 100, same period and rules
 
