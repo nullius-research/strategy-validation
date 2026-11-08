@@ -1,0 +1,43 @@
+data 2000-01-03 to 2026-10-30 (6748 days); period 2007-01-03 to 2026-10-30; costs 2.0 bp; runs 10000; seed 23
+
+== costs 0 bp ==
+trades 172  wins 137  win rate 79.65% (95% 73.0-85.0)  gross win rate 79.65%
+mean net return per trade +0.850% (95% +0.545 to +1.144)  PF 2.93
+Null A 5/50/95: +0.257 / +0.447 / +0.627%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.305 / +0.559 / +0.793%  -> percentile 98.0  (runs with fewer trades: 0)
+
+== costs 2 bp ==
+trades 172  wins 135  win rate 78.49% (95% 71.8-84.0)  gross win rate 79.65%
+mean net return per trade +0.830% (95% +0.517 to +1.121)  PF 2.86
+Null A 5/50/95: +0.223 / +0.422 / +0.611%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.292 / +0.539 / +0.775%  -> percentile 98.0  (runs with fewer trades: 0)
+holding days mean 4.7  max 20  worst trade -10.18%  deepest drawdown in a trade -12.71%
+sum of all +142.8%  sum of best 5% (9) +35.2%  last trade open at end: False
+buy and hold same period +1513.4%  rule compounded +300.0%
+year  trades  win%   mean%
+2007      10   80.0  +1.553
+2008       2   50.0  -4.791
+2009       6   83.3  +1.456
+2010       8   62.5  +0.124
+2011       8   62.5  +0.054
+2012      10   90.0  +1.337
+2013      13  100.0  +1.365
+2014      10   90.0  +1.381
+2015      11   81.8  +0.336
+2016       7   57.1  -0.457
+2017      13  100.0  +1.184
+2018      11   63.6  +0.048
+2019       6   50.0  +0.208
+2020       6   66.7  +1.746
+2021      11   81.8  +1.561
+2022       2   50.0  -1.548
+2023       9   66.7  +1.089
+2024      11   90.9  +1.771
+2025       8   75.0  +0.082
+2026      10   80.0  +0.964
+
+== costs 4 bp ==
+trades 172  wins 135  win rate 78.49% (95% 71.8-84.0)  gross win rate 79.65%
+mean net return per trade +0.810% (95% +0.491 to +1.109)  PF 2.80
+Null A 5/50/95: +0.208 / +0.404 / +0.584%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.272 / +0.518 / +0.751%  -> percentile 97.8  (runs with fewer trades: 0)

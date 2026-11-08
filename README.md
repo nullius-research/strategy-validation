@@ -97,6 +97,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | Stochastic + RSI + MACD, 9 FX pairs, EURUSD decisive, 4,823 trades | [`results/stoch-rsi-macd`](results/stoch-rsi-macd/) |
 | MACD zero crosses with an ATR stop and target, 21 FX pairs, daily, 2018-2026 | [`results/macd-atr`](results/macd-atr/) |
 | Bollinger Bands + 200 EMA, 10 FX pairs, 15 minutes, EURUSD decisive, 573 trades | [`results/bollinger-200ema`](results/bollinger-200ema/) |
+| RSI(2) pullback, S&P 500, 2007-2026 decisive (outside the source's period), 166 trades | [`results/rsi2-pullback`](results/rsi2-pullback/) |
 
 ## Licence
 
@@ -106,4 +107,4 @@ If you find an error in the method, open an issue. Corrections are more useful t
 
 ## Not financial advice!
 
-Nothing here is financial advice or a recommendation to trade. These are measurement tools. Most measurements so far were negative; one was not. None of it is a recommendation.
+Nothing here is financial advice or a recommendation to trade. These are measurement tools. Most measurements so far were negative; two were not. None of it is a recommendation.
