@@ -49,6 +49,10 @@ Median profit factor of random entry with the same exit: 1.10 to 1.55 in the fou
 
 `trades.csv` holds all 695 trades (no maximum hold) with entry date, exit date, days held and return. `run_GSPC.txt` and `run_NDX.txt` hold every holding limit, both cost levels and the mirror test.
 
+## Control group check on noise (added 10 November 2026)
+
+After another test showed that a random-entry control can lean towards the rule, this control was checked on data with no edge: 24 synthetic random walks of 2,000 trading days (16% yearly volatility, drift 0% and 8%), same rule, same Null A, 2,000 runs each. The rule's percentile against Null A averaged 42.1, with 0 of 24 sets above 95 and 2 below 5. The control does not favour the rule, so the results above are not inflated by it. Script `buy-the-dip/noise_check.py`, output `noise_24sets.txt`.
+
 ## Limitations
 
 Price indices without dividends; not directly tradable. No financing costs for leveraged products. Eight holding limits times four periods per index were tested, so single high numbers can be luck. Two of the three indices in the report were tested.
