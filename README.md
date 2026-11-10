@@ -98,6 +98,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | MACD zero crosses with an ATR stop and target, 21 FX pairs, daily, 2018-2026 | [`results/macd-atr`](results/macd-atr/) |
 | Bollinger Bands + 200 EMA, 10 FX pairs, 15 minutes, EURUSD decisive, 573 trades | [`results/bollinger-200ema`](results/bollinger-200ema/) |
 | RSI(2) pullback, S&P 500, 2007-2026 decisive (outside the source's period), 166 trades | [`results/rsi2-pullback`](results/rsi2-pullback/) |
+| MA 9/21 crossover + 200 MA, gold, 30 minutes, 2017-2026 outside 2024-2025 decisive, 310 trades | [`results/ma-9-21-gold`](results/ma-9-21-gold/) |
 
 ## Licence
 

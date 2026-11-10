@@ -1,0 +1,26 @@
+set  0 drift 0.00: trades  494  win  38.3%  mean -0.109R  pct vs Null A  75.1  vs Null B  48.2
+set  1 drift 0.08: trades  443  win  35.9%  mean -0.178R  pct vs Null A  37.5  vs Null B  24.1
+set  2 drift 0.00: trades  508  win  40.0%  mean -0.085R  pct vs Null A  96.5  vs Null B  90.7
+set  3 drift 0.08: trades  525  win  41.9%  mean -0.005R  pct vs Null A  97.4  vs Null B  90.7
+set  4 drift 0.00: trades  434  win  42.6%  mean -0.054R  pct vs Null A  99.5  vs Null B  99.1
+set  5 drift 0.08: trades  553  win  42.7%  mean +0.025R  pct vs Null A  98.7  vs Null B  97.1
+set  6 drift 0.00: trades  429  win  42.9%  mean -0.005R  pct vs Null A  99.7  vs Null B  99.4
+set  7 drift 0.08: trades  492  win  39.2%  mean -0.073R  pct vs Null A  89.8  vs Null B  63.5
+set  8 drift 0.00: trades  486  win  38.7%  mean -0.105R  pct vs Null A  82.7  vs Null B  65.2
+set  9 drift 0.08: trades  471  win  41.4%  mean -0.028R  pct vs Null A  90.8  vs Null B  90.7
+set 10 drift 0.00: trades  442  win  37.1%  mean -0.189R  pct vs Null A  68.6  vs Null B  59.3
+set 11 drift 0.08: trades  521  win  42.8%  mean +0.015R  pct vs Null A  95.7  vs Null B  94.7
+set 12 drift 0.00: trades  483  win  43.1%  mean +0.000R  pct vs Null A  98.7  vs Null B  99.4
+set 13 drift 0.08: trades  467  win  39.0%  mean -0.089R  pct vs Null A  90.2  vs Null B  78.3
+set 14 drift 0.00: trades  437  win  40.7%  mean -0.064R  pct vs Null A  96.7  vs Null B  96.3
+set 15 drift 0.08: trades  503  win  43.1%  mean +0.022R  pct vs Null A  98.5  vs Null B  97.5
+set 16 drift 0.00: trades  514  win  36.2%  mean -0.169R  pct vs Null A  59.6  vs Null B  28.0
+set 17 drift 0.08: trades  510  win  39.4%  mean -0.058R  pct vs Null A  84.3  vs Null B  63.8
+set 18 drift 0.00: trades  455  win  37.1%  mean -0.167R  pct vs Null A  79.3  vs Null B  47.3
+set 19 drift 0.08: trades  502  win  39.4%  mean -0.062R  pct vs Null A  79.8  vs Null B  57.6
+set 20 drift 0.00: trades  432  win  42.6%  mean -0.070R  pct vs Null A  99.8  vs Null B  99.2
+set 21 drift 0.08: trades  540  win  41.3%  mean -0.034R  pct vs Null A  97.8  vs Null B  95.9
+set 22 drift 0.00: trades  444  win  42.8%  mean -0.020R  pct vs Null A  99.9  vs Null B  99.9
+set 23 drift 0.08: trades  463  win  41.9%  mean -0.004R  pct vs Null A  95.5  vs Null B  91.0
+
+mean percentile vs Null A 88.0; above 95: 13 of 24; below 5: 0; mean win rate 40.4%
