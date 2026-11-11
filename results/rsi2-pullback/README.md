@@ -101,10 +101,38 @@ No trades in 2008: the index closed below its 200-day average on all 253 trading
 
 172 trades, win rate 78.5%, mean net return +0.830% per trade, percentile 100.0 against Null A and 98.0 against Null B, worst trade −10.18%. Reported for context; it does not decide.
 
+## Follow-up: executed at the next open (added 11 November 2026)
+
+A reader pointed out that buying and selling at the exact close is hard to do in practice, since the signal is only known once the market has closed. So the same rule was run again with fills a reader can actually get: buy at the open of the day after the signal, sell at the open of the day after the RSI closes above 75. The random-entry control was moved to the same fills. Signals, exit rule, filter, period, costs and pass/fail criteria are unchanged. The hypothesis was written and fixed before the opening prices were looked at: `next-open/hypothesis-next-open-v1.0-dutch.md` (Dutch). The close-to-close results above stay as they are.
+
+| 3 Jan 2007 to 30 Oct 2026, 2 bp | At the close (above) | At the next open |
+|---|---|---|
+| Trades | 166 | 166 (same signals) |
+| Win rate | 80.72% (74.1 to 86.0) | 78.92% (72.1 to 84.4) |
+| Mean net return per trade | +0.548% | +0.551% (95% +0.133 to +0.870) |
+| Profit factor | 2.19 | 2.20 |
+| Percentile vs Null A | 99.9 | 100.0 |
+| Worst trade | −23.28% | −22.79% |
+| Rule compounded / buy and hold | +134.9% / +435.1% | +136.0% / +435.1% |
+
+On the rule's own trades, the overnight move from the signal close to the next open averaged +0.029% on entry nights and +0.031% on exit nights. The two roughly cancel, which is why the result barely moves.
+
+Verdict against the same criteria: not falsified on C1 (upper bound 84.4% is above the claimed 84.31%, just), C2 and C3.
+
+Checks before the real run:
+- With every open set equal to the previous close, the next-open script reproduces the 166 close-to-close trades and returns exactly.
+- Noise check on 24 synthetic random walks with a separate overnight part (30% of the variance), 5,000 days each: mean percentile against Null A 39.1, 0 of 24 above 95. The control does not favour the rule.
+- Data check: closes identical to the series used above on all 5,492 shared days. In 2007 to 2026, 4.1% of opens equal the previous close (mostly 2007 and 2011 to 2013), none outside the day's range.
+- Five random trades recomputed by hand from the prices: 5 of 5 equal.
+
+Opening prices of an index are not tradable prices; an index fund or future opens at a slightly different level. This is closer to what a reader can do, not identical to it.
+
+Script `rsi2-pullback/rsi2_next_open.py`. Output, trades and checks in `next-open/`. The price data is not in this repository; the same Yahoo chart URL with `period1=1104537600&period2=1793491200` returns it.
+
 ## Limitations
 
 - One index, one data source, price index without dividends.
-- Costs are an assumption, not measured fills. Entry and exit at the exact close are an idealisation.
+- Costs are an assumption, not measured fills. Entry and exit at the exact close are an idealisation; see the next-open follow-up above.
 - No stop: the worst trade lost 23% and was down 31% before it closed. The average hides that.
 - The rule is similar to the buy-the-dip rule tested earlier (buying short declines in an index). The two results are not independent evidence.
 - Null A is skewed against the rule (see above).

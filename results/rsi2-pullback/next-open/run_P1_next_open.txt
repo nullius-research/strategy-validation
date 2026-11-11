@@ -1,0 +1,43 @@
+data 2005-01-03 to 2026-10-30 (5492 days); period 2007-01-03 to 2026-10-30; costs 2.0 bp; runs 10000; seed 23
+
+== costs 0 bp ==
+trades 166  wins 131  win rate 78.92% (95% 72.1-84.4)  gross win rate 78.92%
+mean net return per trade +0.571% (95% +0.152 to +0.897)  PF 2.25
+Null A 5/50/95: +0.075 / +0.269 / +0.431%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.134 / +0.360 / +0.594%  -> percentile 92.9  (runs with fewer trades: 0)
+
+== costs 2 bp ==
+trades 166  wins 131  win rate 78.92% (95% 72.1-84.4)  gross win rate 78.92%
+mean net return per trade +0.551% (95% +0.133 to +0.870)  PF 2.20
+Null A 5/50/95: +0.057 / +0.249 / +0.409%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.101 / +0.347 / +0.575%  -> percentile 92.8  (runs with fewer trades: 0)
+holding days mean 4.8  max 22  worst trade -22.79%  deepest drawdown in a trade -30.92%
+sum of all +91.4%  sum of best 5% (8) +26.3%  last trade open at end: False
+buy and hold same period +435.1%  rule compounded +136.0%
+overnight move on entry nights (close t to open t+1) mean +0.029%  on exit nights (close j to open j+1) mean +0.031%
+year  trades  win%   mean%
+2007       8   87.5  +1.114
+2009       5  100.0  +1.139
+2010       5   60.0  +0.444
+2011      11   72.7  +0.019
+2012      13   76.9  +0.850
+2013       9   77.8  +0.771
+2014       8   75.0  +0.207
+2015      11   72.7  +0.514
+2016       8   87.5  +0.946
+2017      10   90.0  +0.398
+2018      11   54.5  -0.078
+2019       7   57.1  +0.420
+2020       7   71.4  -2.267
+2021       8   87.5  +1.839
+2022       2   50.0  -0.451
+2023       9   77.8  +0.744
+2024      12   91.7  +1.049
+2025      10   90.0  +0.461
+2026      12   91.7  +1.134
+
+== costs 4 bp ==
+trades 166  wins 131  win rate 78.92% (95% 72.1-84.4)  gross win rate 78.92%
+mean net return per trade +0.531% (95% +0.134 to +0.852)  PF 2.14
+Null A 5/50/95: +0.041 / +0.231 / +0.392%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.092 / +0.334 / +0.553%  -> percentile 93.3  (runs with fewer trades: 0)
