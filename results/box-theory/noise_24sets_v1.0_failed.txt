@@ -1,0 +1,27 @@
+noise check: 24 sets, seed 7, minstop 10.0, slip 1.0, Null A runs 10000
+set  1: trades  956  gross win rate  36.7%  mean net R -0.0309  percentile vs Null A  81.0
+set  2: trades  955  gross win rate  34.5%  mean net R -0.0884  percentile vs Null A   6.6
+set  3: trades  980  gross win rate  35.8%  mean net R -0.0458  percentile vs Null A  30.3
+set  4: trades  966  gross win rate  35.2%  mean net R -0.0443  percentile vs Null A  17.2
+set  5: trades  965  gross win rate  36.8%  mean net R -0.0383  percentile vs Null A  21.7
+set  6: trades  980  gross win rate  38.2%  mean net R +0.0201  percentile vs Null A  86.7
+set  7: trades  934  gross win rate  35.3%  mean net R -0.0349  percentile vs Null A  31.5
+set  8: trades  949  gross win rate  31.6%  mean net R -0.1509  percentile vs Null A   0.3
+set  9: trades  937  gross win rate  33.4%  mean net R -0.1252  percentile vs Null A   1.7
+set 10: trades  947  gross win rate  35.1%  mean net R -0.0919  percentile vs Null A  10.1
+set 11: trades  977  gross win rate  35.4%  mean net R -0.0642  percentile vs Null A  11.4
+set 12: trades  966  gross win rate  34.8%  mean net R -0.0883  percentile vs Null A   0.9
+set 13: trades  974  gross win rate  35.1%  mean net R -0.0934  percentile vs Null A   9.0
+set 14: trades  939  gross win rate  34.8%  mean net R -0.0639  percentile vs Null A  14.4
+set 15: trades  974  gross win rate  36.4%  mean net R -0.0377  percentile vs Null A   8.2
+set 16: trades  961  gross win rate  32.9%  mean net R -0.1841  percentile vs Null A   0.1
+set 17: trades  960  gross win rate  35.4%  mean net R -0.0853  percentile vs Null A  14.6
+set 18: trades  950  gross win rate  35.5%  mean net R -0.0294  percentile vs Null A  21.9
+set 19: trades  942  gross win rate  35.1%  mean net R -0.0658  percentile vs Null A  18.7
+set 20: trades  949  gross win rate  35.8%  mean net R -0.0719  percentile vs Null A  36.1
+set 21: trades  962  gross win rate  35.3%  mean net R -0.0390  percentile vs Null A  43.5
+set 22: trades  953  gross win rate  35.7%  mean net R -0.0713  percentile vs Null A  27.1
+set 23: trades  968  gross win rate  36.8%  mean net R -0.0491  percentile vs Null A  52.2
+set 24: trades  935  gross win rate  33.4%  mean net R -0.1599  percentile vs Null A   3.2
+mean percentile 22.8  above 95: 0 of 24  mean gross win rate 35.2%  mean trades 957
+NOISE CHECK FAILED (bounds: mean 35-65, at most 3 of 24 above 95)

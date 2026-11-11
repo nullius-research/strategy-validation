@@ -1,0 +1,5 @@
+Diagnose na gezakte ruiscontrole v1.0 (11 nov 2026). Zelfde generator, K substappen per minuut, 12 sets, seed 11.
+Gemiddelde (regel - spiegel) bruto R per trade:
+K=1   n 11459  -0.1387 (se 0.0226)
+K=5   n 11477  -0.0586 (se 0.0225)   <- generator v1.0
+K=60  n 11578  -0.0015 (se 0.0222)

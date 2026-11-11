@@ -1,0 +1,36 @@
+file USTEC_M1_201208060000_202611052200.csv  minstop 10.0  slip/side 1.0  seed 23
+funnel: days 2028  open_found 2028  valid 1952  minstop_ok 1949  top_touch 738  bot_touch 578  trades 1316
+== slippage 0 x 1.0 per side ==
+trades 1316  wins 441  win rate 33.51% (95% 31.0-36.1)
+mean net R -0.0925 (95% day bootstrap -0.1645 to -0.0212)  PF 0.85
+Null A 5/50/95: -0.0570 / -0.0044 / +0.0482  -> percentile 0.3
+longs 578  shorts 738  exits target 184 stop 715 close 417
+median stop 58.97 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +164.36R of total -121.67R
+== slippage 1 x 1.0 per side ==
+trades 1316  wins 432  win rate 32.83% (95% 30.3-35.4)
+mean net R -0.1339 (95% day bootstrap -0.2021 to -0.0635)  PF 0.79
+Null A 5/50/95: -0.0976 / -0.0464 / +0.0058  -> percentile 0.2
+longs 578  shorts 738  exits target 184 stop 715 close 417
+median stop 58.97 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +162.78R of total -176.22R
+== slippage 2 x 1.0 per side ==
+trades 1316  wins 420  win rate 31.91% (95% 29.5-34.5)
+mean net R -0.1754 (95% day bootstrap -0.2455 to -0.1056)  PF 0.73
+Null A 5/50/95: -0.1381 / -0.0873 / -0.0359  -> percentile 0.2
+longs 578  shorts 738  exits target 184 stop 715 close 417
+median stop 58.97 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +161.25R of total -230.76R
+year  trades  win%   meanR
+2019     150   30.7  -0.2587
+2020     147   37.4  -0.0593
+2021     175   29.7  -0.2316
+2022     182   24.7  -0.3152
+2023     178   33.1  -0.1233
+2024     170   35.3  +0.0285
+2025     166   33.7  -0.0298
+2026     148   39.9  -0.0590
+== from 2025-05-22 ==
+trades 244  wins 94  win rate 38.52% (95% 32.6-44.8)
+mean net R -0.0229 (95% day bootstrap -0.1789 to +0.1393)  PF 0.96
+Null A 5/50/95: -0.1844 / -0.0725 / +0.0381  -> percentile 77.0
+longs 101  shorts 143  exits target 35 stop 114 close 95
+median stop 96.02 pts  median spread 0.90 pts  longest losing streak 9  best 5% sum +29.72R of total -5.58R
+Null B (random place, same month) 5/50/95: -0.0935 / -0.0437 / +0.0063  -> percentile 0.1
