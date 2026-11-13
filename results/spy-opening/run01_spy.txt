@@ -1,0 +1,33 @@
+### SPY P1
+SPY daily 2011-09-19 to 2026-09-18
+close    n= 3772  higher  54.11%  (95%: 52.52 to 55.69)  equal  0.53%  claim 54%: inside  C5 lower bound > 50%: yes
+         cost 0 bp: mean net +2.21 bp, higher after costs 54.11%
+         cost 2 bp: mean net +0.21 bp, higher after costs 52.55%
+         cost 4 bp: mean net -1.79 bp, higher after costs 51.19%
+per year:
+  2011: n= 73  higher  49.3%  mean -6.10 bp
+  2012: n=250  higher  54.0%  mean +3.84 bp
+  2013: n=252  higher  60.7%  mean +5.96 bp
+  2014: n=252  higher  55.6%  mean +1.06 bp
+  2015: n=252  higher  49.6%  mean -0.15 bp
+  2016: n=252  higher  55.2%  mean +5.99 bp
+  2017: n=251  higher  53.4%  mean +2.27 bp
+  2018: n=251  higher  50.6%  mean -6.84 bp
+  2019: n=252  higher  54.8%  mean +5.41 bp
+  2020: n=253  higher  58.1%  mean +2.05 bp
+  2021: n=252  higher  54.4%  mean +3.80 bp
+  2022: n=251  higher  50.6%  mean -1.49 bp
+  2023: n=250  higher  58.8%  mean +7.27 bp
+  2024: n=252  higher  53.6%  mean +0.52 bp
+  2025: n=250  higher  52.4%  mean +3.91 bp
+  2026: n=179  higher  50.3%  mean +1.95 bp
+### SPY P3
+SPY daily 2026-09-21 to 2026-11-12
+close    n=   39  higher  58.97%  (95%: 43.42 to 72.92)  equal  0.00%  claim 54%: inside  C5 lower bound > 50%: no  INSUFFICIENT (<100)
+         cost 0 bp: mean net -5.11 bp, higher after costs 58.97%
+         cost 2 bp: mean net -7.11 bp, higher after costs 56.41%
+         cost 4 bp: mean net -9.11 bp, higher after costs 56.41%
+per year:
+  2026: n= 39  higher  59.0%  mean -5.11 bp
+### COMPARE
+common days 2278: share higher at close SPY 53.20%, US500 54.13%, difference +0.92 pp (within 2 pp), same sign 96.6% of days

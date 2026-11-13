@@ -1,0 +1,35 @@
+noise check: 24 sets x 2300 days x 390 minute bars, no trend, daily vol 0.011, seed 7, Null A runs 10000
+set  1: pct 1h   3.7 2h   7.2 | share 1h 49.04 2h 48.96 close 50.61 | bump pct 1h 100.0 2h 100.0
+set  2: pct 1h  42.1 2h  71.7 | share 1h 48.57 2h 49.30 close 48.26 | bump pct 1h 100.0 2h 100.0
+set  3: pct 1h  67.1 2h  44.4 | share 1h 50.26 2h 50.22 close 49.87 | bump pct 1h 100.0 2h 100.0
+set  4: pct 1h  10.8 2h   4.6 | share 1h 48.30 2h 48.52 close 49.91 | bump pct 1h 100.0 2h 100.0
+set  5: pct 1h  89.8 2h  68.1 | share 1h 51.65 2h 50.43 close 50.00 | bump pct 1h 100.0 2h 100.0
+set  6: pct 1h  12.6 2h  25.3 | share 1h 49.26 2h 50.04 close 50.57 | bump pct 1h 100.0 2h  99.9
+set  7: pct 1h  31.8 2h  71.9 | share 1h 49.83 2h 49.91 close 49.65 | bump pct 1h 100.0 2h 100.0
+set  8: pct 1h  65.7 2h  75.9 | share 1h 49.43 2h 51.00 close 50.09 | bump pct 1h 100.0 2h 100.0
+set  9: pct 1h  82.6 2h  15.5 | share 1h 49.87 2h 48.78 close 48.70 | bump pct 1h 100.0 2h 100.0
+set 10: pct 1h  73.8 2h  75.9 | share 1h 50.13 2h 48.17 close 48.39 | bump pct 1h 100.0 2h 100.0
+set 11: pct 1h  33.1 2h  51.0 | share 1h 50.22 2h 50.26 close 51.48 | bump pct 1h 100.0 2h 100.0
+set 12: pct 1h  45.1 2h  50.6 | share 1h 49.91 2h 50.26 close 48.83 | bump pct 1h 100.0 2h 100.0
+set 13: pct 1h  79.2 2h  70.8 | share 1h 50.65 2h 50.78 close 49.48 | bump pct 1h 100.0 2h  94.1
+set 14: pct 1h  70.4 2h  64.9 | share 1h 50.09 2h 50.83 close 50.78 | bump pct 1h 100.0 2h 100.0
+set 15: pct 1h  50.9 2h  74.3 | share 1h 49.74 2h 50.26 close 49.35 | bump pct 1h 100.0 2h 100.0
+set 16: pct 1h  65.5 2h  91.9 | share 1h 48.91 2h 49.87 close 47.00 | bump pct 1h 100.0 2h 100.0
+set 17: pct 1h  17.5 2h  88.2 | share 1h 50.17 2h 51.30 close 48.87 | bump pct 1h 100.0 2h  99.8
+set 18: pct 1h  73.1 2h  79.1 | share 1h 50.17 2h 49.87 close 48.39 | bump pct 1h 100.0 2h 100.0
+set 19: pct 1h  56.4 2h  74.8 | share 1h 51.22 2h 51.39 close 50.35 | bump pct 1h 100.0 2h 100.0
+set 20: pct 1h  90.3 2h  89.3 | share 1h 50.87 2h 51.39 close 50.39 | bump pct 1h 100.0 2h 100.0
+set 21: pct 1h  60.9 2h  93.7 | share 1h 50.70 2h 51.74 close 49.04 | bump pct 1h 100.0 2h  99.7
+set 22: pct 1h  48.2 2h  12.7 | share 1h 50.74 2h 49.52 close 49.57 | bump pct 1h 100.0 2h 100.0
+set 23: pct 1h  13.4 2h  19.7 | share 1h 48.04 2h 49.00 close 48.78 | bump pct 1h 100.0 2h  99.8
+set 24: pct 1h  25.0 2h  53.3 | share 1h 48.17 2h 50.43 close 50.57 | bump pct 1h 100.0 2h 100.0
+
+1h: mean percentile 50.4, above 95 in 0 of 24, below 5 in 1: PASS
+2h: mean percentile 57.3, above 95 in 0 of 24, below 5 in 1: PASS
+share higher 1h: mean 49.83%: PASS
+share higher 2h: mean 50.09%: PASS
+share higher close: mean 49.54%: PASS
+sensitivity +0.05% first hour, 1h: above 95 in 24 of 24 (enough, reported, not decisive)
+sensitivity +0.05% first hour, 2h: above 95 in 23 of 24 (enough, reported, not decisive)
+
+noise check overall: PASS
