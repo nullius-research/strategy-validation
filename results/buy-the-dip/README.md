@@ -39,6 +39,8 @@ Periods were fixed before the run: 2000-2007, 2008-2009, 2010-2018, and 2019 to 
 
 Newer-data window of the report, 2024 to September 2026, no maximum hold: S&P 500 36 trades, PF 8.89, beat 1982/2000 random entries; Nasdaq 100 29 trades, PF 6.38, beat 1941/2000; both together 65 trades, PF 7.49. The report's S&P-only version gives PF 8.75 on about 30 trades in that window. Fewer than 100 trades.
 
+Note added 12 November 2026: the window above counts signals from 1 January 2024, so red days from late December 2023 do not count. Counting them adds two losing trades: S&P 500 bought 3 Jan 2024 (−0.18% after costs) and Nasdaq 100 bought 2 Jan 2024 (−1.46%). With those two: S&P 500 37 trades, PF 8.45; Nasdaq 100 30 trades, PF 4.80; together 67 trades, PF 6.21. Both trades are in trades.csv (period 2019-sep2026). The window has fewer than 100 trades either way; the verdict rests on 2000-2026 against random entry.
+
 Median profit factor of random entry with the same exit: 1.10 to 1.55 in the four periods, up to 1.85 in 2024 to 2026. The exit rule alone makes almost any entry look profitable; the comparison that matters is against that.
 
 - 2000-2007: the rule beat 99.7% or more of random entries on both indices.
