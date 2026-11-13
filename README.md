@@ -101,6 +101,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | MA 9/21 crossover + 200 MA, gold, 30 minutes, 2017-2026 outside 2024-2025 decisive, 310 trades | [`results/ma-9-21-gold`](results/ma-9-21-gold/) |
 | Box Theory traded blindly (previous day's range, fade the edges), Nasdaq 100 M1, 2019-2026, 1,316 trades | [`results/box-theory`](results/box-theory/) |
 | Buying SPY at the open: share of up days after 1 hour, 2 hours and at the close, and the open against a random start time, 2011-2026 | [`results/spy-opening`](results/spy-opening/) |
+| 5-minute opening range breakout, S&P 500 M1, 2019-2025 decisive (before the source's six months), 1,250 trades | [`results/orb-5min`](results/orb-5min/) |
 
 ## Licence
 

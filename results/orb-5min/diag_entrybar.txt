@@ -1,0 +1,6 @@
+set 1: trades 1198  stopped in entry bar real 0 mirrored 5  gross win real 65.4% mirrored 64.9%  mean gross R real -0.0184 mirrored -0.0271
+set 2: trades 1193  stopped in entry bar real 0 mirrored 6  gross win real 66.4% mirrored 66.4%  mean gross R real -0.0037 mirrored -0.0038
+set 3: trades 1196  stopped in entry bar real 1 mirrored 2  gross win real 67.2% mirrored 63.8%  mean gross R real +0.0085 mirrored -0.0430
+set 4: trades 1200  stopped in entry bar real 0 mirrored 3  gross win real 67.8% mirrored 65.0%  mean gross R real +0.0162 mirrored -0.0250
+set 5: trades 1198  stopped in entry bar real 0 mirrored 2  gross win real 68.0% mirrored 63.9%  mean gross R real +0.0205 mirrored -0.0409
+set 6: trades 1196  stopped in entry bar real 0 mirrored 4  gross win real 67.0% mirrored 64.5%  mean gross R real +0.0059 mirrored -0.0309

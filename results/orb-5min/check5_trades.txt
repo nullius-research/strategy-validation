@@ -1,0 +1,5 @@
+2019-01-30 side -1 range 3.20 entry 2654.40 stop 3.20 exit target gross +1.60  script: -1 2654.40 target +1.60  MATCH
+2024-04-24 side +1 range 9.00 entry 5083.96 stop 9.00 exit target gross +4.50  script: +1 5083.96 target +4.50  MATCH
+2023-03-29 side +1 range 4.80 entry 4014.30 stop 4.80 exit stop gross -4.80  script: +1 4014.30 stop -4.80  MATCH
+2025-04-28 side -1 range 14.20 entry 5528.45 stop 14.00 exit stop gross -14.00  script: -1 5528.45 stop -14.00  MATCH
+2021-05-27 side +1 range 3.50 entry 4210.10 stop 3.50 exit target gross +1.75  script: +1 4210.10 target +1.75  MATCH

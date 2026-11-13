@@ -1,0 +1,27 @@
+noise check: 24 sets of 1500 days, seed 7, slip 0.25, Null A runs 10000, start 4000.0, vol 0.2, spread 0.5, sub-steps 60
+set  1: trades 1198  gross win rate  65.4%  mean net R -0.2817  percentile vs Null A  59.5  both-sides 2  beyond-target 0
+set  2: trades 1197  gross win rate  67.2%  mean net R -0.1498  percentile vs Null A  92.2  both-sides 3  beyond-target 0
+set  3: trades 1194  gross win rate  65.7%  mean net R -0.2550  percentile vs Null A  19.9  both-sides 6  beyond-target 0
+set  4: trades 1197  gross win rate  67.1%  mean net R -0.1857  percentile vs Null A  86.5  both-sides 3  beyond-target 0
+set  5: trades 1192  gross win rate  66.0%  mean net R -0.1390  percentile vs Null A  83.0  both-sides 8  beyond-target 0
+set  6: trades 1197  gross win rate  66.6%  mean net R -0.2491  percentile vs Null A  83.8  both-sides 3  beyond-target 0
+set  7: trades 1199  gross win rate  69.6%  mean net R -0.1923  percentile vs Null A 100.0  both-sides 1  beyond-target 0
+set  8: trades 1197  gross win rate  67.8%  mean net R -0.1782  percentile vs Null A  92.5  both-sides 3  beyond-target 0
+set  9: trades 1200  gross win rate  68.0%  mean net R -0.2174  percentile vs Null A  95.0  both-sides 0  beyond-target 0
+set 10: trades 1198  gross win rate  64.4%  mean net R -0.1982  percentile vs Null A  20.2  both-sides 2  beyond-target 0
+set 11: trades 1197  gross win rate  67.8%  mean net R -0.1258  percentile vs Null A  96.2  both-sides 3  beyond-target 0
+set 12: trades 1199  gross win rate  70.7%  mean net R -0.0697  percentile vs Null A 100.0  both-sides 1  beyond-target 0
+set 13: trades 1197  gross win rate  65.6%  mean net R -0.2686  percentile vs Null A  87.4  both-sides 3  beyond-target 0
+set 14: trades 1199  gross win rate  66.6%  mean net R -0.1557  percentile vs Null A  86.1  both-sides 1  beyond-target 0
+set 15: trades 1198  gross win rate  67.6%  mean net R -0.1244  percentile vs Null A  84.4  both-sides 2  beyond-target 0
+set 16: trades 1197  gross win rate  66.7%  mean net R -0.3214  percentile vs Null A  68.1  both-sides 3  beyond-target 0
+set 17: trades 1197  gross win rate  67.4%  mean net R -0.1464  percentile vs Null A  95.5  both-sides 3  beyond-target 0
+set 18: trades 1199  gross win rate  65.1%  mean net R -0.2903  percentile vs Null A  62.1  both-sides 1  beyond-target 0
+set 19: trades 1196  gross win rate  67.1%  mean net R -0.1450  percentile vs Null A  82.9  both-sides 4  beyond-target 0
+set 20: trades 1197  gross win rate  66.8%  mean net R -0.1579  percentile vs Null A  77.2  both-sides 3  beyond-target 0
+set 21: trades 1199  gross win rate  66.1%  mean net R -0.2394  percentile vs Null A  34.2  both-sides 1  beyond-target 0
+set 22: trades 1194  gross win rate  66.8%  mean net R -0.1606  percentile vs Null A  86.4  both-sides 6  beyond-target 0
+set 23: trades 1199  gross win rate  69.3%  mean net R -0.1147  percentile vs Null A  97.6  both-sides 1  beyond-target 0
+set 24: trades 1197  gross win rate  66.2%  mean net R -0.0864  percentile vs Null A  88.9  both-sides 3  beyond-target 0
+mean percentile 78.3  above 95: 5 of 24  mean gross win rate 67.0%  mean trades 1197
+NOISE CHECK FAILED (bounds: mean 35-65, at most 3 of 24 above 95)
