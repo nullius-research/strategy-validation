@@ -1,0 +1,32 @@
+data 1993-01-29 to 2026-11-13 (8507 days, column close); entries 1994-01-25 to 2026-11-13; costs 2.0 bp; runs 10000; seed 37
+
+== costs 2 bp ==
+trades 89  wins 80  win rate 89.89% (95% 81.9-94.6)  gross win rate 89.89%
+mean net return per trade +1.286% (95% +0.891 to +1.658)
+profit factor 6.08 (95% 2.89 to 22.83)
+Null A 5/50/95: -0.141 / +0.174 / +0.475%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.119 / +0.430 / +0.731%  -> percentile 100.0  (runs with fewer trades: 0)
+funnel: days 8257  above_ma 6186  rsi_below_30 490  three_declines 192  rsi_t3_below_60 119  ignored during open trade 30  trades 89
+holding days mean 4.9  median 4  max 15  days in market 433 of 8256
+worst trade -7.39%  deepest drawdown in a trade -13.79%  last trade open at end: False
+sum of all +114.5%  sum of best 5% (4) +20.4%
+rule compounded +207.4% (100,000 -> 307,364)  buy and hold 1994-01-25 to 2026-11-13 +1498.7%
+decade  trades  win%   mean%
+1990s      18   94.4  +2.014  (insufficient, <100)
+2000s      18   94.4  +1.579  (insufficient, <100)
+2010s      33   90.9  +1.016  (insufficient, <100)
+2020s      20   80.0  +0.814  (insufficient, <100)
+
+== costs 0 bp ==
+trades 89  wins 80  win rate 89.89% (95% 81.9-94.6)  gross win rate 89.89%
+mean net return per trade +1.306% (95% +0.914 to +1.669)
+profit factor 6.20 (95% 2.93 to 22.29)
+Null A 5/50/95: -0.133 / +0.191 / +0.507%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.140 / +0.450 / +0.759%  -> percentile 100.0  (runs with fewer trades: 0)
+
+== costs 4 bp ==
+trades 89  wins 80  win rate 89.89% (95% 81.9-94.6)  gross win rate 89.89%
+mean net return per trade +1.266% (95% +0.886 to +1.626)
+profit factor 5.96 (95% 2.90 to 21.69)
+Null A 5/50/95: -0.155 / +0.154 / +0.455%  -> percentile 100.0  (runs with fewer trades: 0)
+Null B 5/50/95: +0.096 / +0.403 / +0.713%  -> percentile 100.0  (runs with fewer trades: 0)

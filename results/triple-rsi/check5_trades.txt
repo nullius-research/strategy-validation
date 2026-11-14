@@ -1,0 +1,5 @@
+2011-04-13 signal True  rsi 27.73 (script 27.73)  exit 2011-04-20 (script 2011-04-20)  net +1.228% (script +1.228%)  match True
+2012-09-26 signal True  rsi 19.83 (script 19.83)  exit 2012-10-03 (script 2012-10-03)  net +1.236% (script +1.236%)  match True
+2011-05-24 signal True  rsi 26.80 (script 26.80)  exit 2011-05-27 (script 2011-05-27)  net +1.162% (script +1.162%)  match True
+2009-10-28 signal True  rsi 19.66 (script 19.66)  exit 2009-11-05 (script 2009-11-05)  net +2.317% (script +2.317%)  match True
+2014-10-01 signal True  rsi 23.10 (script 23.10)  exit 2014-10-08 (script 2014-10-08)  net +1.158% (script +1.158%)  match True

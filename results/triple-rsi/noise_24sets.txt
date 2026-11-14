@@ -1,0 +1,29 @@
+set  1: trades   80  win  61.3%  mean +0.014%  NullA median +0.053%  pctA  46.0  pctB  47.0
+set  2: trades   92  win  70.7%  mean +0.236%  NullA median +0.337%  pctA  37.0  pctB  47.2
+set  3: trades   93  win  74.2%  mean +0.554%  NullA median +0.258%  pctA  84.3  pctB  66.5
+set  4: trades   77  win  63.6%  mean -0.107%  NullA median -0.013%  pctA  40.0  pctB  38.0
+set  5: trades   79  win  65.8%  mean +0.130%  NullA median -0.017%  pctA  66.8  pctB  54.5
+set  6: trades   98  win  62.2%  mean +0.368%  NullA median +0.267%  pctA  62.1  pctB  35.1
+set  7: trades   82  win  68.3%  mean +0.216%  NullA median +0.276%  pctA  43.5  pctB  37.0
+set  8: trades   99  win  69.7%  mean +0.233%  NullA median +0.314%  pctA  40.6  pctB  51.0
+set  9: trades   99  win  67.7%  mean +0.098%  NullA median +0.165%  pctA  41.1  pctB  55.3
+set 10: trades   97  win  60.8%  mean -0.411%  NullA median +0.098%  pctA   5.1  pctB  15.9
+set 11: trades   94  win  66.0%  mean +0.045%  NullA median +0.376%  pctA  15.9  pctB  16.3
+set 12: trades  101  win  76.2%  mean +0.347%  NullA median +0.130%  pctA  77.2  pctB  74.8
+set 13: trades   95  win  71.6%  mean +0.388%  NullA median +0.273%  pctA  64.2  pctB  42.5
+set 14: trades   94  win  60.6%  mean -0.216%  NullA median +0.094%  pctA  18.6  pctB  13.0
+set 15: trades   77  win  62.3%  mean +0.096%  NullA median +0.188%  pctA  39.1  pctB  20.6
+set 16: trades   77  win  68.8%  mean +0.256%  NullA median +0.286%  pctA  46.8  pctB  22.8
+set 17: trades  110  win  69.1%  mean +0.070%  NullA median +0.235%  pctA  27.6  pctB  30.8
+set 18: trades   99  win  72.7%  mean +0.523%  NullA median +0.297%  pctA  77.1  pctB  70.0
+set 19: trades  100  win  69.0%  mean -0.009%  NullA median +0.327%  pctA  12.7  pctB  22.7
+set 20: trades   79  win  74.7%  mean +0.568%  NullA median +0.177%  pctA  87.4  pctB  81.9
+set 21: trades   91  win  64.8%  mean +0.120%  NullA median +0.216%  pctA  39.3  pctB  52.8
+set 22: trades  101  win  65.3%  mean +0.298%  NullA median +0.304%  pctA  49.2  pctB  53.5
+set 23: trades   95  win  67.4%  mean +0.456%  NullA median +0.254%  pctA  73.3  pctB  70.7
+set 24: trades   98  win  61.2%  mean +0.020%  NullA median +0.151%  pctA  33.3  pctB  24.1
+
+mean trades 92  mean win rate 67.3% (range 60.6-76.2)
+pctA mean 47.0  above 95: 0 of 24   (threshold: mean 35-65, at most 3 above 95)
+pctB mean 43.5  above 95: 0 of 24
+NOISE CHECK PASSED

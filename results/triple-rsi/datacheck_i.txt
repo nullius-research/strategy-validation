@@ -1,0 +1,5 @@
+SPY_yahoo_D1_1993_2026.csv: 8507 days, 1993-01-29 to 2026-11-13, ascending True, empty/non-positive 0, gaps > 5 calendar days 1
+   gap 2001-09-10 -> 2001-09-17
+   days per full year: min 248 (2001), max 254 (1996)
+GSPC_yahoo_D1_1948_1993.csv: 11334 days, 1948-01-02 to 1993-01-28, ascending True, empty/non-positive 0, gaps > 5 calendar days 0
+   days per full year: min 226 (1968), max 254 (1970)
