@@ -102,7 +102,7 @@ The funnel: days above the SMA200, days with RSI below 30, with three declines, 
 
 ## 10. Next step
 
-1. Erwin approves (or adjusts). SHA-256 in the measurement log.
+1. Approval (or adjustment). SHA-256 in the measurement log.
 2. Script `triple_rsi_control.py` based on test E (`rsi2_control.py`), noise check from 6 first.
 3. Fetch data via the browser pane, data check (metadata only), then the run.
 4. Code and data on GitHub before publication.

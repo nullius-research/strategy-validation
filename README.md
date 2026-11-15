@@ -103,6 +103,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | Buying SPY at the open: share of up days after 1 hour, 2 hours and at the close, and the open against a random start time, 2011-2026 | [`results/spy-opening`](results/spy-opening/) |
 | 5-minute opening range breakout, S&P 500 M1, 2019-2025 decisive (before the source's six months), 1,250 trades | [`results/orb-5min`](results/orb-5min/) |
 | Triple RSI, SPY daily, 1994-2026 decisive (89 trades, below the usual threshold of 100), plus the S&P 500 index 1950-1993 | [`results/triple-rsi`](results/triple-rsi/) |
+| UT Bot Alerts with Linear Regression Candles, Nasdaq 100 5 minutes, 2018-2026 decisive, 5,347 trades | [`results/ut-bot`](results/ut-bot/) |
 
 ## Licence
 

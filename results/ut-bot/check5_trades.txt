@@ -1,0 +1,5 @@
+2019-01-10 17:20:00 dir 1 UT signal True filter True exit 131709 vs 131709 netR 0.3348 vs 0.3348
+2020-07-28 18:35:00 dir 1 UT signal True filter True exit 239289 vs 239289 netR -1.0613 vs -1.0613
+2021-09-30 15:30:00 dir 1 UT signal True filter True exit 322086 vs 322086 netR -1.1569 vs -1.1569
+2025-09-08 21:10:00 dir 1 UT signal True filter True exit 600600 vs 600600 netR -1.0788 vs -1.0788
+2026-06-29 16:10:00 dir 1 UT signal True filter True exit 657339 vs 657339 netR -1.0392 vs -1.0392

@@ -100,7 +100,7 @@ De trechter: dagen boven de SMA200, dagen met RSI onder 30, met drie dalingen, m
 
 ## 10. Volgende stap
 
-1. Erwin keurt goed (of past aan). SHA-256 in het meetlog.
+1. Goedkeuring (of aanpassing). SHA-256 in het meetlog.
 2. Script `triple_rsi_control.py` op basis van test E (`rsi2_control.py`), eerst de ruiscontrole uit 6.
 3. Data ophalen via het browserpaneel, datacontrole (alleen metadata), dan de run.
 4. Code en data op GitHub vóór publicatie.

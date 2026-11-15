@@ -1,0 +1,26 @@
+set  0  trades  3077  winrate  45.0  mean net R -0.1227  percentile Null A 100.0
+set  1  trades  3078  winrate  48.1  mean net R -0.0727  percentile Null A 100.0
+set  2  trades  3044  winrate  49.9  mean net R -0.0686  percentile Null A  99.6
+set  3  trades  3085  winrate  51.3  mean net R -0.0458  percentile Null A  99.9
+set  4  trades  3078  winrate  48.2  mean net R -0.0805  percentile Null A 100.0
+set  5  trades  3074  winrate  44.3  mean net R -0.1441  percentile Null A 100.0
+set  6  trades  3053  winrate  47.8  mean net R -0.1050  percentile Null A  98.2
+set  7  trades  3093  winrate  49.2  mean net R -0.0503  percentile Null A 100.0
+set  8  trades  3084  winrate  48.2  mean net R -0.0885  percentile Null A 100.0
+set  9  trades  3069  winrate  50.4  mean net R -0.0463  percentile Null A 100.0
+set 10  trades  3074  winrate  48.4  mean net R -0.0578  percentile Null A 100.0
+set 11  trades  3091  winrate  47.0  mean net R -0.0797  percentile Null A 100.0
+set 12  trades  3092  winrate  47.3  mean net R -0.1063  percentile Null A  99.9
+set 13  trades  3061  winrate  49.7  mean net R -0.0647  percentile Null A 100.0
+set 14  trades  3065  winrate  49.9  mean net R -0.0870  percentile Null A  84.8
+set 15  trades  3059  winrate  49.2  mean net R -0.0548  percentile Null A  99.9
+set 16  trades  3077  winrate  47.7  mean net R -0.0991  percentile Null A 100.0
+set 17  trades  3028  winrate  49.5  mean net R -0.0703  percentile Null A  99.6
+set 18  trades  3090  winrate  47.7  mean net R -0.0921  percentile Null A  99.8
+set 19  trades  3094  winrate  51.9  mean net R -0.0012  percentile Null A  99.9
+set 20  trades  3135  winrate  47.4  mean net R -0.0853  percentile Null A 100.0
+set 21  trades  3082  winrate  49.4  mean net R -0.0545  percentile Null A 100.0
+set 22  trades  3093  winrate  44.6  mean net R -0.1426  percentile Null A 100.0
+set 23  trades  3028  winrate  50.3  mean net R -0.0697  percentile Null A  97.8
+mean percentile 99.1, above 95: 23 of 24
+NOISE CHECK FAILED
