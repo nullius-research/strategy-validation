@@ -1,0 +1,8 @@
+G 2019-03-14 14:30:00 dir +1  entries code 1 hand 1  exit code 2019-03-15 09:30 hand 2019-03-15 09:30  win 1/1  result% code 0.18794 hand 0.18794  stop 3803.73  entries [np.float64(3878.92)]  exit px 3897.72
+G 2020-08-11 00:00:00 dir +1  entries code 2 hand 2  exit code 2020-08-13 22:00 hand 2020-08-13 22:00  win 1/1  result% code 0.47106 hand 0.47106  stop 10580.93  entries [np.float64(11882.07), np.float64(11351.17)]  exit px 11790.50
+G 2019-08-10 08:30:00 dir +1  entries code 3 hand 3  exit code 2019-08-14 01:00 hand 2019-08-14 01:00  win 0/0  result% code -3.08323 hand -3.08323  stop 10694.35  entries [np.float64(11841.89), np.float64(11345.0), np.float64(10948.35)]  exit px 10694.35
+G 2019-07-10 23:00:00 dir +1  entries code 3 hand 3  exit code 2019-07-14 11:30 hand 2019-07-14 11:30  win 0/0  result% code -3.03722 hand -3.03722  stop 10506.24  entries [np.float64(12047.96), np.float64(11586.18), np.float64(11315.95)]  exit px 10506.24
+G 2026-11-11 13:30:00 dir -1  entries code 1 hand 1  exit code 2026-11-12 13:00 hand 2026-11-12 13:00  win 1/1  result% code 0.23266 hand 0.23266  stop 78864.91  entries [np.float64(73802.01)]  exit px 72536.28
+Z 2019-07-31 11:00:00 dir -1  entries code 1 hand 1  exit code 2019-08-01 19:00 hand 2019-08-01 19:00  win 0/0  result% code -3.07688 hand -3.07688  stop 10218.16  entries [np.float64(9750.61)]  exit px 10218.16
+Z 2019-09-28 03:00:00 dir -1  entries code 1 hand 1  exit code 2019-10-23 16:00 hand 2019-10-23 16:00  win 1/1  result% code 1.48351 hand 1.48351  stop 9838.60  entries [np.float64(8150.84)]  exit px 7306.96
+ALL EQUAL 7 of 7

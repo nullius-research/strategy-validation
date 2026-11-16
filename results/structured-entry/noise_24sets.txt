@@ -1,0 +1,26 @@
+set  0  G n  400 win  81.5 pct  46.5  Z n  201 win  61.2 pct   7.3
+set  1  G n  401 win  82.5 pct  51.6  Z n  192 win  65.1 pct  38.5
+set  2  G n  357 win  79.6 pct   1.2  Z n  187 win  60.4 pct   3.2
+set  3  G n  394 win  84.0 pct  59.7  Z n  222 win  70.3 pct  81.5
+set  4  G n  391 win  85.7 pct  42.0  Z n  207 win  69.1 pct  66.5
+set  5  G n  420 win  81.4 pct  32.5  Z n  191 win  63.4 pct  27.4
+set  6  G n  385 win  81.6 pct  97.3  Z n  219 win  63.9 pct  52.0
+set  7  G n  373 win  84.5 pct  52.1  Z n  175 win  70.9 pct  17.9
+set  8  G n  396 win  81.1 pct   0.9  Z n  194 win  66.5 pct   8.6
+set  9  G n  379 win  83.1 pct  23.1  Z n  195 win  65.6 pct  37.9
+set 10  G n  388 win  84.0 pct  22.9  Z n  173 win  68.8 pct  53.8
+set 11  G n  397 win  82.9 pct  30.6  Z n  200 win  66.0 pct  79.0
+set 12  G n  329 win  82.7 pct  15.1  Z n  160 win  68.1 pct  50.5
+set 13  G n  402 win  84.3 pct  90.1  Z n  203 win  69.5 pct  90.8
+set 14  G n  343 win  82.8 pct  24.2  Z n  205 win  66.3 pct  41.3
+set 15  G n  361 win  83.4 pct   1.6  Z n  206 win  73.3 pct  81.5
+set 16  G n  406 win  85.5 pct  54.9  Z n  237 win  73.0 pct  93.0
+set 17  G n  407 win  83.0 pct  19.3  Z n  223 win  67.7 pct  40.0
+set 18  G n  365 win  81.9 pct  23.3  Z n  183 win  67.2 pct  78.7
+set 19  G n  377 win  80.4 pct  29.9  Z n  206 win  60.7 pct   6.0
+set 20  G n  363 win  83.2 pct  82.0  Z n  156 win  61.5 pct  15.9
+set 21  G n  346 win  79.8 pct   8.7  Z n  200 win  60.0 pct   0.7
+set 22  G n  381 win  84.3 pct  43.5  Z n  202 win  70.3 pct  43.5
+set 23  G n  382 win  83.2 pct  81.5  Z n  190 win  63.7 pct  11.9
+variant G: mean percentile 38.9, above 95: 1 of 24 -> PASSED
+variant Z: mean percentile 42.8, above 95: 0 of 24 -> PASSED

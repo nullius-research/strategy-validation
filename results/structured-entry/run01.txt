@@ -1,0 +1,150 @@
+first valid bar 2019-02-11 15:30:00+00:00
+
+##### P1 funnel {'bars_after_warmup': 135870, 'bars_colour_green_or_red': 86410, 'bars_filter_ok': 85832, 'macd_cross_in_filter_direction': 3320, 'and_right_side_of_zero': 1935}
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 25, 'lapsed_open_position': 584, 'adds_refused': 629, 'setups': 448}
+summary {'n': 448, 'winrate': np.float64(85.71428571428571), 'winrate_95': (82.16981720198187, 88.6514617594949), 'mean': 0.058829781450771855, 'mean_95': (-0.037624112198557415, 0.1508976577583086), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.06686212730258674, 'pf': np.float64(1.1922216962302559), 'median_stop_pct': 6.737446912323431, 'cost_rt_pct': 0.12, 'best': 1.4905737422431211, 'worst': -3.2670796452494844, 'longest_losing_streak': 3, 'mean_bars': 152.54464285714286, 'entries_1_2_3': [280, 91, 77], 'long': 260, 'short': 188, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 10000, 'p5': -0.018634147897378547, 'p50': 0.02536021842617816, 'p95': 0.06766431297333757, 'percentile': np.float64(90.42), 'mean_setups_per_run': 484.6916}
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 9, 'lapsed_open_position': 1715, 'adds_refused': 0, 'setups': 211}
+summary {'n': 211, 'winrate': np.float64(71.09004739336493), 'winrate_95': (64.63908994569782, 76.78677915972683), 'mean': 0.035146211469932576, 'mean_95': (-0.06386701663633393, 0.12885743599494145), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.035146211469932576, 'pf': np.float64(1.117329538623104), 'median_stop_pct': 7.185764703302193, 'cost_rt_pct': 0.12, 'best': 0.4966874452446278, 'worst': -1.235557989712488, 'longest_losing_streak': 4, 'mean_bars': 449.97156398104266, 'entries_1_2_3': [211, 0, 0], 'long': 122, 'short': 89, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 10000, 'p5': 0.021739277208749644, 'p50': 0.06087108143399602, 'p95': 0.09825813086491754, 'percentile': np.float64(13.62), 'mean_setups_per_run': 208.9942}
+
+=== P1 Z025  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 20, 'lapsed_open_position': 1521, 'adds_refused': 0, 'setups': 392}
+summary {'n': 392, 'winrate': np.float64(82.90816326530613), 'winrate_95': (78.8666510109331, 86.31093517505644), 'mean': 0.005927170604607478, 'mean_95': (-0.04115194586421023, 0.049645778540515016), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.005927170604607478, 'pf': np.float64(1.0335469635565195), 'median_stop_pct': 7.096727277852647, 'cost_rt_pct': 0.12, 'best': 0.24732553864707452, 'worst': -1.1826546581546813, 'longest_losing_streak': 3, 'mean_bars': 187.69132653061226, 'entries_1_2_3': [392, 0, 0], 'long': 230, 'short': 162, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.010848416561589105, 'p50': 0.013995398866751833, 'p95': 0.0361862682836135, 'percentile': np.float64(29.85), 'mean_setups_per_run': 385.722}
+
+##### P0 funnel {'bars_after_warmup': 70083, 'bars_colour_green_or_red': 45705, 'bars_filter_ok': 45425, 'macd_cross_in_filter_direction': 1765, 'and_right_side_of_zero': 1056}
+
+=== P0 G  2020-09-28 00:00:00+00:00 to 2024-09-27 23:30:00+00:00
+funnel {'signals': 1056, 'dropped_min_stop': 16, 'lapsed_open_position': 339, 'adds_refused': 339, 'setups': 229}
+summary {'n': 229, 'winrate': np.float64(86.46288209606988), 'winrate_95': (81.42585988850894, 90.29671889466383), 'mean': 0.07751597064726794, 'mean_95': (-0.06631858657832805, 0.21062995946369598), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.08059557192903806, 'pf': np.float64(1.2552619460441086), 'median_stop_pct': 7.189208034876941, 'cost_rt_pct': 0.12, 'best': 1.4905737422431211, 'worst': -3.2670796452494844, 'longest_losing_streak': 2, 'mean_bars': 164.63755458515283, 'entries_1_2_3': [140, 47, 42], 'long': 124, 'short': 105, 'open_at_end': 0}
+NullA {'p': 0.023247110621904238, 'filter_bars': 45425, 'runs_complete': 10000, 'p5': -0.028253697384921138, 'p50': 0.03456048451441204, 'p95': 0.09302139150652608, 'percentile': np.float64(88.34), 'mean_setups_per_run': 258.6571}
+
+=== P0 Z  2020-09-28 00:00:00+00:00 to 2024-09-27 23:30:00+00:00
+funnel {'signals': 1056, 'dropped_min_stop': 7, 'lapsed_open_position': 951, 'adds_refused': 0, 'setups': 98}
+summary {'n': 98, 'winrate': np.float64(70.40816326530613), 'winrate_95': (60.739730020774175, 78.53695062839081), 'mean': 0.02702375620046628, 'mean_95': (-0.1222669184766977, 0.16662838826391282), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.02702375620046628, 'pf': np.float64(1.0880705654811889), 'median_stop_pct': 8.967529333478186, 'cost_rt_pct': 0.12, 'best': 0.4966874452446278, 'worst': -1.235557989712488, 'longest_losing_streak': 2, 'mean_bars': 530.0102040816327, 'entries_1_2_3': [98, 0, 0], 'long': 55, 'short': 43, 'open_at_end': 0}
+NullA {'p': 0.023247110621904238, 'filter_bars': 45425, 'runs_complete': 10000, 'p5': 0.007024775909596284, 'p50': 0.06233483691604635, 'p95': 0.11795095173182624, 'percentile': np.float64(14.49), 'mean_setups_per_run': 109.1252}
+
+##### P2 funnel {'bars_after_warmup': 37344, 'bars_colour_green_or_red': 22320, 'bars_filter_ok': 22134, 'macd_cross_in_filter_direction': 850, 'and_right_side_of_zero': 513}
+
+=== P2 G  2024-09-28 00:00:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 513, 'dropped_min_stop': 8, 'lapsed_open_position': 180, 'adds_refused': 143, 'setups': 116}
+summary {'n': 116, 'winrate': np.float64(82.75862068965517), 'winrate_95': (74.86439764897706, 88.55264618221344), 'mean': 0.03934216468664754, 'mean_95': (-0.15519613396701676, 0.22381142083222916), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.0237490353005592, 'pf': np.float64(1.1208428613544301), 'median_stop_pct': 4.960852476555287, 'cost_rt_pct': 0.12, 'best': 1.4795068098737882, 'worst': -3.172316464232626, 'longest_losing_streak': 3, 'mean_bars': 151.04310344827587, 'entries_1_2_3': [72, 23, 21], 'long': 66, 'short': 50, 'open_at_end': 0}
+NullA {'p': 0.023177012740580104, 'filter_bars': 22134, 'runs_complete': 10000, 'p5': -0.08294763805374644, 'p50': 0.0028484992199255274, 'p95': 0.08787157834977745, 'percentile': np.float64(76.31), 'mean_setups_per_run': 117.6706}
+
+=== P2 Z  2024-09-28 00:00:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 513, 'dropped_min_stop': 1, 'lapsed_open_position': 452, 'adds_refused': 0, 'setups': 60}
+summary {'n': 60, 'winrate': np.float64(66.66666666666666), 'winrate_95': (54.0566298666634, 77.27090578407217), 'mean': -0.03889625325787107, 'mean_95': (-0.2202845725545437, 0.13915681019179343), 'unit': 'net R per trade', 'mean_R_per_unit_risk': -0.03889625325787107, 'pf': np.float64(0.8882463037479663), 'median_stop_pct': 5.642427250706357, 'cost_rt_pct': 0.12, 'best': 0.4944800635898453, 'worst': -1.2145275568400562, 'longest_losing_streak': 4, 'mean_bars': 401.25, 'entries_1_2_3': [60, 0, 0], 'long': 31, 'short': 29, 'open_at_end': 0}
+NullA {'p': 0.023177012740580104, 'filter_bars': 22134, 'runs_complete': 10000, 'p5': -0.057331009689317244, 'p50': 0.022845446029862753, 'p95': 0.09410024922979862, 'percentile': np.float64(9.73), 'mean_setups_per_run': 51.4218}
+
+=== P3 G
+  2019  n   68  win  88.2  mean +0.0694  (onder 100)
+  2020  n   52  win  90.4  mean +0.1309  (onder 100)
+  2021  n   59  win  91.5  mean +0.3653  (onder 100)
+  2022  n   38  win  78.9  mean -0.0822  (onder 100)
+  2023  n   57  win  82.5  mean -0.0653  (onder 100)
+  2024  n   74  win  85.1  mean -0.0732  (onder 100)
+  2025  n   61  win  85.2  mean +0.0594  (onder 100)
+  2026  n   39  win  79.5  mean +0.0492  (onder 100)
+  long  n  260  win  87.7  mean +0.1109
+  short n  188  win  83.0  mean -0.0131
+
+=== P3 Z
+  2019  n   38  win  78.9  mean +0.1525  (onder 100)
+  2020  n   24  win  83.3  mean +0.2377  (onder 100)
+  2021  n   23  win  69.6  mean +0.0312  (onder 100)
+  2022  n   22  win  68.2  mean -0.0065  (onder 100)
+  2023  n   22  win  63.6  mean -0.0995  (onder 100)
+  2024  n   32  win  65.6  mean -0.0486  (onder 100)
+  2025  n   34  win  70.6  mean +0.0127  (onder 100)
+  2026  n   16  win  62.5  mean -0.0841  (onder 100)
+  long  n  122  win  75.4  mean +0.1020
+  short n   89  win  65.2  mean -0.0566  (onder 100)
+
+##### sensitivities P1 (not decisive), 2,000 null runs
+
+-- spacing 0%
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 17, 'lapsed_open_position': 1036, 'adds_refused': 188, 'setups': 383}
+summary {'n': 383, 'winrate': np.float64(83.28981723237598), 'winrate_95': (79.22684256222, 86.69161088229063), 'mean': 0.04852528306997095, 'mean_95': (-0.07885094989739874, 0.17187719596531129), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.05700066391360366, 'pf': np.float64(1.117436275641365), 'median_stop_pct': 6.734368625147454, 'cost_rt_pct': 0.12, 'best': 1.4914983671158135, 'worst': -3.3646044656283984, 'longest_losing_streak': 2, 'mean_bars': 204.49086161879896, 'entries_1_2_3': [190, 78, 115], 'long': 221, 'short': 162, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.008705806764607532, 'p50': 0.04535557627323247, 'p95': 0.09598769343122941, 'percentile': np.float64(53.5), 'mean_setups_per_run': 393.422}
+
+-- spacing 25%
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 33, 'lapsed_open_position': 65, 'adds_refused': 1115, 'setups': 551}
+summary {'n': 551, 'winrate': np.float64(85.66243194192378), 'winrate_95': (82.48896398812808, 88.34206238047877), 'mean': 0.007347490023732375, 'mean_95': (-0.06031248065928667, 0.07030811567842925), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.0400769492030596, 'pf': np.float64(1.0300680395647066), 'median_stop_pct': 6.244026364836462, 'cost_rt_pct': 0.12, 'best': 1.4790906478578902, 'worst': -3.2670796452494844, 'longest_losing_streak': 3, 'mean_bars': 103.94373865698729, 'entries_1_2_3': [413, 111, 27], 'long': 303, 'short': 248, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.030749853285376657, 'p50': 0.005420329513488866, 'p95': 0.03886643048833976, 'percentile': np.float64(53.25), 'mean_setups_per_run': 528.187}
+
+-- no min stop
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 0, 'lapsed_open_position': 584, 'adds_refused': 630, 'setups': 471}
+summary {'n': 471, 'winrate': np.float64(84.92569002123143), 'winrate_95': (81.4124998811167, 87.87376315902134), 'mean': -0.1383037978104179, 'mean_95': (-0.5501861963234687, 0.11029109680633707), 'unit': 'account % per setup', 'mean_R_per_unit_risk': -0.13066368965412695, 'pf': np.float64(0.7150178271691285), 'median_stop_pct': 6.355268239352797, 'cost_rt_pct': 0.12, 'best': 1.4905737422431211, 'worst': -79.95818843562814, 'longest_losing_streak': 3, 'mean_bars': 145.21443736730362, 'entries_1_2_3': [303, 91, 77], 'long': 270, 'short': 201, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.0632254717350256, 'p50': -0.0010025744548963235, 'p95': 0.04586684664097774, 'percentile': np.float64(0.95), 'mean_setups_per_run': 497.948}
+
+-- min stop 1.0%
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 47, 'lapsed_open_position': 584, 'adds_refused': 628, 'setups': 429}
+summary {'n': 429, 'winrate': np.float64(86.24708624708624), 'winrate_95': (82.66487295533607, 89.18589185100419), 'mean': 0.07542373829226671, 'mean_95': (-0.025641108954637913, 0.17012527614208742), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.08114741998900347, 'pf': np.float64(1.2485770802954743), 'median_stop_pct': 7.095123709982004, 'cost_rt_pct': 0.12, 'best': 1.4905737422431211, 'worst': -3.2670796452494844, 'longest_losing_streak': 3, 'mean_bars': 159.1048951048951, 'entries_1_2_3': [262, 90, 77], 'long': 251, 'short': 178, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.012920407790324622, 'p50': 0.03356424572940221, 'p95': 0.0761923695467825, 'percentile': np.float64(94.7), 'mean_setups_per_run': 470.874}
+
+-- cost 0
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 25, 'lapsed_open_position': 584, 'adds_refused': 629, 'setups': 448}
+summary {'n': 448, 'winrate': np.float64(85.71428571428571), 'winrate_95': (82.16981720198187, 88.6514617594949), 'mean': 0.10546875, 'mean_95': (0.009997797356828512, 0.19582509296396325), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.10044642857142849, 'pf': np.float64(1.3579545454545454), 'median_stop_pct': 6.737446912323431, 'cost_rt_pct': 0.12, 'best': 1.5000000000000393, 'worst': -3.0, 'longest_losing_streak': 3, 'mean_bars': 152.54464285714286, 'entries_1_2_3': [280, 91, 77], 'long': 260, 'short': 188, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': 0.019609043147775625, 'p50': 0.0658564767265109, 'p95': 0.10866006728778442, 'percentile': np.float64(93.6), 'mean_setups_per_run': 485.849}
+
+-- cost 0.20% rt
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 25, 'lapsed_open_position': 584, 'adds_refused': 629, 'setups': 448}
+summary {'n': 448, 'winrate': np.float64(85.71428571428571), 'winrate_95': (82.16981720198187, 88.6514617594949), 'mean': 0.027737135751286415, 'mean_95': (-0.06960344478154187, 0.12164552602446596), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.04447259312335888, 'pf': np.float64(1.0878933147175223), 'median_stop_pct': 6.737446912323431, 'cost_rt_pct': 0.12, 'best': 1.4842895704052035, 'worst': -3.4451327420824738, 'longest_losing_streak': 3, 'mean_bars': 152.54464285714286, 'entries_1_2_3': [280, 91, 77], 'long': 260, 'short': 188, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.048511142385641755, 'p50': -0.000778466737308463, 'p95': 0.04168032530108496, 'percentile': np.float64(86.55), 'mean_setups_per_run': 485.849}
+
+-- no min stop
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 0, 'lapsed_open_position': 1715, 'adds_refused': 0, 'setups': 220}
+summary {'n': 220, 'winrate': np.float64(70.45454545454545), 'winrate_95': (64.11617074451621, 76.09083277940427), 'mean': 0.0073698516638604486, 'mean_95': (-0.09128803970669347, 0.1051684605567273), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.0073698516638604486, 'pf': np.float64(1.023297370291732), 'median_stop_pct': 6.878111388601225, 'cost_rt_pct': 0.12, 'best': 0.4966874452446278, 'worst': -1.915108598737881, 'longest_losing_streak': 4, 'mean_bars': 431.7, 'entries_1_2_3': [220, 0, 0], 'long': 127, 'short': 93, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': -0.058828909167620375, 'p50': 0.03863474242734224, 'p95': 0.08200142836653394, 'percentile': np.float64(19.95), 'mean_setups_per_run': 214.1115}
+
+-- min stop 1.0%
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 23, 'lapsed_open_position': 1713, 'adds_refused': 0, 'setups': 199}
+summary {'n': 199, 'winrate': np.float64(71.35678391959799), 'winrate_95': (64.71751863153065, 77.18710053929033), 'mean': 0.04749012002581276, 'mean_95': (-0.053824295188864044, 0.14036946518624685), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.04749012002581276, 'pf': np.float64(1.1616878915906301), 'median_stop_pct': 7.829869164349642, 'cost_rt_pct': 0.12, 'best': 0.4966874452446278, 'worst': -1.1060093772389084, 'longest_losing_streak': 4, 'mean_bars': 476.69849246231155, 'entries_1_2_3': [199, 0, 0], 'long': 115, 'short': 84, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': 0.031668085088922944, 'p50': 0.0709592173395251, 'p95': 0.10775029502011944, 'percentile': np.float64(16.05), 'mean_setups_per_run': 202.942}
+
+-- cost 0
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 9, 'lapsed_open_position': 1715, 'adds_refused': 0, 'setups': 211}
+summary {'n': 211, 'winrate': np.float64(71.09004739336493), 'winrate_95': (64.63908994569782, 76.78677915972683), 'mean': 0.06635071090047366, 'mean_95': (-0.03066037735849089, 0.1584158415841581), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.06635071090047366, 'pf': np.float64(1.2295081967213106), 'median_stop_pct': 7.185764703302193, 'cost_rt_pct': 0.12, 'best': 0.500000000000005, 'worst': -1.0000000000000002, 'longest_losing_streak': 4, 'mean_bars': 449.97156398104266, 'entries_1_2_3': [211, 0, 0], 'long': 122, 'short': 89, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': 0.0491287478847666, 'p50': 0.08750000000000006, 'p95': 0.1249999999999999, 'percentile': np.float64(19.0), 'mean_setups_per_run': 209.141}
+
+-- cost 0.20% rt
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 1935, 'dropped_min_stop': 9, 'lapsed_open_position': 1715, 'adds_refused': 0, 'setups': 211}
+summary {'n': 211, 'winrate': np.float64(71.09004739336493), 'winrate_95': (64.63908994569782, 76.78677915972683), 'mean': 0.014343211849571838, 'mean_95': (-0.08664269375913512, 0.11014726318911826), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.014343211849571838, 'pf': np.float64(1.04679386190494), 'median_stop_pct': 7.185764703302193, 'cost_rt_pct': 0.12, 'best': 0.494479075407713, 'worst': -1.3925966495208135, 'longest_losing_streak': 4, 'mean_bars': 449.97156398104266, 'entries_1_2_3': [211, 0, 0], 'long': 122, 'short': 89, 'open_at_end': 0}
+NullA {'p': 0.02254403951906049, 'filter_bars': 85832, 'runs_complete': 2000, 'p5': 0.0038420664162801014, 'p50': 0.04410901616411081, 'p95': 0.08197353175624589, 'percentile': np.float64(11.6), 'mean_setups_per_run': 209.141}
+
+-- plain 4h 200 EMA without colour
+
+=== P1 G  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 2883, 'dropped_min_stop': 118, 'lapsed_open_position': 799, 'adds_refused': 822, 'setups': 785}
+summary {'n': 785, 'winrate': np.float64(85.60509554140128), 'winrate_95': (82.97585857547509, 87.88754416596251), 'mean': 0.014569216025511075, 'mean_95': (-0.054317129703221716, 0.08315196949170396), 'unit': 'account % per setup', 'mean_R_per_unit_risk': 0.036627105516433715, 'pf': np.float64(1.050924202500443), 'median_stop_pct': 4.001833779538518, 'cost_rt_pct': 0.12, 'best': 1.4905737422431211, 'worst': -3.2951622655512507, 'longest_losing_streak': 3, 'mean_bars': 99.52738853503185, 'entries_1_2_3': [532, 156, 97], 'long': 393, 'short': 392, 'open_at_end': 0}
+NullA {'p': 0.021221779743984218, 'filter_bars': 135851, 'runs_complete': 2000, 'p5': -0.017986800671752654, 'p50': 0.014506114331999352, 'p95': 0.04693026595940438, 'percentile': np.float64(50.2), 'mean_setups_per_run': 884.5455}
+
+=== P1 Z  2019-02-11 15:30:00+00:00 to 2026-11-14 23:30:00+00:00
+funnel {'signals': 2883, 'dropped_min_stop': 65, 'lapsed_open_position': 2460, 'adds_refused': 0, 'setups': 356}
+summary {'n': 356, 'winrate': np.float64(72.47191011235955), 'winrate_95': (67.61075618205648, 76.8532524261756), 'mean': 0.0371047007294492, 'mean_95': (-0.03568663871671544, 0.10917618386428918), 'unit': 'net R per trade', 'mean_R_per_unit_risk': 0.0371047007294492, 'pf': np.float64(1.1276128463400272), 'median_stop_pct': 4.567331962606303, 'cost_rt_pct': 0.12, 'best': 0.4966874452446278, 'worst': -1.235557989712488, 'longest_losing_streak': 3, 'mean_bars': 301.185393258427, 'entries_1_2_3': [356, 0, 0], 'long': 185, 'short': 171, 'open_at_end': 0}
+NullA {'p': 0.021221779743984218, 'filter_bars': 135851, 'runs_complete': 2000, 'p5': 0.021965150005405703, 'p50': 0.06084842510966486, 'p95': 0.0979641830189717, 'percentile': np.float64(14.95), 'mean_setups_per_run': 369.8105}
