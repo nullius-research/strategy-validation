@@ -66,7 +66,7 @@ Per pair: EURUSD 37.6% (33.0% to 42.4%), -0.092 R; EURJPY 36.9% (32.3% to 41.7%)
 | Null A: the same entries, direction by coin flip, same stop distance, same 1.5R, same costs (decisive) | -0.093 to +0.037 | **4.4** |
 | Null B: per trade a random bar in the same pair, month and trend state, stop on that bar's Supertrend line (supplementary, see the noise check) | -0.161 to -0.021 | 48.1 |
 
-A percentile of 4.4 means that 95.6% of the coin-flip runs ended with a higher mean net R than the rule.
+A percentile of 4.4 means that the rule ended above only 4.4% of the coin-flip runs. 9,549 of the 10,000 runs (95.5%) ended with a higher mean net R; 18 ended exactly level with the rule, because a coin flip that only reverses trades where both directions lose changes nothing. Counted strictly below and with the ties, the percentile is 4.3 and 4.5.
 
 ## Verdict by the pre-set criteria
 
