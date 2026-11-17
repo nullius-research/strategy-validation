@@ -1,0 +1,11 @@
+EURUSD signal 2024-01-11 13:30:00 UTC  dir -1  close 1.09395 EMA200 1.09565  ST -1->1 line 1.10056
+   entry 2024-01-11 14:00:00 at 1.09398  stop 1.10056 (65.8 pip)  target 1.08411  exit 2024-01-23 15:15:00  R +1.5  net +1.4818   script: R +1.5 net +1.4818  -> EQUAL
+EURUSD signal 2024-07-30 12:00:00 UTC  dir -1  close 1.08158 EMA200 1.08437  ST -1->1 line 1.08389
+   entry 2024-07-30 12:30:00 at 1.08158  stop 1.08389 (23.1 pip)  target 1.07811  exit 2024-07-31 11:30:00  R -1.0  net -1.0519   script: R -1.0 net -1.0519  -> EQUAL
+EURJPY signal 2025-11-06 14:30:00 UTC  dir -1  close 176.733 EMA200 177.06054  ST -1->1 line 177.26918
+   entry 2025-11-06 15:00:00 at 176.732  stop 177.26918 (53.7 pip)  target 175.92622  exit 2025-11-07 13:30:00  R -1.0  net -1.0223   script: R -1.0 net -1.0223  -> EQUAL
+EURUSD signal 2026-03-05 16:00:00 UTC  dir -1  close 1.15611 EMA200 1.16599  ST -1->1 line 1.16265
+   entry 2026-03-05 16:30:00 at 1.15609  stop 1.16265 (65.6 pip)  target 1.14625  exit 2026-03-09 19:45:00  R -1.0  net -1.0183   script: R -1.0 net -1.0183  -> EQUAL
+EURJPY signal 2026-05-29 14:30:00 UTC  dir +1  close 185.75 EMA200 185.29571  ST 1->-1 line 185.28766
+   entry 2026-05-29 15:00:00 at 185.746  stop 185.28766 (45.8 pip)  target 186.43351  exit 2026-06-03 08:30:00  R -1.0  net -1.0262   script: R -1.0 net -1.0262  -> EQUAL
+ALL EQUAL

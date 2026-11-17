@@ -1,0 +1,68 @@
+
+==============================================================================
+  Supertrend(10, 3) + 200 EMA · hypothesis v1.0 · 15 min · target 1.5R · stop on the line
+==============================================================================
+  EURUSD  2022-08-01 to 2026-08-07  bars 99,837  signals 1453  stop>=5pip 1453  trades 825
+  EURJPY  2022-08-01 to 2026-08-07  bars 99,793  signals 1370  stop>=5pip 1368  trades 775
+------------------------------------------------------------------------------
+  Trades 1600  over 868 days
+  Win rate 40.4%  (646/1600, Wilson 95% 38.0% to 42.8%)   claim 46%
+  Mean net R at 0.0 pip   +0.0097
+  Mean net R at 1.2 pip   -0.0352
+  Mean net R at 2.0 pip   -0.0651
+  95% range (day bootstrap, 1.2 pip)  -0.0977 to +0.0266   claim: profitable (> 0)
+  Profit factor 0.943   best 5% of trades +118.8 R of total -56.3 R
+  Median stop 31.5 pip vs cost 1.2 pip (0.038 R at the median)
+  Longest run of wins 8, of losses 13   (source: 7 and 7)
+  Median holding time 7.0 h
+  EURJPY  n=775  win 38.3% (35.0% to 41.8%)  mean net -0.0723 R
+  EURUSD  n=825  win 42.3% (39.0% to 45.7%)  mean net -0.0003 R
+------------------------------------------------------------------------------
+  CONTROLS                         5th to 95th          percentile
+  Null A  coin flip (decisive)     -0.0830 to +0.0092   percentile 50.5
+  Null B  random bar in trend      -0.1627 to -0.0625   percentile 99.2
+------------------------------------------------------------------------------
+  2022  n= 132  win 41.7%  mean net +0.0126 R
+  2023  n= 389  win 43.4%  mean net +0.0416 R
+  2024  n= 404  win 39.4%  mean net -0.0669 R
+  2025  n= 413  win 38.7%  mean net -0.0728 R
+  2026  n= 262  win 39.3%  mean net -0.0649 R
+------------------------------------------------------------------------------
+  C1 win rate 46%:      FALSIFIED
+  C2 profitable:        not falsified
+  C3 beats coin flip:   FALSIFIED (dead)
+==============================================================================
+
+==============================================================================
+  Supertrend(10, 3) + 200 EMA · hypothesis v1.0 · 60 min · target 1.5R · stop on the line
+==============================================================================
+  EURUSD  2022-08-01 to 2026-08-07  bars 24,814  signals 346  stop>=5pip 346  trades 226
+  EURJPY  2022-08-01 to 2026-08-07  bars 24,805  signals 350  stop>=5pip 350  trades 208
+------------------------------------------------------------------------------
+  Trades 434  over 350 days
+  Win rate 37.6%  (163/434, Wilson 95% 33.1% to 42.2%)   claim 46%
+  Mean net R at 0.0 pip   -0.0558
+  Mean net R at 1.2 pip   -0.0762
+  Mean net R at 2.0 pip   -0.0898
+  95% range (day bootstrap, 1.2 pip)  -0.1878 to +0.0399   claim: profitable (> 0)
+  Profit factor 0.880   best 5% of trades +32.8 R of total -33.1 R
+  Median stop 65.0 pip vs cost 1.2 pip (0.018 R at the median)
+  Longest run of wins 5, of losses 11   (source: 7 and 7)
+  Median holding time 39.5 h
+  EURJPY  n=208  win 34.6% (28.5% to 41.3%)  mean net -0.1451 R
+  EURUSD  n=226  win 40.3% (34.1% to 46.8%)  mean net -0.0127 R
+------------------------------------------------------------------------------
+  CONTROLS                         5th to 95th          percentile
+  Null A  coin flip (decisive)     -0.1453 to +0.0275   percentile 37.0
+  Null B  random bar in trend      -0.1796 to +0.0103   percentile 52.9
+------------------------------------------------------------------------------
+  2022  n=  36  win 33.3%  mean net -0.1807 R
+  2023  n= 100  win 49.0%  mean net +0.2065 R
+  2024  n= 117  win 38.5%  mean net -0.0629 R
+  2025  n= 106  win 34.0%  mean net -0.1686 R
+  2026  n=  75  win 28.0%  mean net -0.2929 R
+------------------------------------------------------------------------------
+  C1 win rate 46%:      FALSIFIED
+  C2 profitable:        not falsified
+  C3 beats coin flip:   FALSIFIED (dead)
+==============================================================================

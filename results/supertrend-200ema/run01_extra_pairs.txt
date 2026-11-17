@@ -1,0 +1,46 @@
+
+==============================================================================
+  Supertrend(10, 3) + 200 EMA · hypothesis v1.0 · 30 min · target 1.5R · stop on the line
+==============================================================================
+  AUDUSD  2022-08-01 to 2026-08-07  bars 49,802  signals 742  stop>=5pip 742  trades 478
+  EURGBP  2022-07-14 to 2026-08-07  bars 50,379  signals 709  stop>=5pip 709  trades 406
+  GBPJPY  2022-08-01 to 2026-08-07  bars 49,802  signals 702  stop>=5pip 702  trades 423
+  GBPUSD  2022-08-01 to 2026-08-07  bars 49,803  signals 751  stop>=5pip 751  trades 452
+  NZDUSD  2022-08-01 to 2026-08-07  bars 49,804  signals 687  stop>=5pip 687  trades 439
+  USDCAD  2025-01-01 to 2026-08-07  bars 19,709  signals 283  stop>=5pip 283  trades 158
+  USDCHF  2022-08-01 to 2026-08-07  bars 49,803  signals 740  stop>=5pip 740  trades 413
+  USDJPY  2022-08-01 to 2026-08-07  bars 49,803  signals 697  stop>=5pip 697  trades 426
+------------------------------------------------------------------------------
+  Trades 3195  over 1001 days
+  Win rate 38.1%  (1217/3195, Wilson 95% 36.4% to 39.8%)   claim 46%
+  Mean net R at 0.0 pip   -0.0461
+  Mean net R at 1.2 pip   -0.0842
+  Mean net R at 2.0 pip   -0.1096
+  95% range (day bootstrap, 1.2 pip)  -0.1318 to -0.0354   claim: profitable (> 0)
+  Profit factor 0.869   best 5% of trades +238.1 R of total -269.0 R
+  Median stop 35.3 pip vs cost 1.2 pip (0.034 R at the median)
+  Longest run of wins 8, of losses 16   (source: 7 and 7)
+  Median holding time 18.2 h
+  AUDUSD  n=478  win 37.9% (33.6% to 42.3%)  mean net -0.0957 R
+  EURGBP  n=406  win 35.7% (31.2% to 40.5%)  mean net -0.1707 R
+  GBPJPY  n=423  win 36.6% (32.2% to 41.3%)  mean net -0.0992 R
+  GBPUSD  n=452  win 34.1% (29.9% to 38.6%)  mean net -0.1741 R
+  NZDUSD  n=439  win 41.0% (36.5% to 45.7%)  mean net -0.0182 R
+  USDCAD  n=158  win 45.6% (38.0% to 53.3%)  mean net +0.0974 R
+  USDCHF  n=413  win 38.3% (33.7% to 43.0%)  mean net -0.0869 R
+  USDJPY  n=426  win 40.4% (35.8% to 45.1%)  mean net -0.0114 R
+------------------------------------------------------------------------------
+  CONTROLS                         5th to 95th          percentile
+  Null A  coin flip (decisive)     -0.0643 to -0.0001   percentile 0.4
+  Null B  random bar in trend      -0.1305 to -0.0591   percentile 68.2
+------------------------------------------------------------------------------
+  2022  n= 282  win 41.1%  mean net +0.0043 R
+  2023  n= 776  win 38.3%  mean net -0.0773 R
+  2024  n= 728  win 41.3%  mean net -0.0080 R
+  2025  n= 855  win 35.9%  mean net -0.1408 R
+  2026  n= 554  win 35.4%  mean net -0.1518 R
+------------------------------------------------------------------------------
+  C1 win rate 46%:      FALSIFIED
+  C2 profitable:        FALSIFIED
+  C3 beats coin flip:   FALSIFIED (dead)
+==============================================================================
