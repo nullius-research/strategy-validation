@@ -1,0 +1,6 @@
+2025-04-17 side +1 candles 36-39 (ema): signal True, entry 5296.40 True, exit 5281.30 True, no earlier exit True, exit trigger True, gross -15.10 -> OK
+2024-03-20 side -1 candles 75-86 (ema): signal True, entry 5176.76 True, exit 5178.76 True, no earlier exit True, exit trigger True, gross -2.00 -> OK
+2024-11-01 side -1 candles 60-60 (ema): signal True, entry 5750.70 True, exit 5755.70 True, no earlier exit True, exit trigger True, gross -5.00 -> OK
+2022-02-16 side -1 candles 61-65 (ema): signal True, entry 4435.10 True, exit 4439.60 True, no earlier exit True, exit trigger True, gross -4.50 -> OK
+2025-01-08 side +1 candles 11-13 (ema): signal True, entry 5907.50 True, exit 5896.30 True, no earlier exit True, exit trigger True, gross -11.20 -> OK
+5 of 5 equal

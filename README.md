@@ -106,6 +106,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | UT Bot Alerts with Linear Regression Candles, Nasdaq 100 5 minutes, 2018-2026 decisive, 5,347 trades | [`results/ut-bot`](results/ut-bot/) |
 | Structured entry (up to three entries, 0.25R targets) with MACD and a 4-hour colour EMA, Bitcoin 30 minutes, 2019-2026, 448 setups and 211 single trades | [`results/structured-entry`](results/structured-entry/) |
 | Supertrend (10, 3) + 200 EMA, EURUSD and EURJPY 30 minutes, 2022-2026, 805 trades; 15 minutes, 1 hour and eight other pairs supplementary | [`results/supertrend-200ema`](results/supertrend-200ema/) |
+| 9 EMA + VWAP crossover, S&P 500 3 minutes, 2019-2026 decisive, 5,850 trades; Nasdaq 100 supplementary | [`results/vwap-9ema`](results/vwap-9ema/) |
 
 ## Licence
 
