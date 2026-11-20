@@ -1,0 +1,5 @@
+trade 1499: 2024-08-28 15:00:00 dir -1 entry ok True level 2503.58 fractal [('H4', Timestamp('2024-08-27 08:00:00'), True, True), ('D1', Timestamp('2024-08-27 01:00:00'), False, False)] cross ok True exit script 2506.18 replay 2506.18 R -1.085
+trade 792: 2021-06-10 23:00:00 dir +1 entry ok True level 1896.29 fractal [('H4', Timestamp('2021-06-09 04:00:00'), True, True)] cross ok True exit script 1898.44 replay 1898.44 R -0.015
+trade 278: 2018-10-26 18:00:00 dir +1 entry ok True level 1239.78 fractal [('H4', Timestamp('2018-10-23 12:00:00'), True, True), ('D1', Timestamp('2018-10-23 01:00:00'), True, True)] cross ok True exit script 1238.29 replay 1238.29 R -1.080
+trade 886: 2021-11-16 11:00:00 dir +1 entry ok True level 1870.53 fractal [('H4', Timestamp('2021-11-15 12:00:00'), True, True), ('D1', Timestamp('2021-11-15 01:00:00'), False, False)] cross ok True exit script 1868.56 replay 1868.56 R -1.112
+trade 1187: 2023-04-03 06:00:00 dir -1 entry ok True level 1955.36 fractal [('H4', Timestamp('2023-03-30 04:00:00'), True, True), ('D1', Timestamp('2023-03-30 01:00:00'), False, False)] cross ok True exit script 1958.21 replay 1958.21 R -1.071

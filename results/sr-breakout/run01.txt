@@ -1,0 +1,47 @@
+M30 bars 125452, first 1998-04-22 00:00:00, last 2026-11-05 22:00:00, usable from 2017-05-01
+H1 bars 56310, levels 4753, raw signals 2519, conflicts 0
+median spread column (points): 2
+
+== P1 decisive (start to 2024)
+  signals 2014, dropped by min stop 20, trades 1569, long share 52.6%
+  win rate (net R > 0) 31.7%  (95% 29.5 to 34.1)
+  mean net R -0.041  (day bootstrap 95% -0.132 to +0.052)   PF 0.94
+  costs 0 / 0.40 / 0.80 USD: +0.096 / -0.041 / -0.178   median stop 3.31 USD (0.85 ATR)
+  Null A 5/50/95 -0.182 / -0.108 / -0.026 -> percentile 91.2 (null trades median 1509)
+  Null B 5/50/95 -0.183 / -0.107 / -0.027 -> percentile 91.2 (null trades median 1509)
+  best 5% of trades +474.7R of total -64.8R
+  longest losing streak 21; Null A runs with an equal or shorter longest streak: 81.4%
+
+== P2 supplement (2025 to end)
+  signals 478, dropped by min stop 0, trades 374, long share 53.2%
+  win rate (net R > 0) 35.3%  (95% 30.6 to 40.3)
+  mean net R +0.170  (day bootstrap 95% -0.021 to +0.379)   PF 1.28
+  costs 0 / 0.40 / 0.80 USD: +0.209 / +0.170 / +0.132   median stop 12.52 USD (0.83 ATR)
+  Null A 5/50/95 -0.136 / +0.013 / +0.170 -> percentile 95.0 (null trades median 371)
+  Null B 5/50/95 -0.137 / +0.009 / +0.168 -> percentile 95.3 (null trades median 371)
+  best 5% of trades +122.2R of total +63.8R
+  longest losing streak 12; Null A runs with an equal or shorter longest streak: 49.8%
+
+== P1 supplement: time filter 09:00-21:00 broker time
+  signals 1435, dropped by min stop 14, trades 1159, long share 52.1%
+  win rate (net R > 0) 32.7%  (95% 30.1 to 35.5)
+  mean net R -0.045  (day bootstrap 95% -0.149 to +0.063)   PF 0.93
+  costs 0 / 0.40 / 0.80 USD: +0.091 / -0.045 / -0.180   median stop 3.43 USD (0.86 ATR)
+  Null A 5/50/95 -0.207 / -0.113 / -0.015 -> percentile 87.9 (null trades median 1056)
+  Null B 5/50/95 -0.206 / -0.114 / -0.019 -> percentile 88.3 (null trades median 1056)
+  best 5% of trades +342.5R of total -51.9R
+  longest losing streak 15; Null A runs with an equal or shorter longest streak: 21.8%
+
+== P3 per year (rule only, no time filter)
+            trades  long%  win%  meanR  sumR
+ENTRY_TIME                                  
+2017           109   50.5  30.3  0.032   3.5
+2018           201   46.8  32.3 -0.080 -16.1
+2019           203   56.2  33.5  0.079  16.0
+2020           194   57.7  33.0  0.021   4.1
+2021           210   51.0  31.9  0.021   4.5
+2022           218   48.2  27.5 -0.263 -57.4
+2023           229   49.8  30.1 -0.184 -42.0
+2024           205   60.5  35.1  0.111  22.7
+2025           199   59.8  34.7  0.248  49.4
+2026           175   45.7  36.0  0.082  14.3
