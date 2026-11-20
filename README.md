@@ -1,6 +1,9 @@
 # strategy-validation
 Control-group testing for trading strategy ideas. Python.
 
+Send me a strategy to test: see [REQUESTS.md](REQUESTS.md) for what I need and the public list.
+
+
 Four Python scripts that answer one question: **does this signal beat a null version of itself?**
 
 Not "is it profitable". A strategy can be profitable in a sample and still contain no information. The relevant test is whether it outperforms a control taken at the same moments, with the same stop, the same target and the same costs. If it does not, any profit in the sample is a fortunate draw.
