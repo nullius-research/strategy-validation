@@ -1,0 +1,28 @@
+noise check: 24 sets of 1500 days, seed 7, slip 1.0, Null A runs 2000, start 15000.0, vol 0.2, spread 1.0, sub-steps 60, firm firm_a
+set  1: trades  1752 per day 1.17 | gross win rate  34.2% | mean net -2.688 pt | percentile mean net  80.8 | challenges 120 passed 13 rate  10.8% | Null A rate   6.9% | percentile pass rate  96.0
+set  2: trades  1708 per day 1.14 | gross win rate  33.3% | mean net -2.847 pt | percentile mean net  69.1 | challenges 127 passed 11 rate   8.7% | Null A rate   7.1% | percentile pass rate  76.8
+set  3: trades  1779 per day 1.19 | gross win rate  34.0% | mean net -2.601 pt | percentile mean net  65.5 | challenges 167 passed 19 rate  11.4% | Null A rate   8.6% | percentile pass rate  89.8
+set  4: trades  1751 per day 1.17 | gross win rate  33.9% | mean net -2.596 pt | percentile mean net  98.8 | challenges 188 passed 23 rate  12.2% | Null A rate   6.6% | percentile pass rate  99.8
+set  5: trades  1829 per day 1.22 | gross win rate  33.7% | mean net +1.883 pt | percentile mean net  68.6 | challenges 274 passed 30 rate  10.9% | Null A rate   9.5% | percentile pass rate  80.0
+set  6: trades  1756 per day 1.17 | gross win rate  33.7% | mean net -2.445 pt | percentile mean net  50.1 | challenges 239 passed 28 rate  11.7% | Null A rate  10.2% | percentile pass rate  79.0
+set  7: trades  1792 per day 1.19 | gross win rate  32.8% | mean net -3.596 pt | percentile mean net  11.9 | challenges 143 passed 12 rate   8.4% | Null A rate   8.6% | percentile pass rate  45.4
+set  8: trades  1799 per day 1.20 | gross win rate  33.9% | mean net -1.455 pt | percentile mean net  88.8 | challenges 183 passed 23 rate  12.6% | Null A rate   9.4% | percentile pass rate  95.0
+set  9: trades  1731 per day 1.15 | gross win rate  33.2% | mean net -4.349 pt | percentile mean net   5.2 | challenges 228 passed 21 rate   9.2% | Null A rate  10.4% | percentile pass rate  27.1
+set 10: trades  1751 per day 1.17 | gross win rate  34.2% | mean net -1.413 pt | percentile mean net  64.0 | challenges 159 passed 16 rate  10.1% | Null A rate  11.3% | percentile pass rate  29.8
+set 11: trades  1702 per day 1.13 | gross win rate  35.8% | mean net -3.146 pt | percentile mean net  54.8 | challenges 149 passed 14 rate   9.4% | Null A rate   8.1% | percentile pass rate  72.8
+set 12: trades  1778 per day 1.19 | gross win rate  32.3% | mean net -3.817 pt | percentile mean net  37.8 | challenges 194 passed 14 rate   7.2% | Null A rate   8.6% | percentile pass rate  23.1
+set 13: trades  1776 per day 1.18 | gross win rate  32.5% | mean net -1.857 pt | percentile mean net  71.0 | challenges 190 passed 23 rate  12.1% | Null A rate  10.4% | percentile pass rate  80.0
+set 14: trades  1821 per day 1.21 | gross win rate  33.2% | mean net -2.684 pt | percentile mean net  62.1 | challenges 203 passed 23 rate  11.3% | Null A rate   9.4% | percentile pass rate  83.4
+set 15: trades  1766 per day 1.18 | gross win rate  34.0% | mean net -3.235 pt | percentile mean net  35.0 | challenges 144 passed 15 rate  10.4% | Null A rate   8.5% | percentile pass rate  80.1
+set 16: trades  1782 per day 1.19 | gross win rate  33.9% | mean net -1.522 pt | percentile mean net  95.5 | challenges 152 passed 18 rate  11.8% | Null A rate   9.1% | percentile pass rate  88.5
+set 17: trades  1777 per day 1.18 | gross win rate  32.2% | mean net -3.259 pt | percentile mean net  51.3 | challenges 240 passed 24 rate  10.0% | Null A rate   8.7% | percentile pass rate  76.4
+set 18: trades  1733 per day 1.16 | gross win rate  32.8% | mean net -3.343 pt | percentile mean net  47.6 | challenges 159 passed 18 rate  11.3% | Null A rate   8.7% | percentile pass rate  88.0
+set 19: trades  1761 per day 1.17 | gross win rate  31.1% | mean net -3.553 pt | percentile mean net  46.4 | challenges 126 passed 8 rate   6.3% | Null A rate   6.1% | percentile pass rate  55.4
+set 20: trades  1687 per day 1.12 | gross win rate  32.2% | mean net -4.367 pt | percentile mean net  14.8 | challenges 127 passed 7 rate   5.5% | Null A rate   5.7% | percentile pass rate  46.3
+set 21: trades  1735 per day 1.16 | gross win rate  34.2% | mean net -2.979 pt | percentile mean net  78.9 | challenges 192 passed 16 rate   8.3% | Null A rate   8.3% | percentile pass rate  52.6
+set 22: trades  1708 per day 1.14 | gross win rate  32.5% | mean net -3.504 pt | percentile mean net  40.3 | challenges 137 passed 13 rate   9.5% | Null A rate   7.6% | percentile pass rate  80.3
+set 23: trades  1774 per day 1.18 | gross win rate  33.0% | mean net -3.647 pt | percentile mean net  10.8 | challenges 194 passed 18 rate   9.3% | Null A rate  10.1% | percentile pass rate  35.4
+set 24: trades  1729 per day 1.15 | gross win rate  34.3% | mean net -2.105 pt | percentile mean net  84.2 | challenges 160 passed 22 rate  13.8% | Null A rate   9.5% | percentile pass rate  96.0
+mean net: mean percentile 55.6, above 95: 2 of 24 -> OK
+pass rate: mean percentile 69.9, above 95: 3 of 24 -> NOT OK
+NOISE CHECK FAILED (bounds: mean 35-65, at most 3 of 24 above 95)

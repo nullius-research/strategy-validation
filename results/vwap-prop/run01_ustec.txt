@@ -1,0 +1,129 @@
+vwap_prop.py run on USTEC: USTEC_M1_201208060000_202611052200.csv, session rth, firm firm_a, point 0.01, slip 1.0, P1 2023-11-17 to 2026-11-05, Null A runs 10000, challenge runs 2000, seed 43
+valid sessions in P1: 734 (all valid sessions in the file: 2373)
+
+== P1, deciding for C1 to C4 (C5 descriptive since v1.1) ==
+P1: trades 799, days with trades 552, per day 1.45 | win rate net 32.5% (29.4-35.9), gross 33.9% | mean net -2.028 pt (-6.441 to +3.355) = $-40.56 | PF 0.89 (0.68-1.18) | avg win $1051.66, avg loss $-567.43 | gross +0.789 pt
+Null A: p 0.0314, mean trades 799, mean net -2.662 pt, percentile 65.0 (ties 0)
+challenge firm_a, attempts in sequence: completed 95, passed 9, failed 86, running at the end 0 | pass rate 9.5% (5.1-17.0) | median days per attempt 6
+Null A in the same challenge: mean pass rate 9.4% (5-95: 4.3-15.0), percentile of the real pass rate 53.9 (ties 2)
+  attempt 2023-11-17 to 2023-12-28: fail, 27 sessions
+  attempt 2023-12-29 to 2024-01-23: fail, 16 sessions
+  attempt 2024-01-24 to 2024-01-31: fail, 6 sessions
+  attempt 2024-02-01 to 2024-02-20: fail, 13 sessions
+  attempt 2024-02-21 to 2024-02-28: fail, 6 sessions
+  attempt 2024-02-29 to 2024-03-20: fail, 15 sessions
+  attempt 2024-03-21 to 2024-03-28: fail, 6 sessions
+  attempt 2024-04-01 to 2024-04-25: fail, 19 sessions
+  attempt 2024-04-26 to 2024-05-09: fail, 10 sessions
+  attempt 2024-05-10 to 2024-06-14: fail, 25 sessions
+  attempt 2024-06-17 to 2024-06-25: fail, 6 sessions
+  attempt 2024-06-26 to 2024-07-31: fail, 24 sessions
+  attempt 2024-08-01 to 2024-08-06: fail, 4 sessions
+  attempt 2024-08-07 to 2024-08-08: fail, 2 sessions
+  attempt 2024-08-09 to 2024-08-12: fail, 2 sessions
+  attempt 2024-08-13 to 2024-09-19: fail, 27 sessions
+  attempt 2024-09-20 to 2024-10-07: fail, 12 sessions
+  attempt 2024-10-08 to 2024-10-18: fail, 9 sessions
+  attempt 2024-10-21 to 2024-10-25: fail, 5 sessions
+  attempt 2024-10-28 to 2024-11-01: fail, 5 sessions
+  attempt 2024-11-04 to 2024-11-06: fail, 3 sessions
+  attempt 2024-11-07 to 2024-11-20: fail, 10 sessions
+  attempt 2024-11-21 to 2024-12-02: fail, 6 sessions
+  attempt 2024-12-03 to 2024-12-10: fail, 6 sessions
+  attempt 2024-12-11 to 2025-01-02: fail, 14 sessions
+  attempt 2025-01-03 to 2025-01-13: fail, 6 sessions
+  attempt 2025-01-14 to 2025-01-16: fail, 3 sessions
+  attempt 2025-01-17 to 2025-02-13: fail, 19 sessions
+  attempt 2025-02-14 to 2025-02-19: fail, 3 sessions
+  attempt 2025-02-20 to 2025-03-07: fail, 12 sessions
+  attempt 2025-03-10 to 2025-03-11: fail, 2 sessions
+  attempt 2025-03-12 to 2025-03-12: fail, 1 sessions
+  attempt 2025-03-13 to 2025-03-19: fail, 5 sessions
+  attempt 2025-03-20 to 2025-03-27: fail, 6 sessions
+  attempt 2025-03-28 to 2025-04-07: fail, 7 sessions
+  attempt 2025-04-08 to 2025-04-09: fail, 2 sessions
+  attempt 2025-04-10 to 2025-04-15: fail, 4 sessions
+  attempt 2025-04-16 to 2025-04-24: fail, 6 sessions
+  attempt 2025-04-25 to 2025-04-25: fail, 1 sessions
+  attempt 2025-04-28 to 2025-04-29: pass, 2 sessions
+  attempt 2025-04-30 to 2025-05-02: fail, 3 sessions
+  attempt 2025-05-05 to 2025-05-15: pass, 9 sessions
+  attempt 2025-05-16 to 2025-05-22: fail, 5 sessions
+  attempt 2025-05-23 to 2025-07-07: fail, 28 sessions
+  attempt 2025-07-08 to 2025-07-16: fail, 7 sessions
+  attempt 2025-07-17 to 2025-08-04: fail, 13 sessions
+  attempt 2025-08-05 to 2025-08-06: fail, 2 sessions
+  attempt 2025-08-07 to 2025-08-21: fail, 11 sessions
+  attempt 2025-08-22 to 2025-09-05: fail, 10 sessions
+  attempt 2025-09-08 to 2025-09-17: fail, 8 sessions
+  attempt 2025-09-18 to 2025-10-02: fail, 11 sessions
+  attempt 2025-10-03 to 2025-10-16: fail, 10 sessions
+  attempt 2025-10-17 to 2025-10-23: fail, 5 sessions
+  attempt 2025-10-24 to 2025-10-30: fail, 5 sessions
+  attempt 2025-10-31 to 2025-11-06: fail, 5 sessions
+  attempt 2025-11-07 to 2025-11-19: fail, 9 sessions
+  attempt 2025-11-20 to 2025-11-20: fail, 1 sessions
+  attempt 2025-11-21 to 2025-11-26: pass, 4 sessions
+  attempt 2025-12-01 to 2025-12-02: fail, 2 sessions
+  attempt 2025-12-03 to 2025-12-10: fail, 6 sessions
+  attempt 2025-12-11 to 2025-12-16: fail, 4 sessions
+  attempt 2025-12-17 to 2025-12-18: fail, 2 sessions
+  attempt 2025-12-19 to 2025-12-30: fail, 6 sessions
+  attempt 2025-12-31 to 2026-01-08: fail, 6 sessions
+  attempt 2026-01-09 to 2026-01-13: fail, 3 sessions
+  attempt 2026-01-14 to 2026-01-29: fail, 11 sessions
+  attempt 2026-01-30 to 2026-02-05: fail, 5 sessions
+  attempt 2026-02-06 to 2026-02-06: fail, 1 sessions
+  attempt 2026-02-09 to 2026-02-17: fail, 6 sessions
+  attempt 2026-02-18 to 2026-02-24: pass, 5 sessions
+  attempt 2026-02-25 to 2026-03-03: fail, 5 sessions
+  attempt 2026-03-04 to 2026-03-17: fail, 10 sessions
+  attempt 2026-03-18 to 2026-03-19: fail, 2 sessions
+  attempt 2026-03-20 to 2026-03-24: fail, 3 sessions
+  attempt 2026-03-26 to 2026-03-31: fail, 4 sessions
+  attempt 2026-04-01 to 2026-04-09: pass, 6 sessions
+  attempt 2026-04-10 to 2026-04-24: pass, 11 sessions
+  attempt 2026-04-27 to 2026-05-01: fail, 5 sessions
+  attempt 2026-05-04 to 2026-05-08: pass, 5 sessions
+  attempt 2026-05-11 to 2026-05-20: pass, 8 sessions
+  attempt 2026-05-21 to 2026-06-10: fail, 13 sessions
+  attempt 2026-06-11 to 2026-06-11: fail, 1 sessions
+  attempt 2026-06-12 to 2026-06-17: fail, 4 sessions
+  attempt 2026-06-18 to 2026-06-29: fail, 7 sessions
+  attempt 2026-06-30 to 2026-07-01: fail, 2 sessions
+  attempt 2026-07-02 to 2026-07-02: fail, 1 sessions
+  attempt 2026-07-06 to 2026-07-14: fail, 7 sessions
+  attempt 2026-07-15 to 2026-07-21: fail, 5 sessions
+  attempt 2026-07-22 to 2026-07-23: fail, 2 sessions
+  attempt 2026-07-24 to 2026-07-28: fail, 3 sessions
+  attempt 2026-07-29 to 2026-09-30: fail, 45 sessions
+  attempt 2026-10-01 to 2026-10-02: fail, 2 sessions
+  attempt 2026-10-05 to 2026-10-13: fail, 7 sessions
+  attempt 2026-10-14 to 2026-10-26: pass, 9 sessions
+  attempt 2026-10-27 to 2026-11-04: fail, 7 sessions
+
+C1 FALSIFIED (upper bound win rate 35.9% vs 56.6%)
+C2 FALSIFIED (upper bound mean net +3.355 pt, upper bound PF 1.18 vs 1.84)
+C3 FALSIFIED (percentile 65.0)
+C4 FALSIFIED (upper bound pass rate 17.0% vs 85%)
+C5 descriptive since v1.1 (percentile of the pass rate vs Null A 53.9)
+
+== Descriptive (section 10) ==
+median duration 25 min, mean 35.2 min | exit reasons {'ema': 764, 'eod': 35}
+largest loss -136.20 pt on 2026-11-04, largest gain +1416.85 pt | mean spread at entry 0.817 pt, cost per trade 2.817 pt
+costs: spread + slip x0: mean net -0.028 pt, PF 1.00, win rate 33.5%
+costs: spread + slip x1: mean net -2.028 pt, PF 0.89, win rate 32.5%
+costs: spread + slip x2: mean net -4.028 pt, PF 0.80, win rate 29.9%
+year 2023: trades 33, days with trades 21, per day 1.57 | win rate net 24.2% (12.8-41.0), gross 30.3% | mean net -1.194 pt (-8.712 to +8.377) = $-23.88 | PF 0.88 (0.26-2.00) | avg win $740.25, avg loss $-268.40 | gross +1.836 pt | INSUFFICIENT TRADES
+year 2024: trades 276, days with trades 184, per day 1.50 | win rate net 28.6% (23.6-34.2), gross 30.8% | mean net -5.527 pt (-9.162 to -1.621) = $-110.54 | PF 0.64 (0.45-0.89) | avg win $696.70, avg loss $-434.26 | gross -2.873 pt
+year 2025: trades 266, days with trades 183, per day 1.45 | win rate net 35.3% (29.8-41.3), gross 35.7% | mean net -1.411 pt (-10.579 to +12.254) = $-28.22 | PF 0.93 (0.51-1.64) | avg win $1057.69, avg loss $-621.68 | gross +1.484 pt
+year 2026: trades 224, days with trades 164, per day 1.37 | win rate net 35.3% (29.3-41.7), gross 36.2% | mean net +1.427 pt (-7.575 to +11.375) = $+28.54 | PF 1.06 (0.72-1.53) | avg win $1430.99, avg loss $-735.54 | gross +4.322 pt
+overlapping attempts (one per session): completed 731, passed 52, rate 7.1%
+challenge firm_b, 1 contract(s): completed 161, passed 6, rate 3.7% (1.7-7.9)
+challenge firm_a, 2 contract(s): completed 173, passed 13, rate 7.5% (4.4-12.4)
+
+== Variants, not deciding ==
+crossing candle counts as confirmation: trades 887, days with trades 563, per day 1.58 | win rate net 32.7% (29.7-35.9), gross 35.5% | mean net -2.419 pt (-6.548 to +2.328) = $-48.39 | PF 0.88 (0.69-1.12) | avg win $1092.68, avg loss $-602.67 | gross +0.402 pt
+VWAP without volume: trades 809, days with trades 557, per day 1.45 | win rate net 32.3% (29.1-35.6), gross 33.7% | mean net -2.362 pt (-6.711 to +2.852) = $-47.25 | PF 0.88 (0.66-1.16) | avg win $1034.85, avg loss $-562.63 | gross +0.447 pt
+2019 to 16 Nov 2023: trades 1312, days with trades 923, per day 1.42 | win rate net 31.2% (28.7-33.7), gross 36.1% | mean net -1.851 pt (-3.815 to +0.188) = $-37.02 | PF 0.86 (0.72-1.01) | avg win $737.86, avg loss $-388.00 | gross +1.173 pt
+  Null A percentile 67.3 | challenge completed 96, passed 9, rate 9.4%, Null A rate 8.9%

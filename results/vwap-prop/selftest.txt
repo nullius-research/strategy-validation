@@ -1,0 +1,13 @@
+EMA9 vs pandas ewm(adjust=False): max diff 0.00e+00
+VWAP vs per-candle recomputation: max diff 2.18e-11
+rule vs second implementation: trades 65 vs 65, days with a difference 0 of 60
+challenge case 'three days of +1000/+1000/+1100': pass at day 2, expected pass at day 2 -> OK
+challenge case 'best day 2000 raises target to 3636.36': pass at day 3, expected pass at day 3 -> OK
+challenge case '-1500 then open loss 600 touches 48000': fail at day 1, expected fail at day 1 -> OK
+challenge case 'trailing: +1500 then open loss 2100': fail at day 1, expected fail at day 1 -> OK
+challenge case 'lock at start: +2500 then open loss 2400': open at day 2, expected open at day 2 -> OK
+challenge case 'lock at start: +2500 then open loss 2500': fail at day 1, expected fail at day 1 -> OK
+challenge case 'one day of +3000 is not enough': open at day 0, expected open at day 0 -> OK
+vectorized challenge vs loop on 50 random runs: equal
+Null A: calibrated p 0.0359, expected trades 65.0, simulated mean 65.0, target 65
+SELFTEST PASSED
