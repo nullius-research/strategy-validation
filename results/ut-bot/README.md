@@ -2,6 +2,10 @@
 
 The rule comes from a trading channel's video (November 2023) about UT Bot Alerts, one of the most popular indicators on TradingView. The video tests it by hand for one month, October 2023, on the Nasdaq 5-minute chart, and reports 66 trades, 44 winners and 22 losers ("just over a 66% win rate", 66.7%) and "123% profit on the account". Position size is not stated. All three indicators in the video are public scripts, so the rule could be rebuilt exactly; only the swing used for the stop is undefined.
 
+## Note added 21 November 2026: opening time
+
+The script took the opening minute (9:30 New York) from the largest jump in tick volume at 15:30, 16:30 or 17:30 server time. The server runs on New York time + 7 all year, so the opening is always 16:30. On days with economic releases at 8:30 New York the script picked 15:30, one hour too early. We reran the test with the opening fixed at 16:30, same data and seed. The original script reproduces the published numbers exactly. The verdict does not change. With the fixed opening: 5,349 trades (was 5,347), win rate 46.5% (95%: 45.2 to 47.9; was 46.0%) against 66.7% claimed, mean net R −0.096 (was −0.101), percentile 56.4 against Null A (was 47.2). In this test the opening only sets the session filter, so few trades change. Old and new output: [`results/audit-opening-2026-11-21/`](../audit-opening-2026-11-21/). This is a measurement of one rule in one period, not a recommendation. Test it yourself and make your own judgement.
+
 The hypothesis was written and fixed before any real data was opened: `hypothesis-v1.0-dutch.md` and `hypothesis-v1.1-dutch.md` (binding), with English versions written at the same time. Version 1.1 changes only the control group, after version 1.0 failed the noise check (see below). Rule, data, periods, costs and pass/fail criteria are the same in both. The published Dutch files differ from the internal ones only in one removed first name and one removed reference to a private source file.
 
 ## Rule

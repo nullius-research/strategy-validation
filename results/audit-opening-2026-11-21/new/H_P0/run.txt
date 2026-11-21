@@ -1,0 +1,24 @@
+file us500.csv  from 2025-10-18  to 2026-04-17  slip/side 0.25  seed 31
+funnel: days 128  valid 120  range_ok 120  not_tuesday 94  breakout 94  both_sides 0  trades 94  entry_beyond_target 0
+== slippage 0 x 0.25 per side ==
+trades 94  wins 65  win rate 69.15% (95% 59.2-77.6)  INSUFFICIENT TRADES
+mean net R +0.0575 (95% bootstrap -0.0943 to +0.2021)  PF 1.182
+C3 (from next open, 94 trades, 0 left out): break direction +0.0061  Null A 5/50/95: -0.1753 / -0.0593 / +0.0592  -> percentile 82.2
+longs 50  shorts 44  exits target 65 stop 29 close 0
+median range 12.30  median stop 12.30  median target 6.15  median spread 0.30 pts
+== slippage 1 x 0.25 per side ==
+trades 94  wins 65  win rate 69.15% (95% 59.2-77.6)  INSUFFICIENT TRADES
+mean net R +0.0125 (95% bootstrap -0.1359 to +0.1565)  PF 1.038
+C3 (from next open, 94 trades, 0 left out): break direction -0.0389  Null A 5/50/95: -0.2173 / -0.1034 / +0.0124  -> percentile 81.9
+longs 50  shorts 44  exits target 65 stop 29 close 0
+median range 12.30  median stop 12.30  median target 6.15  median spread 0.30 pts
+== slippage 2 x 0.25 per side ==
+trades 94  wins 65  win rate 69.15% (95% 59.2-77.6)  INSUFFICIENT TRADES
+mean net R -0.0325 (95% bootstrap -0.1824 to +0.1146)  PF 0.905
+C3 (from next open, 94 trades, 0 left out): break direction -0.0839  Null A 5/50/95: -0.2630 / -0.1473 / -0.0323  -> percentile 81.7
+longs 50  shorts 44  exits target 65 stop 29 close 0
+median range 12.30  median stop 12.30  median target 6.15  median spread 0.30 pts
+gross (no spread, no slippage): win rate 69.15%  mean R +0.0848
+year  trades  win%   meanR
+2025      38   81.6  +0.1769
+2026      56   60.7  -0.0990

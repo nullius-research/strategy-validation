@@ -2,6 +2,10 @@
 
 The claim comes from a blog post by a company that sells trading data (18 April 2026). On the S&P 500 future, one contract, over "6 months": 115 trades, a win rate of 72.17%, a profit factor of 1.623. The post calls its settings "optimized" and says the default settings "won't perform like this". Costs are not mentioned.
 
+## Note added 21 November 2026: opening time
+
+The script took the opening minute (9:30 New York) from the largest jump in tick volume at 15:30, 16:30 or 17:30 server time. The server runs on New York time + 7 all year, so the opening is always 16:30. On days with economic releases at 8:30 New York the script picked 15:30, one hour too early. We reran the test with the opening fixed at 16:30, same data and seed. The original script reproduces the published numbers exactly. The verdict does not change. With the fixed opening, 2019 to 17 October 2025: 1,290 trades (was 1,250), win rate 66.28% (95%: 63.7 to 68.8; was 65.92%) against 72.17% claimed, mean net R −0.118 (95%: −0.157 to −0.079; was −0.121), percentile 30.7 against the coin flip (was 18.7). Claim period: 94 trades, 69.15% (was 93, 68.82%), still insufficient. After the post: 108 trades, 61.11%, −0.122R, percentile 25.8 (was 107, 57.01%, −0.179R, 4.2). Old and new output: [`results/audit-opening-2026-11-21/`](../audit-opening-2026-11-21/). This is a measurement of one rule in one period, not a recommendation. Test it yourself and make your own judgement.
+
 The hypothesis was written and fixed before any price data was opened: `hypothesis-v1.0-dutch.md` and `hypothesis-v1.1-dutch.md`, with English versions written at the same time. The Dutch files are binding. Version 1.1 changes only the control group for C3, after version 1.0 failed the noise check (see below). Rule, costs, periods and pass/fail criteria are the same. The published Dutch files differ from the internal ones only in a removed first name and a shortened file path.
 
 ## What the claim implies

@@ -1,0 +1,30 @@
+file us500_2019.csv  minstop 2.5  slip/side 0.25  seed 23
+funnel: days 2023  open_found 2023  valid 1948  minstop_ok 1944  top_touch 750  bot_touch 573  trades 1323
+== slippage 0 x 0.25 per side ==
+trades 1323  wins 492  win rate 37.19% (95% 34.6-39.8)
+mean net R -0.0648 (95% day bootstrap -0.1323 to +0.0034)  PF 0.89
+Null A 5/50/95: -0.0644 / -0.0117 / +0.0391  -> percentile 4.9
+longs 573  shorts 750  exits target 173 stop 701 close 449
+median stop 13.04 pts  median spread 0.30 pts  longest losing streak 18  best 5% sum +164.15R of total -85.72R
+== slippage 1 x 0.25 per side ==
+trades 1323  wins 482  win rate 36.43% (95% 33.9-39.1)
+mean net R -0.1097 (95% day bootstrap -0.1776 to -0.0405)  PF 0.82
+Null A 5/50/95: -0.1088 / -0.0572 / -0.0064  -> percentile 4.7
+longs 573  shorts 750  exits target 173 stop 701 close 449
+median stop 13.04 pts  median spread 0.30 pts  longest losing streak 18  best 5% sum +162.37R of total -145.13R
+== slippage 2 x 0.25 per side ==
+trades 1323  wins 476  win rate 35.98% (95% 33.4-38.6)
+mean net R -0.1546 (95% day bootstrap -0.2248 to -0.0854)  PF 0.76
+Null A 5/50/95: -0.1534 / -0.1016 / -0.0509  -> percentile 4.6
+longs 573  shorts 750  exits target 173 stop 701 close 449
+median stop 13.04 pts  median spread 0.30 pts  longest losing streak 20  best 5% sum +160.64R of total -204.53R
+year  trades  win%   meanR
+2019     153   34.6  -0.2634
+2020     134   38.1  -0.0328
+2021     169   29.6  -0.2880
+2022     187   33.2  -0.1355
+2023     188   38.8  -0.0429
+2024     171   38.6  -0.1210
+2025     171   39.2  +0.0257
+2026     150   40.0  -0.0136
+Null B (random place, same month) 5/50/95: -0.1066 / -0.0551 / -0.0040  -> percentile 4.2

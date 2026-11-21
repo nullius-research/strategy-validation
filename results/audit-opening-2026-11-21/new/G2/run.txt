@@ -1,0 +1,31 @@
+### US500 P1
+US500 M1 2017-03-22 to 2026-09-18: days 2453, open found 2453, valid sessions 2277, opening offsets {0: 2277}
+1h       n= 2277  higher  52.74%  (95%: 50.69 to 54.79)  equal  0.18%  claim 51%: inside  C5 lower bound > 50%: yes
+         mean gross +1.30 bp, net -0.31 bp, higher after costs 50.72%
+         Null A (random start, same window): percentile 93.9, null median -1.24 bp, 95th -0.25 bp  C4 FALSIFIED
+2h       n= 2277  higher  54.06%  (95%: 52.01 to 56.10)  equal  0.13%  claim 53%: inside  C5 lower bound > 50%: yes
+         mean gross +1.46 bp, net -0.15 bp, higher after costs 52.17%
+         Null A (random start, same window): percentile 84.6, null median -0.89 bp, 95th +0.31 bp  C4 FALSIFIED
+close    n= 2277  higher  54.15%  (95%: 52.10 to 56.19)  equal  0.18%  claim 54%: inside  C5 lower bound > 50%: yes
+per year (share higher 1h / 2h / close):
+  2017: n=125   49.6   53.6   50.4
+  2018: n=239   51.0   54.4   49.8
+  2019: n=248   51.6   54.0   56.5
+  2020: n=245   55.9   59.6   58.8
+  2021: n=249   53.8   55.4   56.2
+  2022: n=250   50.4   47.2   50.4
+  2023: n=247   54.3   55.9   60.7
+  2024: n=249   53.4   54.2   52.2
+  2025: n=247   53.4   52.6   52.2
+  2026: n=178   52.2   53.4   51.7
+### US500 P3
+US500 M1 2026-09-21 to 2026-10-30: days 30, open found 30, valid sessions 30, opening offsets {0: 30}
+1h       n=   30  higher  46.67%  (95%: 30.23 to 63.86)  equal  0.00%  claim 51%: inside  C5 lower bound > 50%: no  INSUFFICIENT (<100)
+         mean gross -1.38 bp, net -2.76 bp, higher after costs 46.67%
+         Null A (random start, same window): percentile 30.2, null median -1.24 bp, 95th +3.90 bp  C4 FALSIFIED
+2h       n=   30  higher  46.67%  (95%: 30.23 to 63.86)  equal  0.00%  claim 53%: inside  C5 lower bound > 50%: no  INSUFFICIENT (<100)
+         mean gross +0.32 bp, net -1.06 bp, higher after costs 43.33%
+         Null A (random start, same window): percentile 58.1, null median -1.79 bp, 95th +3.89 bp  C4 FALSIFIED
+close    n=   30  higher  53.33%  (95%: 36.14 to 69.77)  equal  0.00%  claim 54%: inside  C5 lower bound > 50%: no  INSUFFICIENT (<100)
+per year (share higher 1h / 2h / close):
+  2026: n= 30   46.7   46.7   53.3

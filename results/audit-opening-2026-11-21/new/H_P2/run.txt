@@ -1,0 +1,23 @@
+file us500.csv  from 2026-04-18  to None  slip/side 0.25  seed 31
+funnel: days 141  valid 136  range_ok 136  not_tuesday 108  breakout 108  both_sides 0  trades 108  entry_beyond_target 0
+== slippage 0 x 0.25 per side ==
+trades 108  wins 66  win rate 61.11% (95% 51.7-69.8)
+mean net R -0.0756 (95% bootstrap -0.2216 to +0.0692)  PF 0.811
+C3 (from next open, 108 trades, 0 left out): break direction -0.1044  Null A 5/50/95: -0.1711 / -0.0621 / +0.0502  -> percentile 26.1
+longs 48  shorts 60  exits target 66 stop 42 close 0
+median range 12.70  median stop 12.70  median target 6.35  median spread 0.30 pts
+== slippage 1 x 0.25 per side ==
+trades 108  wins 66  win rate 61.11% (95% 51.7-69.8)
+mean net R -0.1218 (95% bootstrap -0.2652 to +0.0207)  PF 0.708
+C3 (from next open, 108 trades, 0 left out): break direction -0.1507  Null A 5/50/95: -0.2181 / -0.1063 / +0.0020  -> percentile 25.8
+longs 48  shorts 60  exits target 66 stop 42 close 0
+median range 12.70  median stop 12.70  median target 6.35  median spread 0.30 pts
+== slippage 2 x 0.25 per side ==
+trades 108  wins 66  win rate 61.11% (95% 51.7-69.8)
+mean net R -0.1681 (95% bootstrap -0.3134 to -0.0220)  PF 0.613
+C3 (from next open, 108 trades, 0 left out): break direction -0.1969  Null A 5/50/95: -0.2627 / -0.1544 / -0.0467  -> percentile 26.3
+longs 48  shorts 60  exits target 66 stop 42 close 0
+median range 12.70  median stop 12.70  median target 6.35  median spread 0.30 pts
+gross (no spread, no slippage): win rate 61.11%  mean R -0.0478
+year  trades  win%   meanR
+2026     108   61.1  -0.1218

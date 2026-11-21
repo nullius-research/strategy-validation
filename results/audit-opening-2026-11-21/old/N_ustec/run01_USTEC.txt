@@ -1,0 +1,11 @@
+vwap_control.py run on USTEC: ustec.csv, point 0.01, slip 1.0, P1 2019-01-01 to 2026-10-30, fillspread None, Null A runs 10000, seed 43
+valid sessions in P1: 1934 (all valid sessions in the file: 2367)
+
+== P1, deciding for C1 and C2 ==
+P1: trades 5987, days with trades 1783, per day 3.36 | win rate net 31.2% (30.1-32.4) | mean net -2.695 pt (-3.698 to -1.682) | mean net -2.03 bp (-2.65 to -1.39) | PF 0.81 | gross +0.256 pt | Null A: p 0.0283, mean trades 5987, mean net -2.924 pt, percentile 71.5 (ties 0)
+
+== P0, October 2026, deciding for C3 ==
+P0 Oct 2026: trades 62, days with trades 20, per day 3.10 | win rate net 27.4% (17.9-39.6) | mean net -8.545 pt (-17.759 to +6.624) | mean net -2.84 bp (-5.98 to +2.08) | PF 0.64 | gross -5.647 pt | INSUFFICIENT TRADES | Null A: p 0.0252, mean trades 62, mean net -4.744 pt, percentile 23.3 (ties 0)
+
+C1 FALSIFIED (upper bound -1.682 pt) | C2 FALSIFIED (percentile 71.5)
+C3 not falsified (upper bound +6.430 pt)

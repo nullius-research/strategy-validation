@@ -1,0 +1,36 @@
+file ustec.csv  minstop 10.0  slip/side 1.0  seed 23
+funnel: days 2027  open_found 2027  valid 1952  minstop_ok 1949  top_touch 727  bot_touch 566  trades 1293
+== slippage 0 x 1.0 per side ==
+trades 1293  wins 425  win rate 32.87% (95% 30.4-35.5)
+mean net R -0.1158 (95% day bootstrap -0.1858 to -0.0450)  PF 0.81
+Null A 5/50/95: -0.0537 / -0.0009 / +0.0517  -> percentile 0.1
+longs 566  shorts 727  exits target 169 stop 704 close 420
+median stop 58.96 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +161.88R of total -149.74R
+== slippage 1 x 1.0 per side ==
+trades 1293  wins 417  win rate 32.25% (95% 29.8-34.8)
+mean net R -0.1573 (95% day bootstrap -0.2276 to -0.0858)  PF 0.75
+Null A 5/50/95: -0.0956 / -0.0431 / +0.0093  -> percentile 0.0
+longs 566  shorts 727  exits target 169 stop 704 close 420
+median stop 58.96 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +160.30R of total -203.40R
+== slippage 2 x 1.0 per side ==
+trades 1293  wins 406  win rate 31.40% (95% 28.9-34.0)
+mean net R -0.1988 (95% day bootstrap -0.2673 to -0.1290)  PF 0.70
+Null A 5/50/95: -0.1356 / -0.0841 / -0.0329  -> percentile 0.0
+longs 566  shorts 727  exits target 169 stop 704 close 420
+median stop 58.96 pts  median spread 1.00 pts  longest losing streak 17  best 5% sum +158.77R of total -257.06R
+year  trades  win%   meanR
+2019     150   30.7  -0.2587
+2020     146   36.3  -0.0870
+2021     173   28.9  -0.2564
+2022     179   24.0  -0.3440
+2023     176   33.0  -0.1205
+2024     167   35.9  +0.0085
+2025     160   33.1  -0.0728
+2026     142   38.0  -0.1022
+== from 2025-05-22 ==
+trades 236  wins 89  win rate 37.71% (95% 31.8-44.0)
+mean net R -0.0620 (95% day bootstrap -0.2213 to +0.0996)  PF 0.89
+Null A 5/50/95: -0.1830 / -0.0688 / +0.0461  -> percentile 53.8
+longs 98  shorts 138  exits target 31 stop 112 close 93
+median stop 96.80 pts  median spread 0.90 pts  longest losing streak 9  best 5% sum +29.72R of total -14.63R
+Null B (random place, same month) 5/50/95: -0.0942 / -0.0447 / +0.0060  -> percentile 0.0

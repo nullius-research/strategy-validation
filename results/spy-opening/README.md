@@ -2,6 +2,10 @@
 
 The claim comes from a side remark in a trading channel's video (September 2026), the same source as the Box Theory test. Over the last 15 years, if you bought SPY at the open, you were up after one hour on 51% of days, after two hours on 53%, and at the close on 54%. The video is no longer online; the claim was recorded from its transcript on 11 November 2026.
 
+## Note added 21 November 2026: opening time
+
+The script took the opening minute (9:30 New York) from the largest jump in tick volume at 15:30, 16:30 or 17:30 server time. The server runs on New York time + 7 all year, so the opening is always 16:30. On days with economic releases at 8:30 New York the script picked 15:30, one hour too early. We reran the test with the opening fixed at 16:30, same data and seed. The original script reproduces the published numbers exactly. The verdict does not change. With the fixed opening (2,277 sessions, was 2,278): share higher after 1 hour 52.74% (was 52.24%), after 2 hours 54.06% (was 53.69%), at the close 54.15% (was 54.13%), so the claimed 51, 53 and 54% still hold. Against a random start in the same window: percentile 93.9 after 1 hour (was 88.6) and 84.6 after 2 hours (was 89.9). Both stay below 95, so the opening is still not better than a random moment. The 1-hour figure is now close to that line. Old and new output: [`results/audit-opening-2026-11-21/`](../audit-opening-2026-11-21/). This is a measurement of one rule in one period, not a recommendation. Test it yourself and make your own judgement.
+
 The hypothesis was written and fixed before any price data was opened: `hypothesis-v1.0-dutch.md`, with an English version written at the same time. The Dutch file is binding. The published Dutch file differs from the internal one only in a removed first name and one rephrased line in the last section.
 
 ## What the claim implies

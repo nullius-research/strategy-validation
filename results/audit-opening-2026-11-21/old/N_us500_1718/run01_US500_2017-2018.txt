@@ -1,0 +1,9 @@
+vwap_control.py run on US500_2017-2018: us500.csv, point 0.01, slip 0.25, P1 2017-03-21 to 2018-12-31, fillspread 0.4, Null A runs 10000, seed 43
+valid sessions in P1: 347 (all valid sessions in the file: 2280)
+
+== P1, deciding for C1 and C2 ==
+P1: trades 1051, days with trades 323, per day 3.25 | win rate net 25.4% (22.9-28.1) | mean net -0.808 pt (-1.066 to -0.538) | mean net -3.01 bp (-3.99 to -1.99) | PF 0.57 | gross +0.092 pt | Null A: p 0.0274, mean trades 1051, mean net -0.893 pt, percentile 77.3 (ties 0)
+
+== P0, October 2026, deciding for C3 ==
+
+C1 FALSIFIED (upper bound -0.538 pt) | C2 FALSIFIED (percentile 77.3)

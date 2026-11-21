@@ -1,0 +1,7 @@
+H_P1: col day; trades old 1250 new 1290; on unshifted days old 1170 new 1170 identical=True; on shifted days old 80 new 120
+G_P1: col day; trades old 1316 new 1293; on unshifted days old 1187 new 1187 identical=True; on shifted days old 129 new 106
+O_rth: col day; trades old 799 new 797; on unshifted days old 690 new 694 identical=False; on shifted days old 109 new 103
+N_us500: col day; trades old 5850 new 5797; on unshifted days old 5360 new 5374 identical=False; on shifted days old 490 new 423
+--- where do differences on unshifted days sit?
+O_rth: days with a different trade 102, of which unshifted 20, of which the day after a shifted day 19
+N_us500: days with a different trade 218, of which unshifted 63, of which the day after a shifted day 57

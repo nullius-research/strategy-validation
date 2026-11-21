@@ -1,0 +1,35 @@
+
+=== P1  2018-01-02 00:00:00 to 2026-11-05 22:00:00
+funnel {'days': 2198, 'ut_signals_in_session': 15661, 'within_first_three': 6569, 'color_ok': 6565, 'signal_line_ok': 6487, 'lapsed_open_trade': 1138, 'dropped_R_below_1': 0, 'trades': 5349}
+summary {'trades': 5349, 'winrate': 46.5320620676762, 'winrate_95': (45.19830160450722, 47.87080023478501), 'mean_R': -0.09615989669799747, 'mean_R_95': (-0.1320441237136933, -0.059467287247618246), 'pf_R': 0.8152367320024984, 'gross_mean_R': 0.030022784034405975, 'median_R_points': 39.100000000000364, 'best_R': 17.283582089552734, 'worst_R': -3.0400000000001453, 'longest_losing_streak': 11, 'mean_bars_held': 11.817349037203215, 'overnight_share': 0.010469246588147317, 'long': 2714, 'short': 2635, 'open_at_end': 0}
+Null {'A': {'p5': -0.13424640098963464, 'p50': -0.09963096210934144, 'p95': -0.06412200521841446, 'percentile': 56.43}, 'B': {'p5': -0.31527527681050693, 'p50': -0.26958081646872856, 'p95': -0.21859612998490474, 'percentile': 100.0}}
+
+=== P0  2023-10-02 01:00:00 to 2023-10-31 23:55:00
+funnel {'days': 22, 'ut_signals_in_session': 161, 'within_first_three': 66, 'color_ok': 66, 'signal_line_ok': 64, 'lapsed_open_trade': 5, 'dropped_R_below_1': 0, 'trades': 59}
+summary {'trades': 59, 'winrate': 49.152542372881356, 'winrate_95': (36.84362544481631, 61.56507197854656), 'mean_R': 0.04973151189213297, 'mean_R_95': (-0.28813525208885804, 0.37710851531634176), 'pf_R': 1.100184490028727, 'gross_mean_R': 0.15167553052355678, 'median_R_points': 39.70000000000073, 'best_R': 3.759999999999976, 'worst_R': -1.2702702702702835, 'longest_losing_streak': 6, 'mean_bars_held': 8.64406779661017, 'overnight_share': 0.0, 'long': 30, 'short': 29, 'open_at_end': 0}
+Null: skipped for P0 (one month)
+
+=== P2  2023-11-06 01:00:00 to 2026-11-05 22:00:00
+funnel {'days': 744, 'ut_signals_in_session': 5222, 'within_first_three': 2219, 'color_ok': 2218, 'signal_line_ok': 2192, 'lapsed_open_trade': 393, 'dropped_R_below_1': 0, 'trades': 1799}
+summary {'trades': 1799, 'winrate': 50.416898276820454, 'winrate_95': (48.10802894541214, 52.7239909059159), 'mean_R': -0.017040354985057984, 'mean_R_95': (-0.08181967923871757, 0.04986030793236682), 'pf_R': 0.9639221150845105, 'gross_mean_R': 0.04676574785606798, 'median_R_points': 57.400000000001455, 'best_R': 15.926984126984035, 'worst_R': -1.4597701149424902, 'longest_losing_streak': 10, 'mean_bars_held': 12.032240133407448, 'overnight_share': 0.012784880489160644, 'long': 895, 'short': 904, 'open_at_end': 0}
+Null {'A': {'p5': -0.1098887456059981, 'p50': -0.048329053486664504, 'p95': 0.016536180555713386, 'percentile': 78.8}, 'B': {'p5': -0.24528121494763047, 'p50': -0.1660361703880026, 'p95': -0.06586855340891277, 'percentile': 98.75}}
+
+=== P1 slip0  2018-01-02 00:00:00 to 2026-11-05 22:00:00
+funnel {'days': 2198, 'ut_signals_in_session': 15661, 'within_first_three': 6569, 'color_ok': 6565, 'signal_line_ok': 6487, 'lapsed_open_trade': 1138, 'dropped_R_below_1': 0, 'trades': 5349}
+summary {'trades': 5349, 'winrate': 51.14974761637689, 'winrate_95': (49.80980365874836, 52.48804128401999), 'mean_R': -0.024055994807752074, 'mean_R_95': (-0.05995956992743107, 0.012468314374834049), 'pf_R': 0.9496616666215469, 'gross_mean_R': 0.030022784034405975, 'median_R_points': 39.100000000000364, 'best_R': 17.58208955223931, 'worst_R': -2.8400000000001455, 'longest_losing_streak': 10, 'mean_bars_held': 11.817349037203215, 'overnight_share': 0.010469246588147317, 'long': 2714, 'short': 2635, 'open_at_end': 0}
+Null {'A': {'p5': -0.057517382296908164, 'p50': -0.02277096449360367, 'p95': 0.012566738848521733, 'percentile': 47.45}, 'B': {'p5': -0.12292558667466937, 'p50': -0.0789395715131507, 'p95': -0.028921154139466027, 'percentile': 96.42}}
+
+=== P1 slip2  2018-01-02 00:00:00 to 2026-11-05 22:00:00
+funnel {'days': 2198, 'ut_signals_in_session': 15661, 'within_first_three': 6569, 'color_ok': 6565, 'signal_line_ok': 6487, 'lapsed_open_trade': 1138, 'dropped_R_below_1': 0, 'trades': 5349}
+summary {'trades': 5349, 'winrate': 42.923911011404, 'winrate_95': (41.60298848053303, 44.25499020503091), 'mean_R': -0.16826379858824286, 'mean_R_95': (-0.2047009727627363, -0.13119670373585285), 'pf_R': 0.7029001573846323, 'gross_mean_R': 0.030022784034405975, 'median_R_points': 39.100000000000364, 'best_R': 16.98507462686616, 'worst_R': -3.4, 'longest_losing_streak': 15, 'mean_bars_held': 11.817349037203215, 'overnight_share': 0.010469246588147317, 'long': 2714, 'short': 2635, 'open_at_end': 0}
+Null {'A': {'p5': -0.21132003432692917, 'p50': -0.1763911312351027, 'p95': -0.14078033920936686, 'percentile': 64.86}, 'B': {'p5': -0.5076818951186335, 'p50': -0.46017970574170064, 'p95': -0.4077774421963732, 'percentile': 100.0}}
+
+=== P1 linreg-colour  2018-01-02 00:00:00 to 2026-11-05 22:00:00
+funnel {'days': 2198, 'ut_signals_in_session': 15661, 'within_first_three': 6569, 'color_ok': 6485, 'signal_line_ok': 6460, 'lapsed_open_trade': 1129, 'dropped_R_below_1': 0, 'trades': 5331}
+summary {'trades': 5331, 'winrate': 46.63290189457888, 'winrate_95': (45.29663956604277, 47.97401349327204), 'mean_R': -0.0941237215155428, 'mean_R_95': (-0.12984872786893445, -0.057338688747071), 'pf_R': 0.8186968540244351, 'gross_mean_R': 0.03169200040036, 'median_R_points': 39.19999999999982, 'best_R': 17.283582089552734, 'worst_R': -3.0400000000001453, 'longest_losing_streak': 11, 'mean_bars_held': 11.838867004314388, 'overnight_share': 0.010504595760645283, 'long': 2709, 'short': 2622, 'open_at_end': 0}
+Null {'A': {'p5': -0.13545334816553947, 'p50': -0.09961789332169654, 'p95': -0.06378836531738521, 'percentile': 60.48}, 'B': {'p5': -0.3159400552113605, 'p50': -0.2701308324105124, 'p95': -0.2192053795144052, 'percentile': 100.0}}
+
+=== P1 forced17  2018-01-02 00:00:00 to 2026-11-05 22:00:00
+funnel {'days': 2198, 'ut_signals_in_session': 15661, 'within_first_three': 6569, 'color_ok': 6565, 'signal_line_ok': 6487, 'lapsed_open_trade': 1133, 'dropped_R_below_1': 0, 'trades': 5354}
+summary {'trades': 5354, 'winrate': 46.26447515875981, 'winrate_95': (44.93204499751872, 47.60226210107113), 'mean_R': -0.095849642915923, 'mean_R_95': (-0.13132945729253584, -0.05877003765813504), 'pf_R': 0.8154560493051506, 'gross_mean_R': 0.030334055379240284, 'median_R_points': 39.100000000000364, 'best_R': 17.283582089552734, 'worst_R': -3.0400000000001453, 'longest_losing_streak': 11, 'mean_bars_held': 11.248785954426596, 'overnight_share': 0.0009338812103100486, 'long': 2718, 'short': 2636, 'open_at_end': 0}
+Null {'A': {'p5': -0.13485655753547793, 'p50': -0.09999565479928668, 'p95': -0.06386021738617631, 'percentile': 57.51}, 'B': {'p5': -0.31460034789809566, 'p50': -0.26989953706082903, 'p95': -0.21948911021791834, 'percentile': 100.0}}

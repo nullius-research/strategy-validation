@@ -1,0 +1,37 @@
+vwap_control.py run on US500: us500.csv, point 0.01, slip 0.25, P1 2019-01-01 to 2026-10-30, fillspread None, Null A runs 10000, seed 43
+valid sessions in P1: 1933 (all valid sessions in the file: 2280)
+
+== P1, deciding for C1 and C2 ==
+P1: trades 5850, days with trades 1779, per day 3.29 | win rate net 30.1% (29.0-31.3) | mean net -0.689 pt (-0.920 to -0.454) | mean net -1.75 bp (-2.25 to -1.23) | PF 0.78 | gross +0.104 pt | Null A: p 0.0276, mean trades 5850, mean net -0.771 pt, percentile 82.2 (ties 0)
+
+== P0, October 2026, deciding for C3 ==
+P0 Oct 2026: trades 65, days with trades 22, per day 2.95 | win rate net 33.8% (23.5-46.0) | mean net -0.360 pt (-1.894 to +1.822) | mean net -0.46 bp (-2.42 to +2.33) | PF 0.90 | gross +0.446 pt | INSUFFICIENT TRADES | Null A: p 0.0270, mean trades 65, mean net -0.725 pt, percentile 67.1 (ties 0)
+
+C1 FALSIFIED (upper bound -0.454 pt) | C2 FALSIFIED (percentile 82.2)
+C3 not falsified (upper bound +1.771 pt)
+
+== Descriptive (section 9) ==
+median duration 15 min, mean 21.7 min
+largest loss per trade -46.20 pt on 2025-04-07, largest gain +167.20 pt
+exit reasons: {'ema': 5626, 'eod': 203, 'rev': 21}
+mean spread at entry 0.293 pt, cost per trade at slip x1 0.793 pt
+costs: spread + slip x0: mean net -0.189 pt, PF 0.93
+costs: spread + slip x1: mean net -0.689 pt, PF 0.78
+costs: spread + slip x2: mean net -1.189 pt, PF 0.67
+no costs at all: mean gross +0.104 pt, gross win rate 34.1%
+long: trades 3063, days with trades 1645, per day 1.86 | win rate net 31.9% (30.2-33.5) | mean net -0.508 pt (-0.796 to -0.210) | mean net -1.19 bp (-1.82 to -0.54) | PF 0.83 | gross +0.288 pt
+short: trades 2787, days with trades 1498, per day 1.86 | win rate net 28.2% (26.6-29.9) | mean net -0.889 pt (-1.259 to -0.500) | mean net -2.36 bp (-3.14 to -1.56) | PF 0.74 | gross -0.098 pt
+year 2019: trades 743, days with trades 222, per day 3.35 | win rate net 24.1% (21.2-27.3) | mean net -1.077 pt (-1.321 to -0.812) | mean net -3.73 bp (-4.60 to -2.81) | PF 0.44 | gross -0.176 pt
+year 2020: trades 718, days with trades 225, per day 3.19 | win rate net 29.9% (26.7-33.4) | mean net -0.744 pt (-1.264 to -0.160) | mean net -2.20 bp (-3.94 to -0.29) | PF 0.75 | gross +0.176 pt
+year 2021: trades 781, days with trades 234, per day 3.34 | win rate net 28.9% (25.9-32.2) | mean net -0.723 pt (-1.151 to -0.251) | mean net -1.74 bp (-2.75 to -0.65) | PF 0.71 | gross +0.034 pt
+year 2022: trades 789, days with trades 235, per day 3.36 | win rate net 31.7% (28.5-35.0) | mean net -0.879 pt (-1.560 to -0.167) | mean net -2.19 bp (-3.89 to -0.39) | PF 0.79 | gross -0.168 pt
+year 2023: trades 727, days with trades 223, per day 3.26 | win rate net 31.8% (28.5-35.2) | mean net -0.546 pt (-1.060 to +0.017) | mean net -1.33 bp (-2.58 to +0.02) | PF 0.81 | gross +0.166 pt
+year 2024: trades 779, days with trades 230, per day 3.39 | win rate net 28.6% (25.6-31.9) | mean net -0.402 pt (-1.086 to +0.392) | mean net -0.79 bp (-2.02 to +0.65) | PF 0.87 | gross +0.325 pt
+year 2025: trades 717, days with trades 220, per day 3.26 | win rate net 34.4% (31.1-38.0) | mean net -0.506 pt (-1.420 to +0.499) | mean net -0.93 bp (-2.44 to +0.75) | PF 0.88 | gross +0.325 pt
+year 2026: trades 596, days with trades 190, per day 3.14 | win rate net 32.2% (28.6-36.1) | mean net -0.616 pt (-1.464 to +0.314) | mean net -0.87 bp (-2.08 to +0.41) | PF 0.85 | gross +0.187 pt
+
+== Variant K1-B (touch), not deciding ==
+K1-B touch: trades 5850, days with trades 1779, per day 3.29 | win rate net 26.1% (25.0-27.2) | mean net -0.590 pt (-0.765 to -0.399) | mean net -1.51 bp (-1.89 to -1.10) | PF 0.76 | gross +0.204 pt
+
+== VWAP without volume, not deciding ==
+VWAP equal weight: trades 6285, days with trades 1802, per day 3.49 | win rate net 30.2% (29.0-31.3) | mean net -0.677 pt (-0.892 to -0.457) | mean net -1.68 bp (-2.16 to -1.19) | PF 0.78 | gross +0.117 pt | Null A: p 0.0300, mean trades 6286, mean net -0.774 pt, percentile 87.3 (ties 0)
