@@ -1,0 +1,154 @@
+USTEC valid sessions 2384, 2017-04-04 to 2026-11-04; P1 sessions 1704; P1 days without clear volume jump at 16:30: 193
+-- control groups --
+Null B (random moment and direction, p=0.0875, mean trades 1538): mean -2.953, percentile 100.0 (strict 100.0, with ties 100.0), 0 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -2.914, percentile 99.8 (strict 99.8, with ties 99.8), 22 of 10000 runs at or above
+-- rule --
+== USTEC P1, K2 A, K5 A slippage 1 pt (DECISIVE: C1, C2, C3)
+valid days 1704, trades 1537 (0.90 per day)
+mean net per trade 4.849 pt (95% day bootstrap 0.052 to 9.904); 2.917 bp; gross 7.787 pt; sum net 7452.8 pt
+win rate 40.5%; profit factor 1.169; avg win 82.957; avg loss -48.391; median hold 2 checks; max drawdown cum. points -2328.8
+  long: 782 trades, mean net 6.297, win 45.4%
+  short: 755 trades, mean net 3.349, win 35.5%
+  year 2020: 213 trades, sum net 240.6, mean 1.130
+  year 2021: 221 trades, sum net 789.3, mean 3.571
+  year 2022: 259 trades, sum net 1489.9, mean 5.753
+  year 2023: 217 trades, sum net 1324.6, mean 6.104
+  year 2024: 218 trades, sum net 1587.9, mean 7.284
+  year 2025: 217 trades, sum net 1226.3, mean 5.651
+  year 2026: 192 trades, sum net 794.2, mean 4.136
+without the 10 best days: sum net 1398.9 pt (10 best days 6054.0 pt)
+
+VERDICT (section 8)
+C1 (+6.8 pt): upper bound 9.904 -> not falsified
+C2 (beats Null B): percentile 100.0 -> not falsified
+C3 (every year positive): 2020 240.6, 2021 789.3, 2022 1489.9, 2023 1324.6, 2024 1587.9, 2025 1226.3, 2026 794.2 -> not falsified
+
+== USTEC P1, slippage 0x
+valid days 1704, trades 1537 (0.90 per day)
+mean net per trade 6.849 pt (95% day bootstrap 2.052 to 11.904); 4.230 bp; gross 7.787 pt; sum net 10526.8 pt
+win rate 41.4%; profit factor 1.248; avg win 83.244; avg loss -47.077; median hold 2 checks; max drawdown cum. points -1988.8
+  long: 782 trades, mean net 8.297, win 45.9%
+  short: 755 trades, mean net 5.349, win 36.7%
+  year 2020: 213 trades, sum net 666.6, mean 3.130
+  year 2021: 221 trades, sum net 1231.3, mean 5.571
+  year 2022: 259 trades, sum net 2007.9, mean 7.753
+  year 2023: 217 trades, sum net 1758.6, mean 8.104
+  year 2024: 218 trades, sum net 2023.9, mean 9.284
+  year 2025: 217 trades, sum net 1660.3, mean 7.651
+  year 2026: 192 trades, sum net 1178.2, mean 6.136
+without the 10 best days: sum net 4444.9 pt (10 best days 6082.0 pt)
+Null B (random moment and direction, p=0.0875, mean trades 1538): mean -0.953, percentile 100.0 (strict 100.0, with ties 100.0), 0 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -0.914, percentile 99.8 (strict 99.8, with ties 99.8), 22 of 10000 runs at or above
+
+== USTEC P1, slippage 2x
+valid days 1704, trades 1537 (0.90 per day)
+mean net per trade 2.849 pt (95% day bootstrap -1.948 to 7.904); 1.605 bp; gross 7.787 pt; sum net 4378.8 pt
+win rate 39.2%; profit factor 1.095; avg win 83.817; avg loss -49.282; median hold 2 checks; max drawdown cum. points -2668.8
+  long: 782 trades, mean net 4.297, win 43.5%
+  short: 755 trades, mean net 1.349, win 34.7%
+  year 2020: 213 trades, sum net -185.4, mean -0.870
+  year 2021: 221 trades, sum net 347.3, mean 1.571
+  year 2022: 259 trades, sum net 971.9, mean 3.753
+  year 2023: 217 trades, sum net 890.6, mean 4.104
+  year 2024: 218 trades, sum net 1151.9, mean 5.284
+  year 2025: 217 trades, sum net 792.3, mean 3.651
+  year 2026: 192 trades, sum net 410.2, mean 2.136
+without the 10 best days: sum net -1647.1 pt (10 best days 6026.0 pt)
+Null B (random moment and direction, p=0.0875, mean trades 1538): mean -4.953, percentile 100.0 (strict 100.0, with ties 100.0), 0 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -4.914, percentile 99.8 (strict 99.8, with ties 99.8), 22 of 10000 runs at or above
+
+== USTEC P1, K5 B video cost level 0.75 pt per trade
+valid days 1704, trades 1537 (0.90 per day)
+mean net per trade 7.037 pt (95% day bootstrap 2.242 to 12.094); 4.376 bp; gross 7.787 pt; sum net 10816.1 pt
+win rate 41.5%; profit factor 1.256; avg win 83.163; avg loss -46.988; median hold 2 checks; max drawdown cum. points -1961.3
+  long: 782 trades, mean net 8.488, win 46.0%
+  short: 755 trades, mean net 5.535, win 36.8%
+  year 2020: 213 trades, sum net 739.8, mean 3.473
+  year 2021: 221 trades, sum net 1290.7, mean 5.840
+  year 2022: 259 trades, sum net 2076.9, mean 8.019
+  year 2023: 217 trades, sum net 1812.9, mean 8.354
+  year 2024: 218 trades, sum net 2004.8, mean 9.196
+  year 2025: 217 trades, sum net 1686.1, mean 7.770
+  year 2026: 192 trades, sum net 1205.1, mean 6.277
+without the 10 best days: sum net 4731.8 pt (10 best days 6084.3 pt)
+Null B (random moment and direction, p=0.0875, mean trades 1538): mean -0.771, percentile 100.0 (strict 100.0, with ties 100.0), 0 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -0.725, percentile 99.8 (strict 99.8, with ties 99.8), 22 of 10000 runs at or above
+
+== USTEC P1, K2 B (entry also on the VWAP side)
+valid days 1704, trades 1480 (0.87 per day)
+mean net per trade 5.042 pt (95% day bootstrap 0.057 to 10.303); 3.188 bp; gross 7.981 pt; sum net 7462.8 pt
+win rate 40.5%; profit factor 1.174; avg win 84.057; avg loss -48.680; median hold 2 checks; max drawdown cum. points -2324.0
+  long: 771 trades, mean net 6.024, win 45.0%
+  short: 709 trades, mean net 3.975, win 35.5%
+  year 2020: 206 trades, sum net 484.2, mean 2.350
+  year 2021: 215 trades, sum net 983.7, mean 4.575
+  year 2022: 254 trades, sum net 1423.9, mean 5.606
+  year 2023: 211 trades, sum net 1328.3, mean 6.295
+  year 2024: 207 trades, sum net 1693.3, mean 8.180
+  year 2025: 204 trades, sum net 1305.8, mean 6.401
+  year 2026: 183 trades, sum net 243.7, mean 1.332
+without the 10 best days: sum net 1407.9 pt (10 best days 6055.0 pt)
+Null B (random moment and direction, p=0.0843, mean trades 1483): mean -2.930, percentile 100.0 (strict 100.0, with ties 100.0), 0 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -2.915, percentile 99.8 (strict 99.8, with ties 99.8), 16 of 10000 runs at or above
+
+== USTEC P1, VWAP without volume
+valid days 1704, trades 1548 (0.91 per day)
+mean net per trade 4.734 pt (95% day bootstrap -0.029 to 9.751); 2.812 bp; gross 7.672 pt; sum net 7327.5 pt
+win rate 40.7%; profit factor 1.165; avg win 81.921; avg loss -48.238; median hold 2 checks; max drawdown cum. points -2332.5
+  long: 790 trades, mean net 6.164, win 45.7%
+  short: 758 trades, mean net 3.242, win 35.5%
+  year 2020: 217 trades, sum net 29.8, mean 0.137
+  year 2021: 221 trades, sum net 789.3, mean 3.571
+  year 2022: 259 trades, sum net 1525.6, mean 5.890
+  year 2023: 218 trades, sum net 1382.2, mean 6.340
+  year 2024: 222 trades, sum net 1583.8, mean 7.134
+  year 2025: 219 trades, sum net 1222.6, mean 5.583
+  year 2026: 192 trades, sum net 794.2, mean 4.136
+without the 10 best days: sum net 1273.5 pt (10 best days 6054.0 pt)
+Null B (random moment and direction, p=0.0882, mean trades 1549): mean -2.985, percentile 100.0 (strict 100.0, with ties 100.0), 1 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -2.899, percentile 99.9 (strict 99.9, with ties 99.9), 9 of 10000 runs at or above
+
+== USTEC after the paper (from 2024-05-14)
+valid days 615, trades 550 (0.89 per day)
+mean net per trade 6.051 pt (95% day bootstrap -4.180 to 17.332); 3.060 bp; gross 8.852 pt; sum net 3328.3 pt
+win rate 39.6%; profit factor 1.164; avg win 108.331; avg loss -61.108; median hold 2 checks; max drawdown cum. points -2328.8
+  long: 274 trades, mean net 3.421, win 43.4%
+  short: 276 trades, mean net 8.662, win 35.9%
+  year 2024: 141 trades, sum net 1307.7, mean 9.275
+  year 2025: 217 trades, sum net 1226.3, mean 5.651
+  year 2026: 192 trades, sum net 794.2, mean 4.136
+without the 10 best days: sum net -2687.9 pt (10 best days 6016.1 pt)
+Null B (random moment and direction, p=0.0866, mean trades 550): mean -2.748, percentile 98.1 (strict 98.1, with ties 98.1), 186 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -2.886, percentile 93.1 (strict 93.1, with ties 93.1), 692 of 10000 runs at or above
+
+== USTEC 2017-2019 (K3 B)
+valid days 666, trades 582 (0.87 per day)
+mean net per trade 1.726 pt (95% day bootstrap -1.068 to 4.721); 2.671 bp; gross 4.709 pt; sum net 1004.5 pt
+win rate 32.1%; profit factor 1.168; avg win 37.332; avg loss -15.131; median hold 2 checks; max drawdown cum. points -587.6
+  long: 312 trades, mean net 0.590, win 34.3%
+  short: 270 trades, mean net 3.039, win 29.6%
+  year 2017: 144 trades, sum net -45.1, mean -0.313
+  year 2018: 221 trades, sum net 1473.4, mean 6.667
+  year 2019: 217 trades, sum net -423.8, mean -1.953
+without the 10 best days: sum net -638.8 pt (10 best days 1643.3 pt)
+Null B (random moment and direction, p=0.0843, mean trades 582): mean -2.975, percentile 100.0 (strict 100.0, with ties 100.0), 1 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -2.969, percentile 99.9 (strict 99.9, with ties 99.9), 9 of 10000 runs at or above
+
+US500 valid sessions 2315, 2017-03-21 to 2026-10-30
+== US500 P1 (K1 B), slippage 0.25 pt
+valid days 1701, trades 1557 (0.92 per day)
+mean net per trade 0.052 pt (95% day bootstrap -0.960 to 1.085); 0.498 bp; gross 0.822 pt; sum net 80.8 pt
+win rate 37.8%; profit factor 1.008; avg win 18.126; avg loss -10.916; median hold 2 checks; max drawdown cum. points -1063.0
+  long: 801 trades, mean net 0.513, win 41.9%
+  short: 756 trades, mean net -0.437, win 33.3%
+  year 2020: 197 trades, sum net -23.5, mean -0.119
+  year 2021: 213 trades, sum net 257.2, mean 1.208
+  year 2022: 250 trades, sum net 517.7, mean 2.071
+  year 2023: 227 trades, sum net 112.7, mean 0.496
+  year 2024: 235 trades, sum net 20.5, mean 0.087
+  year 2025: 224 trades, sum net -260.0, mean -1.161
+  year 2026: 211 trades, sum net -543.8, mean -2.577
+without the 10 best days: sum net -1067.0 pt (10 best days 1147.8 pt)
+Null B (random moment and direction, p=0.0888, mean trades 1558): mean -0.774, percentile 96.1 (strict 96.1, with ties 96.1), 387 of 10000 runs at or above
+Null A (same trades, coin on direction): mean -0.777, percentile 94.0 (strict 94.0, with ties 94.0), 596 of 10000 runs at or above
+

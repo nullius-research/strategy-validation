@@ -1,0 +1,29 @@
+set  0: trades 1956, net -2.646, gross 0.354, Null B pct 88.6 (trades 1954), Null A pct 84.5
+set  1: trades 1989, net -3.373, gross -0.373, Null B pct 24.7 (trades 1988), Null A pct 26.0
+set  2: trades 1980, net -2.408, gross 0.592, Null B pct 87.6 (trades 1980), Null A pct 83.5
+set  3: trades 1990, net -3.244, gross -0.244, Null B pct 26.7 (trades 1987), Null A pct 25.5
+set  4: trades 1970, net -3.367, gross -0.367, Null B pct 18.4 (trades 1968), Null A pct 22.2
+set  5: trades 1982, net -3.176, gross -0.176, Null B pct 40.8 (trades 1983), Null A pct 42.0
+set  6: trades 1912, net -1.407, gross 1.593, Null B pct 98.7 (trades 1913), Null A pct 97.8
+set  7: trades 2059, net -3.689, gross -0.689, Null B pct 10.2 (trades 2061), Null A pct 11.2
+set  8: trades 2016, net -3.402, gross -0.402, Null B pct 12.2 (trades 2014), Null A pct 13.7
+set  9: trades 1978, net -3.255, gross -0.255, Null B pct 25.6 (trades 1982), Null A pct 28.0
+set 10: trades 1904, net -2.796, gross 0.204, Null B pct 71.2 (trades 1902), Null A pct 67.8
+set 11: trades 2007, net -3.046, gross -0.046, Null B pct 45.0 (trades 2009), Null A pct 48.4
+set 12: trades 2005, net -2.836, gross 0.164, Null B pct 61.4 (trades 2004), Null A pct 59.6
+set 13: trades 2024, net -3.690, gross -0.690, Null B pct 13.5 (trades 2022), Null A pct 14.6
+set 14: trades 2017, net -3.669, gross -0.669, Null B pct 1.5 (trades 2016), Null A pct 1.6
+set 15: trades 1985, net -3.343, gross -0.343, Null B pct 28.1 (trades 1983), Null A pct 33.0
+set 16: trades 1990, net -3.303, gross -0.303, Null B pct 24.8 (trades 1991), Null A pct 27.3
+set 17: trades 1990, net -3.934, gross -0.934, Null B pct 4.7 (trades 1989), Null A pct 6.8
+set 18: trades 1965, net -2.876, gross 0.124, Null B pct 59.6 (trades 1969), Null A pct 57.4
+set 19: trades 1949, net -2.857, gross 0.143, Null B pct 62.7 (trades 1946), Null A pct 60.1
+set 20: trades 1972, net -2.995, gross 0.005, Null B pct 50.2 (trades 1969), Null A pct 51.1
+set 21: trades 1957, net -3.097, gross -0.097, Null B pct 42.4 (trades 1961), Null A pct 44.1
+set 22: trades 2003, net -3.416, gross -0.416, Null B pct 27.4 (trades 2001), Null A pct 31.7
+set 23: trades 1993, net -3.035, gross -0.035, Null B pct 44.6 (trades 1996), Null A pct 47.0
+
+Null B: mean percentile 40.4, 1 of 24 above 95
+Null A: mean percentile 41.0, 1 of 24 above 95
+mean gross per trade on noise -0.119 pt; mean net -3.119 pt
+NOISE CHECK PASSED

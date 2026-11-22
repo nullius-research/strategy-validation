@@ -1,0 +1,8 @@
+hand-made days: {16: [], 17: [(-1, 0, 12)], 18: [(1, 0, 3), (-1, 5, 12)], 19: [(1, 11, 12)]}
+ gap up no trade, gap down short all day, late long: OK
+ rise then crash gives long then reversal to short: OK
+ same-direction re-entry at the exit moment (v1.1 forbids): 0 OK
+ fake market 300 days, vwap_entry=False: 401 vs 401 trades, OK
+ fake market 300 days, vwap_entry=True: 391 vs 391 trades, OK
+ Null B on 300 fake days, no costs: mean -0.0840, trades 398.9 vs real 401
+SELFTEST PASSED

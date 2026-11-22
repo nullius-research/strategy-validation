@@ -112,6 +112,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | 9 EMA + VWAP crossover, S&P 500 3 minutes, 2019-2026 decisive, 5,850 trades; Nasdaq 100 supplementary | [`results/vwap-9ema`](results/vwap-9ema/) |
 | 9 EMA + VWAP and a prop firm challenge, Nasdaq 100 5 minutes, 2023-2026 decisive, 799 trades, 95 challenges | [`results/vwap-prop`](results/vwap-prop/) |
 | Breakout of support and resistance (H4 and D1 turning points), gold 1 hour with a trailing stop, 2017-2024 decisive, 1,569 trades | [`results/sr-breakout`](results/sr-breakout/) |
+| Noise-area intraday momentum (noise band around the open, checks every 30 minutes, VWAP exit), Nasdaq 100 M1, 2020-2026 decisive, 1,537 trades; S&P 500 supplementary | [`results/noise-area-momentum`](results/noise-area-momentum/) |
 
 ## Licence
 
