@@ -1,0 +1,33 @@
+rows 125452, first 1998-04-22 00:00:00, last 2026-11-05 22:00:00
+duplicate timestamps 0, non-30-min-aligned 0
+usable start (first month with >=40 M30 bars on every trading day onward? -> first such month): 2017-05-01
+trading days from usable start 2458; bars per day min 34, median 46, max 46
+days with < 40 bars after usable start: 31
+  2017: days 174, min bars 38, median 46, days<40 3
+  2018: days 258, min bars 39, median 46, days<40 7
+  2019: days 258, min bars 38, median 46, days<40 6
+  2020: days 259, min bars 38, median 46, days<40 6
+  2021: days 258, min bars 34, median 46, days<40 6
+  2022: days 258, min bars 40, median 46, days<40 0
+  2023: days 257, min bars 40, median 46, days<40 0
+  2024: days 259, min bars 40, median 46, days<40 0
+  2025: days 258, min bars 38, median 46, days<40 1
+  2026: days 219, min bars 38, median 46, days<40 2
+weekdays without data after usable start: 26
+  2017-12-25, 2018-01-01, 2018-03-30, 2018-12-25, 2019-01-01, 2019-04-19, 2019-12-25, 2020-01-01, 2020-04-10, 2020-12-25, 2021-01-01, 2021-04-02, 2021-12-24, 2022-04-15, 2022-12-26, 2023-01-02, 2023-04-07, 2023-12-25, 2024-01-01, 2024-03-29, 2024-12-25, 2025-01-01, 2025-04-18, 2025-12-25, 2026-01-01, 2026-04-03
+median SPREAD (points) from usable start 2; per year:
+  2017: median 5, p90 7
+  2018: median 3, p90 6
+  2019: median 2, p90 3
+  2020: median 2, p90 4
+  2021: median 0, p90 1
+  2022: median 0, p90 2
+  2023: median 0, p90 5
+  2024: median 5, p90 5
+  2025: median 5, p90 7
+  2026: median 5, p90 5
+price digits check (sample closes): [1270.42, 1270.72, 1270.8]
+P1 first bar of day (top 5): {'01:00': np.int64(1289), '01:30': np.int64(1)}
+P1 last bar of day (top 5): {'23:30': np.int64(1247), '21:00': np.int64(27), '20:30': np.int64(6), '21:30': np.int64(6), '19:30': np.int64(3)}
+P1 weekday counts: {'Tuesday': np.int64(261), 'Wednesday': np.int64(259), 'Thursday': np.int64(259), 'Monday': np.int64(257), 'Friday': np.int64(254)}
+P1 days 1290 first 2021-11-08 01:00:00 last 2026-11-05 22:00:00

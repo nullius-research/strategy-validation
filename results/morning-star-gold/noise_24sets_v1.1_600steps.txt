@@ -1,0 +1,26 @@
+set  0 drift 0.00: trades   791 (Null A median 771)  long  47.8%  win  31.2%  mean -0.264R  pct vs Null A  11.1  vs Null B   7.5
+set  1 drift 0.08: trades   818 (Null A median 797)  long  48.4%  win  32.8%  mean -0.103R  pct vs Null A  28.2  vs Null B  32.6
+set  2 drift 0.00: trades   792 (Null A median 780)  long  51.0%  win  35.0%  mean -0.061R  pct vs Null A  71.1  vs Null B  81.3
+set  3 drift 0.08: trades   800 (Null A median 789)  long  52.9%  win  33.8%  mean -0.040R  pct vs Null A  26.4  vs Null B  53.9
+set  4 drift 0.00: trades   792 (Null A median 774)  long  51.8%  win  33.5%  mean -0.075R  pct vs Null A  47.1  vs Null B  53.6
+set  5 drift 0.08: trades   784 (Null A median 769)  long  51.3%  win  31.8%  mean -0.158R  pct vs Null A  19.1  vs Null B  14.3
+set  6 drift 0.00: trades   814 (Null A median 795)  long  49.0%  win  34.2%  mean -0.081R  pct vs Null A  55.9  vs Null B  63.4
+set  7 drift 0.08: trades   764 (Null A median 747)  long  51.0%  win  35.3%  mean -0.057R  pct vs Null A  79.7  vs Null B  87.3
+set  8 drift 0.00: trades   807 (Null A median 791)  long  50.7%  win  31.6%  mean -0.184R  pct vs Null A  31.3  vs Null B  15.6
+set  9 drift 0.08: trades   760 (Null A median 745)  long  53.2%  win  33.7%  mean -0.082R  pct vs Null A  72.7  vs Null B  59.4
+set 10 drift 0.00: trades   762 (Null A median 751)  long  49.2%  win  30.6%  mean -0.177R  pct vs Null A   2.2  vs Null B   3.5
+set 11 drift 0.08: trades   815 (Null A median 800)  long  48.3%  win  30.9%  mean -0.185R  pct vs Null A   4.8  vs Null B   7.2
+set 12 drift 0.00: trades   816 (Null A median 799)  long  50.1%  win  35.3%  mean -0.036R  pct vs Null A  38.8  vs Null B  84.4
+set 13 drift 0.08: trades   786 (Null A median 770)  long  48.1%  win  35.6%  mean -0.023R  pct vs Null A  71.8  vs Null B  90.0
+set 14 drift 0.00: trades   821 (Null A median 807)  long  53.0%  win  33.5%  mean -0.078R  pct vs Null A  60.1  vs Null B  50.2
+set 15 drift 0.08: trades   777 (Null A median 762)  long  45.8%  win  34.9%  mean -0.082R  pct vs Null A  79.0  vs Null B  83.1
+set 16 drift 0.00: trades   846 (Null A median 824)  long  44.9%  win  34.0%  mean -0.110R  pct vs Null A  61.0  vs Null B  67.2
+set 17 drift 0.08: trades   825 (Null A median 804)  long  51.6%  win  30.1%  mean -0.176R  pct vs Null A   0.4  vs Null B   1.8
+set 18 drift 0.00: trades   831 (Null A median 821)  long  50.4%  win  33.1%  mean -0.127R  pct vs Null A  56.8  vs Null B  50.0
+set 19 drift 0.08: trades   765 (Null A median 760)  long  58.2%  win  34.2%  mean -0.024R  pct vs Null A  72.5  vs Null B  70.9
+set 20 drift 0.00: trades   793 (Null A median 783)  long  48.3%  win  33.7%  mean -0.105R  pct vs Null A  40.4  vs Null B  51.3
+set 21 drift 0.08: trades   777 (Null A median 767)  long  53.2%  win  35.4%  mean -0.002R  pct vs Null A  77.0  vs Null B  84.1
+set 22 drift 0.00: trades   774 (Null A median 747)  long  44.8%  win  33.6%  mean -0.192R  pct vs Null A  45.0  vs Null B  54.0
+set 23 drift 0.08: trades   843 (Null A median 820)  long  57.2%  win  33.6%  mean -0.046R  pct vs Null A  55.3  vs Null B  56.9
+
+mean percentile vs Null A 46.2; above 95: 0 of 24; below 5: 3

@@ -1,0 +1,8 @@
+pattern: vectorised vs loop equal on 12480 bars: True; morning 365, evening 368
+SMA14 equals a plain mean: True
+walk, long, entry 100.5 stop 99 target 103.5 from bar 0 (stop not hit in bar 0? low 99.5):  (1, 99.0, 1)  expected bar 1 at 99.0 (low 99 touches stop)
+walk, same but stop 98.0:  (3, 103.5, 1)  expected bar 3 at 103.5 (high 104)
+walk, stop and target in one bar:  (1, 98.0, 1)  expected bar 1 at 98.0
+fill, buy stop 101 opens above at 101.5:  (0, 101.5)  expected (0, 101.5)
+challenge 12 x +2R: (1, 8, 8)  expected (1, 8, 8): phase 1 at trade 5 (day 4); phase 2 has $6,000 after day 7 but only 3 days, so day 8
+challenge 6 x -1R same day (low 98.9 = -1.1R floating): (-1, 0, -1)  expected (-1, 0, -1): equity -$5,000 reached in trade 5
