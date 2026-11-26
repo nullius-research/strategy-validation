@@ -1,0 +1,46 @@
+RUN 01 test S, script sweep_test.py, hypothesis v1.0
+P1: valid trading days 1700, trades 139
+
+CONTROL GROUPS (first)
+Null B (random moment in same kill zone, coin flip, same stop): mean net R -0.117 (2.5-97.5%: -0.632 to +0.545), 95th pct +0.415
+Null A (same trades, coin flip): mean +0.263, 95th pct +0.756
+Null T v1.1 (random valid day, same kill zone, direction = 1h trend, same stop in ATR units): mean -0.104, 95th pct +0.620
+
+RULE
+P1 trades 139, losers 76.3%, mean net R +0.726 (95%: -0.159 to +1.771), PF 1.79 (95%: 0.84 to 3.08), sum +100.9 R
+percentile Null B 99.2 | Null A 93.7 | Null T 96.5
+gross (no costs) mean R +0.929, PF 2.25; mean net points +14.36, mean stop distance 40.2 pt (median 22.8), mean cost 3.24 pt = 0.202 R
+stopped out 73.4%, longest losing streak 11, max drawdown -39.5 R
+5 best days: 2022-05-11 +40.7R, 2020-07-08 +33.0R, 2022-04-08 +26.8R, 2025-07-02 +20.2R, 2023-08-10 +14.5R; PF without them 0.73, sum without them -34.3 R
+
+VERDICT (section 8)
+C1 PF 1.95: upper bound 3.08 -> not falsified
+C2 beats Null B: percentile 99.2 -> not falsified
+C3 2021-2024 PF 1.49 (92 trades), 2025-2026 PF 2.12 (32 trades) -> not falsified
+
+DESCRIPTIVE
+window 2021-2026 (claim: 290 trades): 124 trades, losers 77.4%, mean net R +0.578, sum +71.7 R, PF 1.63
+year 2020: 15 trades  (insufficient trades), losers 66.7%, mean net R +1.947, sum +29.2 R, PF 3.32
+year 2021: 21 trades  (insufficient trades), losers 76.2%, mean net R +0.251, sum +5.3 R, PF 1.27
+year 2022: 27 trades  (insufficient trades), losers 77.8%, mean net R +2.042, sum +55.1 R, PF 3.27
+year 2023: 20 trades  (insufficient trades), losers 85.0%, mean net R -0.009, sum -0.2 R, PF 0.99
+year 2024: 24 trades  (insufficient trades), losers 83.3%, mean net R -0.680, sum -16.3 R, PF 0.30
+year 2025: 26 trades  (insufficient trades), losers 61.5%, mean net R +1.329, sum +34.6 R, PF 2.90
+year 2026: 6 trades  (insufficient trades), losers 100.0%, mean net R -1.119, sum -6.7 R, PF 0.00
+London kill zone: 41 trades  (insufficient trades), losers 92.7%, mean net R +0.333, sum +13.7 R, PF 1.28
+New York kill zone: 98 trades  (insufficient trades), losers 69.4%, mean net R +0.891, sum +87.3 R, PF 2.12
+long: 83 trades  (insufficient trades), losers 73.5%, mean net R +0.564, sum +46.8 R, PF 1.63
+short: 56 trades  (insufficient trades), losers 80.4%, mean net R +0.966, sum +54.1 R, PF 2.02
+Jan-Sep 2026 (claim: 33 trades, 5 winners, -23 R): 5 trades  (insufficient trades), losers 100.0%, mean net R -1.127, sum -5.6 R, PF 0.00
+slippage 0 pt per side: mean R +0.847, PF 2.04
+slippage 1 pt per side: mean R +0.726, PF 1.79
+slippage 2 pt per side: mean R +0.606, PF 1.60
+video cost level (0.01% per side, no spread): mean R +0.732, PF 1.80; 2021-2026 PF 1.61
+
+SUPPLEMENTARY P0 2013-2019
+P0: 49 trades  (insufficient trades), losers 81.6%, mean net R -0.493, sum -24.1 R, PF 0.66
+P0 percentile Null B 55.9, Null T 75.4
+
+SUPPLEMENTARY 15-minute bars, P1 (claim: PF 2.20)
+15 min P1: 133 trades, losers 73.7%, mean net R +0.827, sum +110.1 R, PF 2.06
+15 min percentile Null B 100.0, Null T 99.4

@@ -1,0 +1,29 @@
+set  0: trades   60  mean net R -0.110  PF 0.90  losers 86.7%  pct Null B  62.0  Null A  63.3  Null T  98.2
+set  1: trades   64  mean net R -0.012  PF 0.99  losers 89.1%  pct Null B  62.2  Null A  73.9  Null T  92.7
+set  2: trades   50  mean net R -0.335  PF 0.69  losers 88.0%  pct Null B  24.4  Null A  69.5  Null T  96.4
+set  3: trades   49  mean net R -0.566  PF 0.50  losers 89.8%  pct Null B   7.7  Null A  31.7  Null T  68.7
+set  4: trades   49  mean net R -0.748  PF 0.35  losers 93.9%  pct Null B  11.7  Null A  19.9  Null T  59.2
+set  5: trades   54  mean net R +1.157  PF 2.14  losers 83.3%  pct Null B  93.2  Null A  64.5  Null T 100.0
+set  6: trades   62  mean net R -0.481  PF 0.57  losers 90.3%  pct Null B  11.1  Null A  16.2  Null T  84.0
+set  7: trades   52  mean net R -0.031  PF 0.97  losers 86.5%  pct Null B  51.2  Null A  86.1  Null T  91.8
+set  8: trades   60  mean net R -0.389  PF 0.65  losers 88.3%  pct Null B  40.6  Null A  18.0  Null T  73.1
+set  9: trades   55  mean net R -0.041  PF 0.96  losers 85.5%  pct Null B  50.9  Null A  46.3  Null T  98.0
+set 10: trades   48  mean net R -0.110  PF 0.90  losers 89.6%  pct Null B  48.1  Null A  37.0  Null T  82.0
+set 11: trades   56  mean net R -0.924  PF 0.18  losers 92.9%  pct Null B   0.9  Null A  17.5  Null T  54.8
+set 12: trades   63  mean net R -0.892  PF 0.24  losers 93.7%  pct Null B   1.7  Null A   2.2  Null T  28.3
+set 13: trades   62  mean net R +0.046  PF 1.04  losers 83.9%  pct Null B  65.7  Null A  58.7  Null T  95.3
+set 14: trades   56  mean net R +0.407  PF 1.41  losers 80.4%  pct Null B  83.5  Null A  88.9  Null T  99.0
+set 15: trades   59  mean net R -0.503  PF 0.56  losers 91.5%  pct Null B  26.3  Null A  30.6  Null T  71.7
+set 16: trades   41  mean net R +0.369  PF 1.38  losers 80.5%  pct Null B  77.4  Null A  56.2  Null T  90.6
+set 17: trades   62  mean net R +0.219  PF 1.22  losers 83.9%  pct Null B  87.9  Null A  73.9  Null T 100.0
+set 18: trades   62  mean net R -0.341  PF 0.70  losers 93.5%  pct Null B  32.7  Null A  46.3  Null T  93.2
+set 19: trades   60  mean net R +0.153  PF 1.14  losers 85.0%  pct Null B  69.4  Null A  80.0  Null T  98.8
+set 20: trades   54  mean net R +0.385  PF 1.36  losers 85.2%  pct Null B  79.8  Null A  67.5  Null T  89.0
+set 21: trades   53  mean net R +1.562  PF 2.59  losers 79.2%  pct Null B  95.7  Null A  91.3  Null T  98.9
+set 22: trades   60  mean net R -0.347  PF 0.68  losers 86.7%  pct Null B  20.6  Null A  39.1  Null T  79.7
+set 23: trades   54  mean net R +0.019  PF 1.02  losers 83.3%  pct Null B  41.2  Null A  35.2  Null T  98.9
+Null B: mean percentile 47.7, above 95: 1 of 24 -> PASS
+Null A: mean percentile 50.6, above 95: 0 of 24 -> PASS
+Null T: mean percentile 85.1, above 95: 10 of 24 -> FAIL
+mean trades per set 56.0, mean net R -0.063, mean PF 0.96
+NOISE CHECK FAILED

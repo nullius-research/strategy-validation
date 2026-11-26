@@ -1,0 +1,18 @@
+OK   1 low sweep in London + trend up -> long at trigger 02:30, extreme 94
+OK   2 same sweep, trend down -> no trade
+OK   3 level taken in Asia -> no trade
+OK   4 both sides taken before close back inside -> skip
+OK   5 no close back inside within the kill zone -> no trade
+OK   6 high sweep NY zone, close back two bars later, trend down -> short, extreme 107
+OK   7 trend disagrees on first return -> no trade
+OK   8 take at 05:00 (outside zones) -> no trade
+OK   9 long stop 98 hit at minute 2 -> exit 98
+OK   10 gap past the stop -> exit at that minute's open 96
+OK   11 stop not hit -> exit at close of the last minute before 16:00
+OK   12 short stop 101 hit at minute 0 (high = stop) -> exit 101
+OK   13 main and reference implementation identical on 1000 fake days (39 and 39 trades)
+OK   14 every stop distance >= 0.5 ATR
+OK   15 minimum stop used on part of the trades (10 of 39)
+OK   16 all exits at or before 16:00 New York
+OK   17 entries inside or right after the kill zones
+SELF-TEST PASSED

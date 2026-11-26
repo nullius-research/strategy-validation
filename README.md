@@ -114,6 +114,7 @@ Trade logs and summaries per test, so every number we publish can be checked.
 | Breakout of support and resistance (H4 and D1 turning points), gold 1 hour with a trailing stop, 2017-2024 decisive, 1,569 trades | [`results/sr-breakout`](results/sr-breakout/) |
 | Noise-area intraday momentum (noise band around the open, checks every 30 minutes, VWAP exit), Nasdaq 100 M1, 2020-2026 decisive, 1,537 trades; S&P 500 supplementary | [`results/noise-area-momentum`](results/noise-area-momentum/) |
 | Morning star with a trend filter (SMA 14 and 200, 2R target), gold 1 hour, 2021-2026 decisive, 369 trades, plus a two-phase prop firm challenge (1,000 start days); 2017-2021 supplementary | [`results/morning-star-gold`](results/morning-star-gold/) |
+| Previous-day sweep with a 1-hour trend filter (London and New York morning windows, hold to 16:00 New York), Nasdaq 100 5 minutes, 2020-2026 decisive, 139 trades; 15 minutes and 2017-2019 supplementary | [`results/prev-day-sweep`](results/prev-day-sweep/) |
 
 ## Licence
 
