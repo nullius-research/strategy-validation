@@ -2,7 +2,7 @@
 
 Translation of `hypothese-prev-day-sweep.md` (Dutch, binding). Date: 23 November 2026 · Source: YouTube video of 17 November 2026 by a trading channel, with a free session indicator (open source code) · Status: **version 1.0, 23 November 2026, registered in advance by the daily task, no real price data opened for this test yet**
 
-Choices: all choices in section 3 are "daily-task choice (recommended option), approved in advance by Erwin on 22 Nov 2026" (instruction `opdracht-dagelijkse-test.md` v2). Nothing changes after run 01.
+Choices: all choices in section 3 are "daily-task choice (recommended option), approved in advance on 22 Nov 2026" (instruction `opdracht-dagelijkse-test.md` v2). Nothing changes after run 01.
 
 Legend: **[verified]** = checked or calculated myself · **[assumption]** = not checked myself, or a measurement choice
 
@@ -44,7 +44,7 @@ Descriptive, not decisive: number of trades (290 in 2021-2026), share of losers 
 5. [assumption] Our costs (spread from the data plus 1 point slippage per side) are close to the video's level (0.01% per side is about 2 points per side at a price of 20,000). We report both.
 6. [verified, test R] The data server is on New York time + 7 hours all year. This was checked for the 9:30 open; for the night hours we assume the same [assumption].
 
-## 3. Choices (daily-task choice, recommended option in bold, approved in advance by Erwin on 22 Nov 2026)
+## 3. Choices (daily-task choice, recommended option in bold, approved in advance on 22 Nov 2026)
 
 | Choice | A | B |
 |---|---|---|

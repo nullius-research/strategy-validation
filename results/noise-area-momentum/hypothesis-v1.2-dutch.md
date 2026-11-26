@@ -1,10 +1,10 @@
 # Hypothese: noise-area intraday momentum (test R)
 
-Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.2, 21 november 2026, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen door Erwin op 21 november 2026, nog geen echte koersdata geopend voor deze test**
+Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.2, 21 november 2026, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen op 21 november 2026, nog geen echte koersdata geopend voor deze test**
 
-Wijziging ten opzichte van v1.0 (21 november 2026, SHA-256 1eda21bb...): alleen paragraaf 4.5. In v1.0 kon een positie op hetzelfde controlemoment uitstappen en direct weer in dezelfde richting openen; de positie veranderde dan niet, maar de kosten werden twee keer betaald. Dat volgde uit mijn formulering, niet uit de bron. De zelftest liet het zien (dag 18). v1.1 volgt de openbare herhaling: op hetzelfde moment alleen omkeren naar de andere richting (keuze A van Erwin, 21 november 2026). Gewijzigd vóór enige run op echte data.
+Wijziging ten opzichte van v1.0 (21 november 2026, SHA-256 1eda21bb...): alleen paragraaf 4.5. In v1.0 kon een positie op hetzelfde controlemoment uitstappen en direct weer in dezelfde richting openen; de positie veranderde dan niet, maar de kosten werden twee keer betaald. Dat volgde uit mijn formulering, niet uit de bron. De zelftest liet het zien (dag 18). v1.1 volgt de openbare herhaling: op hetzelfde moment alleen omkeren naar de andere richting (keuze A, 21 november 2026). Gewijzigd vóór enige run op echte data.
 
-Wijziging ten opzichte van v1.1 (21 november 2026, SHA-256 e3e45657...): alleen paragraaf 4.1 en de datacontrole in 7. De datacontrole (alleen metadata) liet zien dat de detectie van de opening uit het tickvolume op 156 dagen in 2021 tot en met 2026 8:30 New Yorkse tijd koos: vooral dagen met banen- en inflatiecijfers, waarop het volume om 8:30 harder springt dan bij de opening. Op die dagen ligt de echte opening om 16:30 servertijd, en de server staat het hele jaar op New York + 7, ook in de weken waarin Europa en de VS een andere zomertijd hebben [geverifieerd, tickvolume]. v1.2 gebruikt daarom een vaste opening (keuze K6 A van Erwin, 21 november 2026). Gewijzigd vóór enige run op echte data.
+Wijziging ten opzichte van v1.1 (21 november 2026, SHA-256 e3e45657...): alleen paragraaf 4.1 en de datacontrole in 7. De datacontrole (alleen metadata) liet zien dat de detectie van de opening uit het tickvolume op 156 dagen in 2021 tot en met 2026 8:30 New Yorkse tijd koos: vooral dagen met banen- en inflatiecijfers, waarop het volume om 8:30 harder springt dan bij de opening. Op die dagen ligt de echte opening om 16:30 servertijd, en de server staat het hele jaar op New York + 7, ook in de weken waarin Europa en de VS een andere zomertijd hebben [geverifieerd, tickvolume]. v1.2 gebruikt daarom een vaste opening (keuze K6 A, 21 november 2026). Gewijzigd vóór enige run op echte data.
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -136,6 +136,6 @@ Titel volgens de vaste regel: geen percentage in de claim, dus het hoofdgetal: "
 
 ## 10. Volgende stap
 
-1. Goedgekeurd: v1.0 door Erwin op 21 november 2026, v1.1 (alleen 4.5) en v1.2 (alleen 4.1 en de datacontrole in 7) door Erwin op 21 november 2026. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
+1. Goedgekeurd: v1.0 op 21 november 2026, v1.1 (alleen 4.5) en v1.2 (alleen 4.1 en de datacontrole in 7) op 21 november 2026. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
 2. Script `noise_area.py`: zelftest uit 6, dan de ruiscontrole.
 3. Datacontrole uit 7, dan run 01, controlegroep eerst.

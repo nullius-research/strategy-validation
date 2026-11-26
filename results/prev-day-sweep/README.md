@@ -113,3 +113,5 @@ All results are in `run01.txt`; every decisive trade with date, kill zone, direc
 One broker's CFD data, not exchange futures. Our reading of the rule, not the indicator's source code. 139 trades in the decisive period; every year and both sub-periods are below 100 trades. The result rests on a few days; a different period may give a different result.
 
 This is a measurement of one rule in one period, not a recommendation. Test it yourself and make your own judgement.
+
+Note added 26 November 2026: a personal first name was removed from the hypothesis files. The rules, criteria, numbers and dates in them are unchanged.

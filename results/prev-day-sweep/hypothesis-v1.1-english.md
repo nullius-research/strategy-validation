@@ -4,7 +4,7 @@ Translation of `hypothese-prev-day-sweep.md` (Dutch, binding). Date: 23 November
 
 Change from v1.0 (23 November 2026, SHA-256 1f70d61a...): only the definition of Null T in 5 (supplementary, not decisive). In v1.0 Null T picked a random moment on the same day and in the same kill zone, also before the sweep, with the trend as direction. Because the trend almost always gives the same direction as the real trade, that control saw the sweep itself in the path: a long entering before the dip is often stopped by the dip. On the noise check this gave a false advantage to the rule (mean percentile 85.1, 10 of 24 above 95). Null B (coin flip on direction) and Null A met the threshold (47.7 and 50.6). v1.1: Null T picks a random valid day from the same period, so the control knows nothing about the sweep. Repair round 1 of at most 2, before any run on real data.
 
-Choices: all choices in section 3 are "daily-task choice (recommended option), approved in advance by Erwin on 22 Nov 2026" (instruction `opdracht-dagelijkse-test.md` v2). Nothing changes after run 01.
+Choices: all choices in section 3 are "daily-task choice (recommended option), approved in advance on 22 Nov 2026" (instruction `opdracht-dagelijkse-test.md` v2). Nothing changes after run 01.
 
 Legend: **[verified]** = checked or calculated myself · **[assumption]** = not checked myself, or a measurement choice
 
@@ -46,7 +46,7 @@ Descriptive, not decisive: number of trades (290 in 2021-2026), share of losers 
 5. [assumption] Our costs (spread from the data plus 1 point slippage per side) are close to the video's level (0.01% per side is about 2 points per side at a price of 20,000). We report both.
 6. [verified, test R] The data server is on New York time + 7 hours all year. This was checked for the 9:30 open; for the night hours we assume the same [assumption].
 
-## 3. Choices (daily-task choice, recommended option in bold, approved in advance by Erwin on 22 Nov 2026)
+## 3. Choices (daily-task choice, recommended option in bold, approved in advance on 22 Nov 2026)
 
 | Choice | A | B |
 |---|---|---|

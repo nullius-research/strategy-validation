@@ -4,9 +4,9 @@ Translation of the Dutch original `hypothese-noise-area-momentum.md`, version 1.
 
 Date: 21 November 2026 · Source: a YouTube video of 14 November 2026 (a testing channel), based on a 2024 research paper · Status: **version 1.2, 21 November 2026, fixed in advance, choices K1 A, K2 A, K3 A, K4 C, K5 A made on 21 November 2026, no real price data opened for this test yet**
 
-Change from v1.0 (21 November 2026, SHA-256 1eda21bb...): section 4.5 only. In v1.0 a position could exit at a check time and immediately reopen in the same direction; the position did not change, but the costs were paid twice. That followed from my wording, not from the source. The self-test showed it (day 18). v1.1 follows the public replication: at the same moment only a reversal to the other direction (Erwin's choice A, 21 November 2026). Changed before any run on real data.
+Change from v1.0 (21 November 2026, SHA-256 1eda21bb...): section 4.5 only. In v1.0 a position could exit at a check time and immediately reopen in the same direction; the position did not change, but the costs were paid twice. That followed from my wording, not from the source. The self-test showed it (day 18). v1.1 follows the public replication: at the same moment only a reversal to the other direction (choice A, 21 November 2026). Changed before any run on real data.
 
-Change from v1.1 (21 November 2026, SHA-256 e3e45657...): section 4.1 and the data check in section 7 only. The data check (metadata only) showed that detecting the open from tick volume chose 8:30 New York time on 156 days in 2021 to 2026: mostly days with jobs and inflation releases, when volume jumps harder at 8:30 than at the open. On those days the real open is at 16:30 server time, and the server is at New York + 7 all year, also in the weeks when Europe and the US are on different daylight saving time [verified, tick volume]. v1.2 therefore uses a fixed open (Erwin's choice K6 A, 21 November 2026). Changed before any run on real data.
+Change from v1.1 (21 November 2026, SHA-256 e3e45657...): section 4.1 and the data check in section 7 only. The data check (metadata only) showed that detecting the open from tick volume chose 8:30 New York time on 156 days in 2021 to 2026: mostly days with jobs and inflation releases, when volume jumps harder at 8:30 than at the open. On those days the real open is at 16:30 server time, and the server is at New York + 7 all year, also in the weeks when Europe and the US are on different daylight saving time [verified, tick volume]. v1.2 therefore uses a fixed open (choice K6 A, 21 November 2026). Changed before any run on real data.
 
 Legend: **[verified]** = checked or calculated myself · **[assumption]** = not checked myself, or a choice in the measurement
 
@@ -138,6 +138,6 @@ Title by the fixed rule: no percentage in the claim, so the main number: "+6.8 p
 
 ## 10. Next step
 
-1. Approved: v1.0 by Erwin on 21 November 2026, v1.1 (section 4.5 only) and v1.2 (section 4.1 and the data check in section 7 only) by Erwin on 21 November 2026. SHA-256 in `meetlog-noise-area-momentum.md`. English version alongside.
+1. Approved: v1.0 on 21 November 2026, v1.1 (section 4.5 only) and v1.2 (section 4.1 and the data check in section 7 only) on 21 November 2026. SHA-256 in `meetlog-noise-area-momentum.md`. English version alongside.
 2. Script `noise_area.py`: self-test from section 6, then the noise check.
 3. Data check from section 7, then run 01, control group first.

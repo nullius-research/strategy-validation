@@ -1,6 +1,6 @@
 # Hypothese: noise-area intraday momentum (test R)
 
-Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.0, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen door Erwin op 21 november 2026, nog geen echte koersdata geopend voor deze test**
+Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.0, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen op 21 november 2026, nog geen echte koersdata geopend voor deze test**
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -132,6 +132,6 @@ Titel volgens de vaste regel: geen percentage in de claim, dus het hoofdgetal: "
 
 ## 10. Volgende stap
 
-1. Erwin keurt deze versie goed. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
+1. Deze versie wordt goedgekeurd. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
 2. Script `noise_area.py`: zelftest uit 6, dan de ruiscontrole.
 3. Datacontrole uit 7, dan run 01, controlegroep eerst.

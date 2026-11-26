@@ -134,6 +134,6 @@ Title by the fixed rule: no percentage in the claim, so the main number: "+6.8 p
 
 ## 10. Next step
 
-1. Erwin approves this version. SHA-256 in `meetlog-noise-area-momentum.md`. English version alongside.
+1. This version is approved. SHA-256 in `meetlog-noise-area-momentum.md`. English version alongside.
 2. Script `noise_area.py`: self-test from section 6, then the noise check.
 3. Data check from section 7, then run 01, control group first.

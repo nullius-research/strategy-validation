@@ -2,7 +2,7 @@
 
 Datum: 23 november 2026 · Bron: YouTube-video van 17 november 2026 van een tradingkanaal, met een gratis sessie-indicator (open broncode) · Status: **versie 1.0, 23 november 2026, vooraf vastgelegd door de dagtaak, nog geen echte koersdata geopend voor deze test**
 
-Keuzes: alle keuzes in 3 zijn "keuze dagtaak (aanbevolen optie), vooraf akkoord Erwin 22 nov 2026" (opdracht `opdracht-dagelijkse-test.md` v2). Erwin kan ze inzien; na run 01 verandert er niets meer.
+Keuzes: alle keuzes in 3 zijn "keuze dagtaak (aanbevolen optie), vooraf akkoord 22 nov 2026" (opdracht `opdracht-dagelijkse-test.md` v2). Na run 01 verandert er niets meer.
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -44,7 +44,7 @@ Beschrijvend, niet beslissend: aantal trades (290 in 2021-2026), aandeel verliez
 5. [aanname] Onze kosten (spread uit de data plus 1 punt slippage per kant) liggen rond het niveau van de video (0,01% per kant is ongeveer 2 punt per kant bij een koers van 20.000). We rapporteren beide.
 6. [geverifieerd, test R] De server van de data staat het hele jaar op New Yorkse tijd + 7 uur. Dat is gecontroleerd voor de opening om 9:30; voor de nachturen nemen we hetzelfde aan [aanname].
 
-## 3. Keuzes (keuze dagtaak, aanbevolen optie vetgedrukt, vooraf akkoord Erwin 22 nov 2026)
+## 3. Keuzes (keuze dagtaak, aanbevolen optie vetgedrukt, vooraf akkoord 22 nov 2026)
 
 | Keuze | A | B |
 |---|---|---|

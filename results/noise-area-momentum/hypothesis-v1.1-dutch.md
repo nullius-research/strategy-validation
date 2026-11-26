@@ -1,8 +1,8 @@
 # Hypothese: noise-area intraday momentum (test R)
 
-Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.1, 21 november 2026, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen door Erwin op 21 november 2026, nog geen echte koersdata geopend voor deze test**
+Datum: 21 november 2026 · Bron: YouTube-video van 14 november 2026 (een testkanaal), gebaseerd op een onderzoekspaper uit 2024 · Status: **versie 1.1, 21 november 2026, vooraf vastgelegd, keuzes K1 A, K2 A, K3 A, K4 C, K5 A gekozen op 21 november 2026, nog geen echte koersdata geopend voor deze test**
 
-Wijziging ten opzichte van v1.0 (21 november 2026, SHA-256 1eda21bb...): alleen paragraaf 4.5. In v1.0 kon een positie op hetzelfde controlemoment uitstappen en direct weer in dezelfde richting openen; de positie veranderde dan niet, maar de kosten werden twee keer betaald. Dat volgde uit mijn formulering, niet uit de bron. De zelftest liet het zien (dag 18). v1.1 volgt de openbare herhaling: op hetzelfde moment alleen omkeren naar de andere richting (keuze A van Erwin, 21 november 2026). Gewijzigd vóór enige run op echte data.
+Wijziging ten opzichte van v1.0 (21 november 2026, SHA-256 1eda21bb...): alleen paragraaf 4.5. In v1.0 kon een positie op hetzelfde controlemoment uitstappen en direct weer in dezelfde richting openen; de positie veranderde dan niet, maar de kosten werden twee keer betaald. Dat volgde uit mijn formulering, niet uit de bron. De zelftest liet het zien (dag 18). v1.1 volgt de openbare herhaling: op hetzelfde moment alleen omkeren naar de andere richting (keuze A, 21 november 2026). Gewijzigd vóór enige run op echte data.
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -134,6 +134,6 @@ Titel volgens de vaste regel: geen percentage in de claim, dus het hoofdgetal: "
 
 ## 10. Volgende stap
 
-1. Goedgekeurd: v1.0 door Erwin op 21 november 2026, v1.1 (alleen 4.5) door Erwin op 21 november 2026. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
+1. Goedgekeurd: v1.0 op 21 november 2026, v1.1 (alleen 4.5) op 21 november 2026. SHA-256 in `meetlog-noise-area-momentum.md`. Engelse versie ernaast.
 2. Script `noise_area.py`: zelftest uit 6, dan de ruiscontrole.
 3. Datacontrole uit 7, dan run 01, controlegroep eerst.

@@ -4,7 +4,7 @@ Datum: 23 november 2026 · Bron: YouTube-video van 17 november 2026 van een trad
 
 Wijziging ten opzichte van v1.0 (23 november 2026, SHA-256 1f70d61a...): alleen de definitie van Null T in 5 (aanvullend, niet beslissend). In v1.0 koos Null T een willekeurig moment op dezelfde dag en in dezelfde kill zone, ook vóór de sweep, met de trend als richting. Omdat de trend bijna altijd dezelfde richting geeft als de echte trade, zag die controle de sweep zelf in het pad: een long die vóór de dip instapt, wordt vaak door de dip gestopt. Op de ruiscontrole gaf dat een vals voordeel voor de regel (gemiddeld percentiel 85,1, 10 van 24 boven 95). Null B (munt op de richting) en Null A haalden de grens wel (47,7 en 50,6). v1.1: Null T kiest een willekeurige geldige dag uit dezelfde periode, zodat de controle niets weet van de sweep. Herstelronde 1 van hoogstens 2, vóór enige run op echte data.
 
-Keuzes: alle keuzes in 3 zijn "keuze dagtaak (aanbevolen optie), vooraf akkoord Erwin 22 nov 2026" (opdracht `opdracht-dagelijkse-test.md` v2). Erwin kan ze inzien; na run 01 verandert er niets meer.
+Keuzes: alle keuzes in 3 zijn "keuze dagtaak (aanbevolen optie), vooraf akkoord 22 nov 2026" (opdracht `opdracht-dagelijkse-test.md` v2). Na run 01 verandert er niets meer.
 
 Legenda: **[geverifieerd]** = zelf gecontroleerd of berekend · **[aanname]** = niet zelf gecontroleerd, of een keuze in de meting
 
@@ -46,7 +46,7 @@ Beschrijvend, niet beslissend: aantal trades (290 in 2021-2026), aandeel verliez
 5. [aanname] Onze kosten (spread uit de data plus 1 punt slippage per kant) liggen rond het niveau van de video (0,01% per kant is ongeveer 2 punt per kant bij een koers van 20.000). We rapporteren beide.
 6. [geverifieerd, test R] De server van de data staat het hele jaar op New Yorkse tijd + 7 uur. Dat is gecontroleerd voor de opening om 9:30; voor de nachturen nemen we hetzelfde aan [aanname].
 
-## 3. Keuzes (keuze dagtaak, aanbevolen optie vetgedrukt, vooraf akkoord Erwin 22 nov 2026)
+## 3. Keuzes (keuze dagtaak, aanbevolen optie vetgedrukt, vooraf akkoord 22 nov 2026)
 
 | Keuze | A | B |
 |---|---|---|
