@@ -1,0 +1,28 @@
+import pandas as pd, numpy as np
+A='audit-opening-2026-11-21/new/'
+rd=pd.read_csv; out=[]
+def rep(name,ser,pub):
+    s=pd.Series(ser).astype(float); out.append((name,len(s),round(s.mean(),4),round((s>0).mean()*100,2),pub))
+a=rd('macd-200ema/macd_trades.csv'); rep('A',a['NET_1.2'],'40.9% win')
+b=rd('stoch-rsi-macd/srm_trades.csv'); b=b[b.PAIR=='EURUSD']; rep('B',b['NET_1.2'],'41.7% win')
+c=rd('macd-atr/macdatr_trades.csv'); c=c[(c.period=='T')&(c.signal=='MACD Line ZC')]; rep('C',c.R,'1281, 58.5%, +0.018')
+d=rd('bollinger-200ema/bb200_trades_eurusd.csv'); rep('D',d['NET_1.2'],'37.5%')
+e=rd('rsi2-pullback/trades_P1_sp500.csv'); rep('E',e.net_return,'80.72%')
+f=rd('ma-9-21-gold/trades_P1_decisive.csv'); rep('F',f.R_NET,'42.3%')
+g=rd(A+'G_P1/trades.csv'); rep('G',g.net_r,'32.3%, -0.157')
+h=rd(A+'H_P1/trades.csv'); rep('H',h.net_r,'1290, 66.28%, -0.118')
+i=rd('triple-rsi/trades_P1.csv'); rep('I',i.net_return,'89, 89.9%, +1.29%')
+k=rd(A+'K/trades_P1.csv'); rep('K',k.net_R,'5349, 46.5%')
+l=rd('structured-entry/trades_G_P1.csv'); rep('L',l.result_pct,'448, 85.7%, +0.06%')
+m=rd('supertrend-200ema/trades_m30.csv'); rep('M',m['NET_1.2'],'805, 37.3%, -0.095')
+n=rd(A+'N_us500/trades_US500.csv'); rep('N pts',n.net,'-0.711 pt'); rep('N bps',n.bps,'')
+o=rd(A+'O_rth/trades_USTEC_rth_firm_a.csv'); rep('O pts',o.net,'797')
+p=rd('sr-breakout/trades_P1_decisive.csv'); rep('P',p.R_NET,'1569, 31.7%, -0.041')
+q=rd('morning-star-gold/trades_P1_decisive.csv'); rep('Q',q.R_NET,'369, 39.8%, +0.132')
+r=rd('noise-area-momentum/trades_ustec.csv'); rep('R g-s-2',r.gross-r.spread-2,'1537, +4.85'); rep('R gross',r.gross,'')
+s=rd('prev-day-sweep/trades_ustec_p1.csv'); rep('S',s.R,'139, +0.726')
+lc=rd('supply-demand-levels/trades.csv'); rep('LCE',lc.netto_R,'73, 31.5%, -0.19')
+bb=rd('bollinger-reversion/bb_multi_trades.csv'); rep('BBrev',bb.real_R,'?')
+vb=rd('volume-breakout/trades.csv'); rep('VB',vb.r,'2097')
+bd=rd('buy-the-dip/trades.csv'); bd=bd[bd.entry_date>='2024-01-01']; x=bd.net_return_2bp; rep('BtD',x,'67, PF 6.21'); print('BtD PF',round(x[x>0].sum()/-x[x<0].sum(),2))
+for t in out: print(t)
