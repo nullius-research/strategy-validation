@@ -1,0 +1,9 @@
+data 1999-03-10 to 2026-11-27 (6974 days, close); period 1999-03-10 to 2008-12-31; signals from 1999-08-06; RSI wilder; first check entry+1; costs 2.0 bp; runs 10000; seed 38
+funnel: days 2365  RSI3<22 365  +EMA 132  +VWAP (signals) 124  dropped in trade 58  trades 66  open at end 0
+win rate 74.2% (62.6-83.3), gross 74.2%
+mean net +1.148% (+0.621 to +1.743)
+PF net 4.09 (2.16-9.01), gross 4.19
+worst trade -3.76%  lowest daily low -17.66%  mean duration 3.89 days  time in market 13.7%  drawdown at $100k 5,683
+buy and hold 1999-03-10 to 2008-12-31: -41.8%
+Null A 5/50/95: -0.485 / +0.095 / +0.675%  -> percentile 99.9  (runs with fewer trades: 0)
+Null B 5/50/95: +0.668 / +1.258 / +1.875%  -> percentile 38.5  (mean trades per run: 65.9)

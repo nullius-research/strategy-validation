@@ -1,0 +1,11 @@
+/usr/local/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:4608: RuntimeWarning: invalid value encountered in scalar subtract
+  diff_b_a = b - a
+data 1999-03-10 to 2026-11-27 (6974 days, close); period 2026-10-01 to 2026-11-27; signals from 2026-10-01; RSI wilder; first check entry+1; costs 2.0 bp; runs 10000; seed 38
+funnel: days 40  RSI3<22 9  +EMA 3  +VWAP (signals) 3  dropped in trade 2  trades 1  open at end 0
+win rate 100.0% (20.7-100.0), gross 100.0%
+mean net +0.905% (+0.905 to +0.905)
+PF net inf (nan-nan), gross inf
+worst trade +0.91%  lowest daily low -1.58%  mean duration 4.00 days  time in market 12.5%  drawdown at $100k 0
+buy and hold 2026-10-01 to 2026-11-27: -12.3%
+Null A 5/50/95: -7.214 / -2.364 / +1.851%  -> percentile 87.3  (runs with fewer trades: 0)
+Null B 5/50/95: -2.317 / -0.064 / +3.170%  -> percentile 74.7  (mean trades per run: 1.0)

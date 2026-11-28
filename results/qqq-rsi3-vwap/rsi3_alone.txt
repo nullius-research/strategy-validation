@@ -1,0 +1,8 @@
+P1 wilder cost 0 RSI3<22 alone: trades 337 win 71.2 mean +0.688% PF 2.00
+P1 wilder cost 0.0002 RSI3<22 alone: trades 337 win 71.2 mean +0.668% PF 1.97
+P1 cutler cost 0 RSI3<22 alone: trades 553 win 65.8 mean +0.426% PF 1.54
+P1 cutler cost 0.0002 RSI3<22 alone: trades 553 win 65.8 mean +0.406% PF 1.51
+P0 wilder cost 0 RSI3<22 alone: trades 334 win 71.6 mean +0.703% PF 2.03
+P0 wilder cost 0.0002 RSI3<22 alone: trades 334 win 71.6 mean +0.683% PF 1.99
+P0 cutler cost 0 RSI3<22 alone: trades 550 win 66.2 mean +0.446% PF 1.58
+P0 cutler cost 0.0002 RSI3<22 alone: trades 550 win 66.2 mean +0.426% PF 1.54

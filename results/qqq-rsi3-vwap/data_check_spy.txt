@@ -1,0 +1,6 @@
+symbol SPY  timezone America/New_York  rows 8516  first 1993-01-29  last 2026-11-27
+rows with a missing value dropped: 0  duplicate dates dropped: 0  zero volume: 0
+gaps over 5 calendar days: 1 [(datetime.date(2001, 9, 10), datetime.date(2001, 9, 17))]
+rows where low/high do not enclose open and close: 0
+splits: []
+dividends in file: 136

@@ -1,0 +1,29 @@
+set  1: trades  161  win  58.4%  PF  0.85  mean -0.287%  NullA med -0.131%  pctA  30.9  NullB med -0.324%  pctB  56.0
+set  2: trades  194  win  67.0%  PF  1.25  mean +0.325%  NullA med +0.119%  pctA  76.8  NullB med +0.446%  pctB  24.4
+set  3: trades  186  win  65.6%  PF  1.28  mean +0.351%  NullA med +0.114%  pctA  81.4  NullB med +0.306%  pctB  60.4
+set  4: trades  182  win  63.7%  PF  1.13  mean +0.206%  NullA med -0.067%  pctA  84.8  NullB med +0.419%  pctB  12.6
+set  5: trades  196  win  60.2%  PF  0.86  mean -0.244%  NullA med -0.163%  pctA  38.4  NullB med +0.137%  pctB   0.9
+set  6: trades  183  win  57.9%  PF  0.96  mean -0.060%  NullA med +0.276%  pctA  11.6  NullB med +0.053%  pctB  25.9
+set  7: trades  217  win  64.1%  PF  1.08  mean +0.114%  NullA med +0.386%  pctA  16.1  NullB med +0.316%  pctB   9.0
+set  8: trades  181  win  60.2%  PF  1.20  mean +0.286%  NullA med +0.212%  pctA  60.6  NullB med +0.321%  pctB  41.9
+set  9: trades  175  win  65.7%  PF  1.21  mean +0.291%  NullA med +0.332%  pctA  44.3  NullB med +0.254%  pctB  57.4
+set 10: trades  170  win  65.3%  PF  1.55  mean +0.625%  NullA med +0.062%  pctA  97.7  NullB med +0.516%  pctB  71.4
+set 11: trades  186  win  61.8%  PF  1.11  mean +0.174%  NullA med +0.220%  pctA  43.8  NullB med +0.037%  pctB  79.8
+set 12: trades  179  win  63.1%  PF  1.08  mean +0.130%  NullA med +0.312%  pctA  24.2  NullB med +0.353%  pctB  12.2
+set 13: trades  168  win  65.5%  PF  0.97  mean -0.045%  NullA med -0.031%  pctA  48.3  NullB med -0.018%  pctB  45.6
+set 14: trades  190  win  67.9%  PF  1.53  mean +0.592%  NullA med +0.303%  pctA  84.4  NullB med +0.118%  pctB  99.7
+set 15: trades  176  win  64.8%  PF  1.17  mean +0.234%  NullA med +0.195%  pctA  56.4  NullB med +0.160%  pctB  65.3
+set 16: trades  198  win  67.2%  PF  1.55  mean +0.646%  NullA med +0.338%  pctA  89.1  NullB med +0.455%  pctB  87.8
+set 17: trades  177  win  66.7%  PF  1.12  mean +0.187%  NullA med +0.094%  pctA  61.8  NullB med +0.113%  pctB  64.6
+set 18: trades  176  win  68.2%  PF  1.12  mean +0.184%  NullA med +0.054%  pctA  67.4  NullB med +0.518%  pctB   3.8
+set 19: trades  211  win  64.5%  PF  1.56  mean +0.614%  NullA med +0.284%  pctA  91.5  NullB med +0.510%  pctB  76.8
+set 20: trades  167  win  70.7%  PF  1.51  mean +0.599%  NullA med +0.225%  pctA  91.4  NullB med +0.299%  pctB  92.5
+set 21: trades  182  win  67.6%  PF  1.29  mean +0.394%  NullA med +0.264%  pctA  66.8  NullB med +0.164%  pctB  89.5
+set 22: trades  173  win  62.4%  PF  0.89  mean -0.171%  NullA med -0.144%  pctA  47.0  NullB med +0.276%  pctB   0.9
+set 23: trades  192  win  68.8%  PF  1.44  mean +0.524%  NullA med +0.452%  pctA  61.4  NullB med +0.467%  pctB  63.6
+set 24: trades  184  win  73.4%  PF  2.34  mean +1.177%  NullA med +0.461%  pctA  99.8  NullB med +0.433%  pctB 100.0
+
+mean trades 184  mean win rate 65.0% (range 57.9-73.4)
+pctA mean 61.5  above 95: 2 of 24   (threshold: mean 35-65, at most 3 above 95)
+pctB mean 51.8  above 95: 2 of 24   (same threshold)
+NOISE CHECK PASSED
